@@ -13,7 +13,7 @@ export const GET: RequestHandler = async () => {
 		client_id: config.clientId(),
 		redirect_uri: config.redirectUri(),
 		response_type: 'code',
-		scope: 'public',
+		scope: 'public projects',
 		state
 	}).toString();
 	redirect(303, url.toString());

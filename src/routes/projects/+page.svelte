@@ -46,7 +46,7 @@
 						>{/each}
 				</select>
 				<button disabled={loading || data.projects.length === 0}>
-					{loading ? 'Fetching…' : 'Fetch project JSON'}
+					{loading ? 'Fetching…' : 'Fetch campus project JSON'}
 				</button>
 			</form>
 			{#if form && 'message' in form}<p class="error">{form.message}</p>{/if}
@@ -55,7 +55,7 @@
 			<h2>Response</h2>
 			<pre>{response
 					? JSON.stringify(response, null, 2)
-					: 'Select a project to inspect its JSON response.'}</pre>
+					: 'Select a project to inspect its Vienna Common Core session JSON.'}</pre>
 		</div>
 	</section>
 </main>

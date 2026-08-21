@@ -1,513 +1,28 @@
 [
 	{
-		"id": 458,
-		"name": "00",
-		"slug": "piscine-c-decloisonnee-pide-jour-09-00"
+		"id": 2071,
+		"name": " Bgp At Doors of Autonomous Systems is Simple",
+		"slug": "bgp-at-doors-of-autonomous-systems-is-simple"
 	},
 	{
-		"id": 175,
-		"name": "00",
-		"slug": "piscine-c-day-09-00"
+		"id": 2337,
+		"name": " Cybersecurity - Stockholm - Malware",
+		"slug": "cybersecurity-stockholm-malware"
 	},
 	{
-		"id": 634,
-		"name": "00",
-		"slug": "bootcamp-day-09-00"
+		"id": 2344,
+		"name": "(Optional) Cybersecurity - Iron Dome - Malware",
+		"slug": "optional-cybersecurity-iron-dome-malware"
 	},
 	{
-		"id": 433,
-		"name": "00",
-		"slug": "piscine-c-piadi-jour-09-00"
+		"id": 2069,
+		"name": "[Deprecated] VeryRealEngine",
+		"slug": "deprecated-veryrealengine"
 	},
 	{
-		"id": 185,
-		"name": "01",
-		"slug": "piscine-c-day-09-01"
-	},
-	{
-		"id": 459,
-		"name": "01",
-		"slug": "piscine-c-decloisonnee-pide-jour-09-01"
-	},
-	{
-		"id": 434,
-		"name": "01",
-		"slug": "piscine-c-piadi-jour-09-01"
-	},
-	{
-		"id": 635,
-		"name": "01",
-		"slug": "bootcamp-day-09-01"
-	},
-	{
-		"id": 636,
-		"name": "02",
-		"slug": "day-09-02"
-	},
-	{
-		"id": 460,
-		"name": "02",
-		"slug": "piscine-c-decloisonnee-pide-jour-09-02"
-	},
-	{
-		"id": 435,
-		"name": "02",
-		"slug": "piscine-c-piadi-jour-09-02"
-	},
-	{
-		"id": 186,
-		"name": "02",
-		"slug": "piscine-c-day-09-02"
-	},
-	{
-		"id": 637,
-		"name": "03",
-		"slug": "day-09-03"
-	},
-	{
-		"id": 187,
-		"name": "03",
-		"slug": "piscine-c-day-09-03"
-	},
-	{
-		"id": 436,
-		"name": "03",
-		"slug": "piscine-c-piadi-jour-09-03"
-	},
-	{
-		"id": 461,
-		"name": "03",
-		"slug": "piscine-c-decloisonnee-pide-jour-09-03"
-	},
-	{
-		"id": 462,
-		"name": "04",
-		"slug": "piscine-c-decloisonnee-pide-jour-09-04"
-	},
-	{
-		"id": 188,
-		"name": "04",
-		"slug": "piscine-c-day-09-04"
-	},
-	{
-		"id": 437,
-		"name": "04",
-		"slug": "piscine-c-piadi-jour-09-04"
-	},
-	{
-		"id": 638,
-		"name": "04",
-		"slug": "day-09-04"
-	},
-	{
-		"id": 463,
-		"name": "05",
-		"slug": "piscine-c-decloisonnee-pide-jour-09-05"
-	},
-	{
-		"id": 438,
-		"name": "05",
-		"slug": "piscine-c-piadi-jour-09-05"
-	},
-	{
-		"id": 189,
-		"name": "05",
-		"slug": "piscine-c-day-09-05"
-	},
-	{
-		"id": 639,
-		"name": "05",
-		"slug": "day-09-05"
-	},
-	{
-		"id": 439,
-		"name": "06",
-		"slug": "piscine-c-piadi-jour-09-06"
-	},
-	{
-		"id": 190,
-		"name": "06",
-		"slug": "piscine-c-day-09-06"
-	},
-	{
-		"id": 464,
-		"name": "06",
-		"slug": "piscine-c-decloisonnee-pide-jour-09-06"
-	},
-	{
-		"id": 640,
-		"name": "06",
-		"slug": "day-09-06"
-	},
-	{
-		"id": 465,
-		"name": "07",
-		"slug": "piscine-c-decloisonnee-pide-jour-09-07"
-	},
-	{
-		"id": 440,
-		"name": "07",
-		"slug": "piscine-c-piadi-jour-09-07"
-	},
-	{
-		"id": 641,
-		"name": "07",
-		"slug": "day-09-07"
-	},
-	{
-		"id": 191,
-		"name": "07",
-		"slug": "piscine-c-day-09-07"
-	},
-	{
-		"id": 466,
-		"name": "08",
-		"slug": "piscine-c-decloisonnee-pide-jour-09-08"
-	},
-	{
-		"id": 642,
-		"name": "08",
-		"slug": "day-09-08"
-	},
-	{
-		"id": 441,
-		"name": "08",
-		"slug": "piscine-c-piadi-jour-09-08"
-	},
-	{
-		"id": 192,
-		"name": "08",
-		"slug": "piscine-c-day-09-08"
-	},
-	{
-		"id": 467,
-		"name": "09",
-		"slug": "piscine-c-decloisonnee-pide-jour-09-09"
-	},
-	{
-		"id": 643,
-		"name": "09",
-		"slug": "day-09-09"
-	},
-	{
-		"id": 442,
-		"name": "09",
-		"slug": "piscine-c-piadi-jour-09-09"
-	},
-	{
-		"id": 193,
-		"name": "09",
-		"slug": "piscine-c-day-09-09"
-	},
-	{
-		"id": 443,
-		"name": "10",
-		"slug": "piscine-c-piadi-jour-09-10"
-	},
-	{
-		"id": 194,
-		"name": "10",
-		"slug": "piscine-c-day-09-10"
-	},
-	{
-		"id": 644,
-		"name": "10",
-		"slug": "day-09-10"
-	},
-	{
-		"id": 468,
-		"name": "10",
-		"slug": "piscine-c-decloisonnee-pide-jour-09-10"
-	},
-	{
-		"id": 195,
-		"name": "11",
-		"slug": "piscine-c-day-09-11"
-	},
-	{
-		"id": 444,
-		"name": "11",
-		"slug": "piscine-c-piadi-jour-09-11"
-	},
-	{
-		"id": 469,
-		"name": "11",
-		"slug": "piscine-c-decloisonnee-pide-jour-09-11"
-	},
-	{
-		"id": 645,
-		"name": "11",
-		"slug": "day-09-11"
-	},
-	{
-		"id": 646,
-		"name": "12",
-		"slug": "day-09-12"
-	},
-	{
-		"id": 196,
-		"name": "12",
-		"slug": "piscine-c-day-09-12"
-	},
-	{
-		"id": 470,
-		"name": "12",
-		"slug": "piscine-c-decloisonnee-pide-jour-09-12"
-	},
-	{
-		"id": 445,
-		"name": "12",
-		"slug": "piscine-c-piadi-jour-09-12"
-	},
-	{
-		"id": 647,
-		"name": "13",
-		"slug": "day-09-13"
-	},
-	{
-		"id": 471,
-		"name": "13",
-		"slug": "piscine-c-decloisonnee-pide-jour-09-13"
-	},
-	{
-		"id": 446,
-		"name": "13",
-		"slug": "piscine-c-piadi-jour-09-13"
-	},
-	{
-		"id": 197,
-		"name": "13",
-		"slug": "piscine-c-day-09-13"
-	},
-	{
-		"id": 198,
-		"name": "14",
-		"slug": "piscine-c-day-09-14"
-	},
-	{
-		"id": 472,
-		"name": "14",
-		"slug": "piscine-c-decloisonnee-pide-jour-09-14"
-	},
-	{
-		"id": 648,
-		"name": "14",
-		"slug": "day-09-14"
-	},
-	{
-		"id": 447,
-		"name": "14",
-		"slug": "piscine-c-piadi-jour-09-14"
-	},
-	{
-		"id": 473,
-		"name": "15",
-		"slug": "piscine-c-decloisonnee-pide-jour-09-15"
-	},
-	{
-		"id": 649,
-		"name": "15",
-		"slug": "day-09-15"
-	},
-	{
-		"id": 199,
-		"name": "15",
-		"slug": "piscine-c-day-09-15"
-	},
-	{
-		"id": 448,
-		"name": "15",
-		"slug": "piscine-c-piadi-jour-09-15"
-	},
-	{
-		"id": 650,
-		"name": "16",
-		"slug": "day-09-16"
-	},
-	{
-		"id": 474,
-		"name": "16",
-		"slug": "piscine-c-decloisonnee-pide-jour-09-16"
-	},
-	{
-		"id": 449,
-		"name": "16",
-		"slug": "piscine-c-piadi-jour-09-16"
-	},
-	{
-		"id": 200,
-		"name": "16",
-		"slug": "piscine-c-day-09-16"
-	},
-	{
-		"id": 201,
-		"name": "17",
-		"slug": "piscine-c-day-09-17"
-	},
-	{
-		"id": 475,
-		"name": "17",
-		"slug": "piscine-c-decloisonnee-pide-jour-09-17"
-	},
-	{
-		"id": 450,
-		"name": "17",
-		"slug": "piscine-c-piadi-jour-09-17"
-	},
-	{
-		"id": 651,
-		"name": "17",
-		"slug": "day-09-17"
-	},
-	{
-		"id": 652,
-		"name": "18",
-		"slug": "day-09-18"
-	},
-	{
-		"id": 476,
-		"name": "18",
-		"slug": "piscine-c-decloisonnee-pide-jour-09-18"
-	},
-	{
-		"id": 451,
-		"name": "18",
-		"slug": "piscine-c-piadi-jour-09-18"
-	},
-	{
-		"id": 202,
-		"name": "18",
-		"slug": "piscine-c-day-09-18"
-	},
-	{
-		"id": 477,
-		"name": "19",
-		"slug": "piscine-c-decloisonnee-pide-jour-09-19"
-	},
-	{
-		"id": 203,
-		"name": "19",
-		"slug": "piscine-c-day-09-19"
-	},
-	{
-		"id": 452,
-		"name": "19",
-		"slug": "piscine-c-piadi-jour-09-19"
-	},
-	{
-		"id": 653,
-		"name": "19",
-		"slug": "day-09-19"
-	},
-	{
-		"id": 478,
-		"name": "20",
-		"slug": "piscine-c-decloisonnee-pide-jour-09-20"
-	},
-	{
-		"id": 204,
-		"name": "20",
-		"slug": "piscine-c-day-09-20"
-	},
-	{
-		"id": 453,
-		"name": "20",
-		"slug": "piscine-c-piadi-jour-09-20"
-	},
-	{
-		"id": 654,
-		"name": "20",
-		"slug": "day-09-20"
-	},
-	{
-		"id": 454,
-		"name": "21",
-		"slug": "piscine-c-piadi-jour-09-21"
-	},
-	{
-		"id": 655,
-		"name": "21",
-		"slug": "day-09-21"
-	},
-	{
-		"id": 479,
-		"name": "21",
-		"slug": "piscine-c-decloisonnee-pide-jour-09-21"
-	},
-	{
-		"id": 205,
-		"name": "21",
-		"slug": "piscine-c-day-09-21"
-	},
-	{
-		"id": 523,
-		"name": "21sh",
-		"slug": "21sh"
-	},
-	{
-		"id": 480,
-		"name": "22",
-		"slug": "piscine-c-decloisonnee-pide-jour-09-22"
-	},
-	{
-		"id": 206,
-		"name": "22",
-		"slug": "piscine-c-day-09-22"
-	},
-	{
-		"id": 657,
-		"name": "22",
-		"slug": "day-09-22"
-	},
-	{
-		"id": 455,
-		"name": "22",
-		"slug": "piscine-c-piadi-jour-09-22"
-	},
-	{
-		"id": 481,
-		"name": "23",
-		"slug": "piscine-c-decloisonnee-pide-jour-09-23"
-	},
-	{
-		"id": 207,
-		"name": "23",
-		"slug": "piscine-c-day-09-23"
-	},
-	{
-		"id": 658,
-		"name": "23",
-		"slug": "day-09-23"
-	},
-	{
-		"id": 456,
-		"name": "23",
-		"slug": "piscine-c-piadi-jour-09-23"
-	},
-	{
-		"id": 2720,
-		"name": "[42adv]fdf",
-		"slug": "42adv-fdf"
-	},
-	{
-		"id": 2721,
-		"name": "[42adv]Fract'ol",
-		"slug": "42adv-fract-ol"
-	},
-	{
-		"id": 2724,
-		"name": "[42adv]minitalk",
-		"slug": "42adv-minitalk"
-	},
-	{
-		"id": 2723,
-		"name": "[42adv]pipex",
-		"slug": "42adv-pipex"
-	},
-	{
-		"id": 2722,
-		"name": "[42adv]so_long",
-		"slug": "42adv-so_long"
+		"id": 1411,
+		"name": "[deprecated]gbmu",
+		"slug": "deprecated-gbmu"
 	},
 	{
 		"id": 2623,
@@ -515,59 +30,9 @@
 		"slug": "42_collaborative_resume"
 	},
 	{
-		"id": 817,
-		"name": "42 Commandements",
-		"slug": "42-formation-pole-emploi-42-commandements"
-	},
-	{
-		"id": 2118,
-		"name": "42_ft_shield",
-		"slug": "42_ft_shield"
-	},
-	{
-		"id": 1299,
-		"name": "42GUI",
-		"slug": "42gui"
-	},
-	{
-		"id": 2115,
-		"name": "42_matrix",
-		"slug": "42_matrix"
-	},
-	{
-		"id": 2116,
-		"name": "42 Ready Set boole",
-		"slug": "42-ready-set-boole"
-	},
-	{
-		"id": 178,
-		"name": "42run",
-		"slug": "42run"
-	},
-	{
 		"id": 1387,
 		"name": "42run",
 		"slug": "42cursus-42run"
-	},
-	{
-		"id": 1761,
-		"name": "42 seoul ex1",
-		"slug": "42-seoul-ex1"
-	},
-	{
-		"id": 1762,
-		"name": "42 seoul my little tv",
-		"slug": "42-seoul-my-little-tv"
-	},
-	{
-		"id": 2006,
-		"name": "42SEOUL_TEST2",
-		"slug": "42seoul_test2"
-	},
-	{
-		"id": 35,
-		"name": "42sh",
-		"slug": "42sh"
 	},
 	{
 		"id": 1854,
@@ -575,9 +40,9 @@
 		"slug": "42cursus-42sh"
 	},
 	{
-		"id": 1764,
-		"name": "42 Squads",
-		"slug": "42-squads"
+		"id": 2688,
+		"name": "A-Maze-ing",
+		"slug": "a-maze-ing"
 	},
 	{
 		"id": 2371,
@@ -585,44 +50,9 @@
 		"slug": "abstract_data"
 	},
 	{
-		"id": 2121,
-		"name": "Abstract Games",
-		"slug": "rushes-abstract-games"
-	},
-	{
 		"id": 1461,
 		"name": "abstract-vm",
 		"slug": "42cursus-abstract-vm"
-	},
-	{
-		"id": 80,
-		"name": "Abstract VM",
-		"slug": "abstract-vm"
-	},
-	{
-		"id": 2523,
-		"name": "AccessibleDirectory",
-		"slug": "accessibledirectory"
-	},
-	{
-		"id": 2395,
-		"name": "ActiveConnect",
-		"slug": "activeconnect"
-	},
-	{
-		"id": 2520,
-		"name": "ActiveDiscovery",
-		"slug": "activediscovery"
-	},
-	{
-		"id": 2529,
-		"name": "ActiveTechTales",
-		"slug": "activetechtales"
-	},
-	{
-		"id": 2522,
-		"name": "AdministrativeDirectory",
-		"slug": "administrativedirectory"
 	},
 	{
 		"id": 2743,
@@ -635,204 +65,9 @@
 		"slug": "agent-smith"
 	},
 	{
-		"id": 2493,
-		"name": "AI-module-0x0",
-		"slug": "ai-module-0x0"
-	},
-	{
-		"id": 2496,
-		"name": "AI-module-0x1",
-		"slug": "ai-module-0x1"
-	},
-	{
-		"id": 2497,
-		"name": "AI-module-0x2",
-		"slug": "ai-module-0x2"
-	},
-	{
-		"id": 2511,
-		"name": "AI-module-1x0",
-		"slug": "ai-module-1x0"
-	},
-	{
-		"id": 2512,
-		"name": " AI-module-1x1",
-		"slug": "ai-module-1x1"
-	},
-	{
-		"id": 2513,
-		"name": "AI-module-1x2",
-		"slug": "ai-module-1x2"
-	},
-	{
-		"id": 2515,
-		"name": "AI-module-2x0",
-		"slug": "ai-module-2x0"
-	},
-	{
-		"id": 2516,
-		"name": "AI-module-2x1",
-		"slug": "ai-module-2x1"
-	},
-	{
-		"id": 2517,
-		"name": "AI-module-2x2",
-		"slug": "ai-module-2x2"
-	},
-	{
 		"id": 2102,
 		"name": "AlCu",
 		"slug": "42cursus-rushes-alcu"
-	},
-	{
-		"id": 28,
-		"name": "AlCu",
-		"slug": "rushes-alcu"
-	},
-	{
-		"id": 1107,
-		"name": "Algorithmic Puzzles",
-		"slug": "algorithmic-puzzles"
-	},
-	{
-		"id": 2310,
-		"name": "Alone in the Dark",
-		"slug": "42cursus-alone-in-the-dark"
-	},
-	{
-		"id": 2688,
-		"name": "A-Maze-ing",
-		"slug": "a-maze-ing"
-	},
-	{
-		"id": 1959,
-		"name": "Amazon",
-		"slug": "amazon"
-	},
-	{
-		"id": 2471,
-		"name": "Angular Piscine Week 1 | Day 00",
-		"slug": "angular-piscine-week-1-day-00"
-	},
-	{
-		"id": 2262,
-		"name": "Angular Piscine Week 1 | Day 01",
-		"slug": "angular-piscine-week-1-day-01"
-	},
-	{
-		"id": 2472,
-		"name": "Angular Piscine Week 1 | Day 02",
-		"slug": "angular-piscine-week-1-day-02"
-	},
-	{
-		"id": 2473,
-		"name": "Angular Piscine Week 1 | Day 03",
-		"slug": "angular-piscine-week-1-day-03"
-	},
-	{
-		"id": 2474,
-		"name": "Angular Piscine Week 1 | Day 04",
-		"slug": "angular-piscine-week-1-day-04"
-	},
-	{
-		"id": 2475,
-		"name": "Angular Piscine Week 1 | Rush 00",
-		"slug": "angular-piscine-week-1-rush-00"
-	},
-	{
-		"id": 2476,
-		"name": "Angular Piscine Week 2 | Day 00",
-		"slug": "angular-piscine-week-2-day-00"
-	},
-	{
-		"id": 2477,
-		"name": "Angular Piscine Week 2 | Day 01",
-		"slug": "angular-piscine-week-2-day-01"
-	},
-	{
-		"id": 2478,
-		"name": "Angular Piscine Week 2 | Day 02",
-		"slug": "angular-piscine-week-2-day-02"
-	},
-	{
-		"id": 2479,
-		"name": "Angular Piscine Week 2 | Day 03",
-		"slug": "angular-piscine-week-2-day-03"
-	},
-	{
-		"id": 2480,
-		"name": "Angular Piscine Week 2 | Day 04",
-		"slug": "angular-piscine-week-2-day-04"
-	},
-	{
-		"id": 2481,
-		"name": "Angular Piscine Week 2 | Rush-01",
-		"slug": "angular-piscine-week-2-rush-01"
-	},
-	{
-		"id": 1007,
-		"name": "APCSP - Create Task",
-		"slug": "apcsp-prep-apcsp-create-task"
-	},
-	{
-		"id": 1697,
-		"name": "APCSP - Digital Portfolio",
-		"slug": "apcsp-prep-apcsp-digital-portfolio"
-	},
-	{
-		"id": 1028,
-		"name": "APCSP - Explore Portfolio",
-		"slug": "deprecated-apcsp-explore-apcsp-explore-portfolio"
-	},
-	{
-		"id": 1027,
-		"name": "APCSP - Explore Practice",
-		"slug": "apcsp-explore-task-apcsp-explore-practice"
-	},
-	{
-		"id": 988,
-		"name": "APCSP - Explore Task",
-		"slug": "apcsp-prep-apcsp-explore-task"
-	},
-	{
-		"id": 1365,
-		"name": "APCSP - Internet Simulator",
-		"slug": "apcsp-prep-apcsp-internet-simulator"
-	},
-	{
-		"id": 1363,
-		"name": "APCSP - Practice Exam",
-		"slug": "apcsp-prep-apcsp-practice-exam"
-	},
-	{
-		"id": 1361,
-		"name": "APCSP Prep",
-		"slug": "apcsp-prep"
-	},
-	{
-		"id": 1710,
-		"name": "APCSP-Programming",
-		"slug": "apcsp-prep-apcsp-programming"
-	},
-	{
-		"id": 1366,
-		"name": "APCSP - Vocabulary",
-		"slug": "apcsp-prep-apcsp-vocabulary"
-	},
-	{
-		"id": 1296,
-		"name": "API Creation",
-		"slug": "api-s-with-node-js-api-creation"
-	},
-	{
-		"id": 1194,
-		"name": "API Queries to MySportsFeeds",
-		"slug": "data-mining-the-49ers-api-queries-to-mysportsfeeds"
-	},
-	{
-		"id": 844,
-		"name": "Apples of the Hesperides",
-		"slug": "hercules-apples-of-the-hesperides"
 	},
 	{
 		"id": 2713,
@@ -840,304 +75,9 @@
 		"slug": "apprenticeship-i"
 	},
 	{
-		"id": 1873,
-		"name": "Apprentissage 1 an",
-		"slug": "apprentissage-1-an"
-	},
-	{
-		"id": 1877,
-		"name": "Apprentissage 1 an - 1",
-		"slug": "apprentissage-1-an-apprentissage-1-an-1"
-	},
-	{
-		"id": 1878,
-		"name": "Apprentissage 1 an - 2",
-		"slug": "apprentissage-1-an-apprentissage-1-an-2"
-	},
-	{
-		"id": 1879,
-		"name": "Apprentissage 1 an - 3",
-		"slug": "apprentissage-1-an-apprentissage-1-an-3"
-	},
-	{
-		"id": 1880,
-		"name": "Apprentissage 1 an - 4",
-		"slug": "apprentissage-1-an-apprentissage-1-an-4"
-	},
-	{
-		"id": 2090,
-		"name": "Apprentissage 1 an - Begin evaluation",
-		"slug": "apprentissage-1-an-apprentissage-1-an-begin-evaluation"
-	},
-	{
-		"id": 1876,
-		"name": "Apprentissage 1 an - Final evaluation",
-		"slug": "apprentissage-1-an-apprentissage-1-an-final-evaluation"
-	},
-	{
-		"id": 1857,
-		"name": "Apprentissage 2 ans - 1ère année",
-		"slug": "42cursus-apprentissage-2-ans-1ere-annee"
-	},
-	{
-		"id": 1861,
-		"name": "Apprentissage 2 ans - 1ère année - 1",
-		"slug": "apprentissage-2-ans-1ere-annee-apprentissage-2-ans-1ere-annee-1"
-	},
-	{
-		"id": 1862,
-		"name": "Apprentissage 2 ans - 1ère année - 2",
-		"slug": "apprentissage-2-ans-1ere-annee-apprentissage-2-ans-1ere-annee-2"
-	},
-	{
-		"id": 1863,
-		"name": "Apprentissage 2 ans - 1ère année - 3",
-		"slug": "apprentissage-2-ans-1ere-annee-apprentissage-2-ans-1ere-annee-3"
-	},
-	{
-		"id": 1864,
-		"name": "Apprentissage 2 ans - 1ère année - 4",
-		"slug": "apprentissage-2-ans-1ere-annee-apprentissage-2-ans-1ere-annee-4"
-	},
-	{
-		"id": 2093,
-		"name": "Apprentissage 2 ans - 1ère année - Annual Evaluation",
-		"slug": "apprentissage-2-ans-1ere-annee-apprentissage-2-ans-1ere-annee-annual-evaluation"
-	},
-	{
-		"id": 2092,
-		"name": "Apprentissage 2 ans - 1ère année - Begin evaluation",
-		"slug": "apprentissage-2-ans-1ere-annee-apprentissage-2-ans-1ere-annee-begin-evaluation"
-	},
-	{
-		"id": 1865,
-		"name": " Apprentissage 2 ans - 2ème année",
-		"slug": "apprentissage-2-ans-2eme-annee"
-	},
-	{
-		"id": 1869,
-		"name": "Apprentissage 2 ans - 2ème année - 1",
-		"slug": "apprentissage-2-ans-2eme-annee-apprentissage-2-ans-2eme-annee-1"
-	},
-	{
-		"id": 1870,
-		"name": "Apprentissage 2 ans - 2ème année - 2",
-		"slug": "apprentissage-2-ans-2eme-annee-apprentissage-2-ans-2eme-annee-2"
-	},
-	{
-		"id": 1871,
-		"name": "Apprentissage 2 ans - 2ème année - 3",
-		"slug": "apprentissage-2-ans-2eme-annee-apprentissage-2-ans-2eme-annee-3"
-	},
-	{
-		"id": 1872,
-		"name": "Apprentissage 2 ans - 2ème année - 4",
-		"slug": "apprentissage-2-ans-2eme-annee-apprentissage-2-ans-2eme-annee-4"
-	},
-	{
-		"id": 1868,
-		"name": "Apprentissage 2 ans - 2ème année - Final evaluation",
-		"slug": "apprentissage-2-ans-2eme-annee-apprentissage-2-ans-2eme-annee-final-evaluation"
-	},
-	{
-		"id": 2091,
-		"name": "Apprentissage 2 ans - 2ème année - Mid evaluation",
-		"slug": "apprentissage-2-ans-2eme-annee-apprentissage-2-ans-2eme-annee-mid-evaluation"
-	},
-	{
-		"id": 2157,
-		"name": "arachnida",
-		"slug": "arachnida"
-	},
-	{
-		"id": 141,
-		"name": "Arkanoid",
-		"slug": "rushes-arkanoid"
-	},
-	{
-		"id": 1161,
-		"name": "Atlantis - Chatterbot",
-		"slug": "atlantis-chatterbot"
-	},
-	{
-		"id": 1138,
-		"name": "Atlantis - Day 00",
-		"slug": "atlantis-day-00"
-	},
-	{
-		"id": 1139,
-		"name": "Atlantis - Day 01",
-		"slug": "atlantis-day-01"
-	},
-	{
-		"id": 1140,
-		"name": "Atlantis - Day 02",
-		"slug": "atlantis-day-02"
-	},
-	{
-		"id": 838,
-		"name": "Augean stables",
-		"slug": "hercules-augean-stables"
-	},
-	{
-		"id": 2521,
-		"name": "AutomaticDirectory",
-		"slug": "automaticdirectory"
-	},
-	{
-		"id": 870,
-		"name": "avaj-launcher",
-		"slug": "avaj-launcher"
-	},
-	{
 		"id": 1435,
 		"name": "avaj-launcher",
 		"slug": "42cursus-avaj-launcher"
-	},
-	{
-		"id": 2606,
-		"name": "B",
-		"slug": "b"
-	},
-	{
-		"id": 1820,
-		"name": "Basecamp C 00",
-		"slug": "basecamp-c-00"
-	},
-	{
-		"id": 1821,
-		"name": "Basecamp C 01",
-		"slug": "basecamp-c-01"
-	},
-	{
-		"id": 1822,
-		"name": "Basecamp C 02",
-		"slug": "basecamp-c-02"
-	},
-	{
-		"id": 1823,
-		"name": "Basecamp C 03",
-		"slug": "basecamp-c-03"
-	},
-	{
-		"id": 1824,
-		"name": "Basecamp C 04",
-		"slug": "basecamp-c-04"
-	},
-	{
-		"id": 1825,
-		"name": "Basecamp C 05",
-		"slug": "basecamp-c-05"
-	},
-	{
-		"id": 1826,
-		"name": "Basecamp C 06",
-		"slug": "basecamp-c-06"
-	},
-	{
-		"id": 1827,
-		"name": "Basecamp C 07",
-		"slug": "basecamp-c-07"
-	},
-	{
-		"id": 1828,
-		"name": "Basecamp C 08",
-		"slug": "basecamp-c-08"
-	},
-	{
-		"id": 1829,
-		"name": "Basecamp C 09",
-		"slug": "basecamp-c-09"
-	},
-	{
-		"id": 1830,
-		"name": "Basecamp C 10",
-		"slug": "basecamp-c-10"
-	},
-	{
-		"id": 1831,
-		"name": "Basecamp C 11",
-		"slug": "basecamp-c-11"
-	},
-	{
-		"id": 1832,
-		"name": "Basecamp C 12",
-		"slug": "basecamp-c-12"
-	},
-	{
-		"id": 1833,
-		"name": "Basecamp C 13",
-		"slug": "basecamp-c-13"
-	},
-	{
-		"id": 1819,
-		"name": "Basecamp Eu Aceito",
-		"slug": "basecamp-eu-aceito"
-	},
-	{
-		"id": 1837,
-		"name": "Basecamp Exam 00",
-		"slug": "basecamp-exam-00"
-	},
-	{
-		"id": 1838,
-		"name": "Basecamp Exam 01",
-		"slug": "basecamp-exam-01"
-	},
-	{
-		"id": 1839,
-		"name": "Basecamp Final Exam",
-		"slug": "basecamp-final-exam"
-	},
-	{
-		"id": 1834,
-		"name": "Basecamp Rush 00",
-		"slug": "basecamp-rush-00"
-	},
-	{
-		"id": 1835,
-		"name": "Basecamp Rush 01",
-		"slug": "basecamp-rush-01"
-	},
-	{
-		"id": 1817,
-		"name": "Basecamp Shell 00",
-		"slug": "basecamp-shell-00"
-	},
-	{
-		"id": 1818,
-		"name": "Basecamp Shell 01",
-		"slug": "basecamp-shell-01"
-	},
-	{
-		"id": 2071,
-		"name": " Bgp At Doors of Autonomous Systems is Simple",
-		"slug": "bgp-at-doors-of-autonomous-systems-is-simple"
-	},
-	{
-		"id": 1037,
-		"name": "Bistromatic",
-		"slug": "bistromatic"
-	},
-	{
-		"id": 1057,
-		"name": "Blackhole - Peer Help",
-		"slug": "blackhole-peer-help"
-	},
-	{
-		"id": 1227,
-		"name": "Blackhole - Peer Helper",
-		"slug": "blackhole-peer-helper"
-	},
-	{
-		"id": 1204,
-		"name": "b_libft",
-		"slug": "b_libft"
-	},
-	{
-		"id": 1206,
-		"name": "b_ls",
-		"slug": "b_ls"
 	},
 	{
 		"id": 1389,
@@ -1145,44 +85,9 @@
 		"slug": "42cursus-bomberman"
 	},
 	{
-		"id": 410,
-		"name": "Bomberman",
-		"slug": "bomberman"
-	},
-	{
 		"id": 1446,
 		"name": "boot2root",
 		"slug": "42cursus-boot2root"
-	},
-	{
-		"id": 909,
-		"name": "Boot2Root",
-		"slug": "boot2root"
-	},
-	{
-		"id": 669,
-		"name": "Bootcamp-WTC-Exam-00",
-		"slug": "bootcamp-wtc-exam-00"
-	},
-	{
-		"id": 680,
-		"name": "Bootcamp-WTC-Exam-01",
-		"slug": "bootcamp-wtc-exam-01"
-	},
-	{
-		"id": 698,
-		"name": "Bootcamp-WTC-Exam-02",
-		"slug": "bootcamp-wtc-exam-02"
-	},
-	{
-		"id": 681,
-		"name": "Bootcamp-WTC-Final-Exam",
-		"slug": "bootcamp-wtc-final-exam"
-	},
-	{
-		"id": 2686,
-		"name": "Born2beroot",
-		"slug": "42next-born2beroot"
 	},
 	{
 		"id": 1994,
@@ -1190,209 +95,9 @@
 		"slug": "born2beroot"
 	},
 	{
-		"id": 1205,
-		"name": "b_printf",
-		"slug": "b_printf"
-	},
-	{
-		"id": 1914,
-		"name": "Brussels Basecamp C 00",
-		"slug": "brussels-basecamp-c-00"
-	},
-	{
-		"id": 1915,
-		"name": "Brussels Basecamp C 01",
-		"slug": "brussels-basecamp-c-01"
-	},
-	{
-		"id": 1917,
-		"name": "Brussels Basecamp C 02",
-		"slug": "brussels-basecamp-c-02"
-	},
-	{
-		"id": 1918,
-		"name": "Brussels Basecamp C 03",
-		"slug": "brussels-basecamp-c-03"
-	},
-	{
-		"id": 1919,
-		"name": "Brussels Basecamp C 04",
-		"slug": "brussels-basecamp-c-04"
-	},
-	{
-		"id": 1920,
-		"name": "Brussels Basecamp C 05",
-		"slug": "brussels-basecamp-c-05"
-	},
-	{
-		"id": 1921,
-		"name": "Brussels Basecamp C 06",
-		"slug": "brussels-basecamp-c-06"
-	},
-	{
-		"id": 1922,
-		"name": "Brussels Basecamp C 07",
-		"slug": "brussels-basecamp-c-07"
-	},
-	{
-		"id": 1923,
-		"name": "Brussels Basecamp C 08",
-		"slug": "brussels-basecamp-c-08"
-	},
-	{
-		"id": 1916,
-		"name": "Brussels Basecamp C 09",
-		"slug": "brussels-basecamp-c-09"
-	},
-	{
-		"id": 1929,
-		"name": "Brussels Basecamp C 10",
-		"slug": "brussels-basecamp-c-10"
-	},
-	{
-		"id": 1930,
-		"name": "Brussels Basecamp C 11",
-		"slug": "brussels-basecamp-c-11"
-	},
-	{
-		"id": 1931,
-		"name": "Brussels Basecamp C 12",
-		"slug": "brussels-basecamp-c-12"
-	},
-	{
-		"id": 1932,
-		"name": "Brussels Basecamp C 13",
-		"slug": "brussels-basecamp-c-13"
-	},
-	{
-		"id": 1926,
-		"name": "Brussels Basecamp Exam 00",
-		"slug": "brussels-basecamp-exam-00"
-	},
-	{
-		"id": 1927,
-		"name": "Brussels Basecamp Exam 01",
-		"slug": "brussels-basecamp-exam-01"
-	},
-	{
-		"id": 1928,
-		"name": "Brussels Basecamp Final Exam",
-		"slug": "brussels-basecamp-final-exam"
-	},
-	{
-		"id": 1936,
-		"name": "Brussels Basecamp I Accept",
-		"slug": "brussels-basecamp-i-accept"
-	},
-	{
-		"id": 1937,
-		"name": "Brussels Basecamp Intro Git",
-		"slug": "brussels-basecamp-intro-git"
-	},
-	{
-		"id": 1924,
-		"name": "Brussels Basecamp Rush 00",
-		"slug": "brussels-basecamp-rush-00"
-	},
-	{
-		"id": 1925,
-		"name": "Brussels Basecamp Rush 01",
-		"slug": "brussels-basecamp-rush-01"
-	},
-	{
-		"id": 1912,
-		"name": "Brussels Basecamp Shell 00",
-		"slug": "brussels-basecamp-shell-00"
-	},
-	{
-		"id": 1913,
-		"name": "Brussels Basecamp Shell 01",
-		"slug": "brussels-basecamp-shell-01"
-	},
-	{
-		"id": 631,
-		"name": "BSQ",
-		"slug": "bootcamp-bsq"
-	},
-	{
-		"id": 505,
-		"name": "BSQ",
-		"slug": "piscine-c-a-distance-bsq"
-	},
-	{
-		"id": 174,
-		"name": "BSQ",
-		"slug": "bsq"
-	},
-	{
-		"id": 2042,
-		"name": "C 00",
-		"slug": "c-00"
-	},
-	{
-		"id": 2041,
-		"name": "C 01",
-		"slug": "c-01"
-	},
-	{
-		"id": 2043,
-		"name": "C 02",
-		"slug": "c-02"
-	},
-	{
-		"id": 2052,
-		"name": "C 04",
-		"slug": "c-04"
-	},
-	{
-		"id": 2053,
-		"name": "C 05",
-		"slug": "c-05"
-	},
-	{
-		"id": 2054,
-		"name": "C 06",
-		"slug": "c-06"
-	},
-	{
-		"id": 2057,
-		"name": "C 07",
-		"slug": "c-07"
-	},
-	{
-		"id": 2058,
-		"name": "C 08",
-		"slug": "c-08"
-	},
-	{
-		"id": 2059,
-		"name": "C 09",
-		"slug": "c-09"
-	},
-	{
-		"id": 2060,
-		"name": "C 10",
-		"slug": "c-10"
-	},
-	{
-		"id": 2061,
-		"name": "C 11",
-		"slug": "c-11"
-	},
-	{
-		"id": 2062,
-		"name": "C 12",
-		"slug": "c-12"
-	},
-	{
-		"id": 2063,
-		"name": "C 13",
-		"slug": "c-13"
-	},
-	{
-		"id": 2745,
-		"name": "Call Me Maybe",
-		"slug": "42cursus-call-me-maybe"
+		"id": 2686,
+		"name": "Born2beroot",
+		"slug": "42next-born2beroot"
 	},
 	{
 		"id": 2689,
@@ -1400,529 +105,14 @@
 		"slug": "call-me-maybe"
 	},
 	{
+		"id": 2745,
+		"name": "Call Me Maybe",
+		"slug": "42cursus-call-me-maybe"
+	},
+	{
 		"id": 1396,
 		"name": "camagru",
 		"slug": "42cursus-camagru"
-	},
-	{
-		"id": 537,
-		"name": "Camagru",
-		"slug": "camagru"
-	},
-	{
-		"id": 845,
-		"name": "Capturing Cerberus",
-		"slug": "hercules-capturing-cerberus"
-	},
-	{
-		"id": 663,
-		"name": "Carnifex (LISP)",
-		"slug": "rushes-carnifex-lisp"
-	},
-	{
-		"id": 843,
-		"name": "Cattle of Geryon",
-		"slug": "hercules-cattle-of-geryon"
-	},
-	{
-		"id": 2625,
-		"name": "cc1",
-		"slug": "cc1"
-	},
-	{
-		"id": 1084,
-		"name": "CCMN",
-		"slug": "ccmn"
-	},
-	{
-		"id": 2423,
-		"name": " Cellule0.0 - Python",
-		"slug": "cellule0-0-python"
-	},
-	{
-		"id": 2012,
-		"name": "Cellule0.0 - Shell",
-		"slug": "cellule0-0-shell"
-	},
-	{
-		"id": 2384,
-		"name": "Cellule0-0-Tyto",
-		"slug": "cellule0-0-tyto"
-	},
-	{
-		"id": 2424,
-		"name": "Cellule0.1 - Python",
-		"slug": "cellule0-1-python"
-	},
-	{
-		"id": 2013,
-		"name": "Cellule0.1 - Shell",
-		"slug": "cellule0-1-shell"
-	},
-	{
-		"id": 2385,
-		"name": "Cellule0-1-Tyto",
-		"slug": "cellule0-1-tyto"
-	},
-	{
-		"id": 2559,
-		"name": "Cellule0.2 - Python",
-		"slug": "cellule0-2-python"
-	},
-	{
-		"id": 2014,
-		"name": "Cellule0.2 - Shell",
-		"slug": "cellule0-2-shell"
-	},
-	{
-		"id": 2387,
-		"name": "Cellule0-2-Tyto",
-		"slug": "cellule0-2-tyto"
-	},
-	{
-		"id": 2015,
-		"name": "Cellule0.3 - Shell",
-		"slug": "cellule0-3-shell"
-	},
-	{
-		"id": 2388,
-		"name": "Cellule0-3-Tyto",
-		"slug": "cellule0-3-tyto"
-	},
-	{
-		"id": 2016,
-		"name": "Cellule0.4 - Shell",
-		"slug": "cellule0-4-shell"
-	},
-	{
-		"id": 2017,
-		"name": "Cellule0.5 - Shell",
-		"slug": "cellule0-5-shell"
-	},
-	{
-		"id": 2426,
-		"name": "Cellule1.0 - Python",
-		"slug": "cellule1-0-python"
-	},
-	{
-		"id": 2389,
-		"name": "Cellule1-0-weasel",
-		"slug": "cellule1-0-weasel"
-	},
-	{
-		"id": 2018,
-		"name": "Cellule1.0 - Web",
-		"slug": "cellule1-0-web"
-	},
-	{
-		"id": 2427,
-		"name": "Cellule1.1 - Python",
-		"slug": "cellule1-1-python"
-	},
-	{
-		"id": 2390,
-		"name": "Cellule1-1-weasel",
-		"slug": "cellule1-1-weasel"
-	},
-	{
-		"id": 2019,
-		"name": "Cellule1.1 - Web",
-		"slug": "cellule1-1-web"
-	},
-	{
-		"id": 2428,
-		"name": "Cellule1.2 - Python",
-		"slug": "cellule1-2-python"
-	},
-	{
-		"id": 2391,
-		"name": "Cellule1-2-weasel",
-		"slug": "cellule1-2-weasel"
-	},
-	{
-		"id": 2020,
-		"name": "Cellule1.2 - Web",
-		"slug": "cellule1-2-web"
-	},
-	{
-		"id": 2429,
-		"name": "Cellule1.3 - Python ",
-		"slug": "cellule1-3-python"
-	},
-	{
-		"id": 2392,
-		"name": "Cellule1-3-weasel",
-		"slug": "cellule1-3-weasel"
-	},
-	{
-		"id": 2021,
-		"name": "Cellule1.3 - Web",
-		"slug": "cellule1-3-web"
-	},
-	{
-		"id": 2022,
-		"name": "Cellule1.4 - Web",
-		"slug": "cellule1-4-web"
-	},
-	{
-		"id": 2023,
-		"name": "Cellule1.5 - Web",
-		"slug": "cellule1-5-web"
-	},
-	{
-		"id": 2024,
-		"name": "Cellule1.6 - Web",
-		"slug": "cellule1-6-web"
-	},
-	{
-		"id": 2376,
-		"name": "Cellule2-0-gecko",
-		"slug": "cellule2-0-gecko"
-	},
-	{
-		"id": 2430,
-		"name": "Cellule2.0 - Python ",
-		"slug": "cellule2-0-python"
-	},
-	{
-		"id": 2025,
-		"name": "Cellule2.0 - Web",
-		"slug": "cellule2-0-web"
-	},
-	{
-		"id": 2377,
-		"name": "Cellule2-1-gecko ",
-		"slug": "cellule2-1-gecko"
-	},
-	{
-		"id": 2431,
-		"name": "Cellule2.1 - Python ",
-		"slug": "cellule2-1-python"
-	},
-	{
-		"id": 2026,
-		"name": "Cellule2.1 - Web",
-		"slug": "cellule2-1-web"
-	},
-	{
-		"id": 2378,
-		"name": "Cellule2-2-gecko ",
-		"slug": "cellule2-2-gecko"
-	},
-	{
-		"id": 2432,
-		"name": "Cellule2.2 - Python ",
-		"slug": "cellule2-2-python"
-	},
-	{
-		"id": 2027,
-		"name": "Cellule2.2 - Web",
-		"slug": "cellule2-2-web"
-	},
-	{
-		"id": 2379,
-		"name": "Cellule2-3-gecko ",
-		"slug": "cellule2-3-gecko"
-	},
-	{
-		"id": 2433,
-		"name": "Cellule2.3 - Python ",
-		"slug": "cellule2-3-python"
-	},
-	{
-		"id": 2028,
-		"name": "Cellule2.3 - Web",
-		"slug": "cellule2-3-web"
-	},
-	{
-		"id": 2434,
-		"name": "Cellule3.0 - Python ",
-		"slug": "cellule3-0-python"
-	},
-	{
-		"id": 2029,
-		"name": "Cellule3.0 - Web",
-		"slug": "cellule3-0-web"
-	},
-	{
-		"id": 2435,
-		"name": "Cellule3.1 - Python ",
-		"slug": "cellule3-1-python"
-	},
-	{
-		"id": 2030,
-		"name": "Cellule3.1 - Web",
-		"slug": "cellule3-1-web"
-	},
-	{
-		"id": 2436,
-		"name": "Cellule3.2 - Python ",
-		"slug": "cellule3-2-python"
-	},
-	{
-		"id": 2031,
-		"name": "Cellule3.2 - Web",
-		"slug": "cellule3-2-web"
-	},
-	{
-		"id": 2437,
-		"name": "Cellule3.3 - Python ",
-		"slug": "cellule3-3-python"
-	},
-	{
-		"id": 2032,
-		"name": "Cellule3.3 - Web",
-		"slug": "cellule3-3-web"
-	},
-	{
-		"id": 2033,
-		"name": "Cellule3.4 - Web",
-		"slug": "cellule3-4-web"
-	},
-	{
-		"id": 2438,
-		"name": "Cellule4.0 - Python",
-		"slug": "cellule4-0-python"
-	},
-	{
-		"id": 2034,
-		"name": "Cellule4.0 - Rush",
-		"slug": "cellule4-0-rush"
-	},
-	{
-		"id": 2439,
-		"name": "Cellule4.1 - Python",
-		"slug": "cellule4-1-python"
-	},
-	{
-		"id": 2440,
-		"name": "Cellule4.2 - Python",
-		"slug": "cellule4-2-python"
-	},
-	{
-		"id": 2441,
-		"name": "Cellule4.3 - Python",
-		"slug": "cellule4-3-python"
-	},
-	{
-		"id": 2442,
-		"name": "Cellule4.4 - Python",
-		"slug": "cellule4-4-python"
-	},
-	{
-		"id": 2443,
-		"name": "Cellule4.5 - Python",
-		"slug": "cellule4-5-python"
-	},
-	{
-		"id": 2444,
-		"name": "Cellule5.0 - Python",
-		"slug": "cellule5-0-python"
-	},
-	{
-		"id": 2454,
-		"name": "Cellule5.10 - Python",
-		"slug": "cellule5-10-python"
-	},
-	{
-		"id": 2455,
-		"name": "Cellule5.11 - Python",
-		"slug": "cellule5-11-python"
-	},
-	{
-		"id": 2456,
-		"name": "Cellule5.12 - Python",
-		"slug": "cellule5-12-python"
-	},
-	{
-		"id": 2457,
-		"name": "Cellule5.13 - Python",
-		"slug": "cellule5-13-python"
-	},
-	{
-		"id": 2458,
-		"name": "Cellule5.14 - Python",
-		"slug": "cellule5-14-python"
-	},
-	{
-		"id": 2445,
-		"name": "Cellule5.1 - Python",
-		"slug": "cellule5-1-python"
-	},
-	{
-		"id": 2446,
-		"name": "Cellule5.2 - Python",
-		"slug": "cellule5-2-python"
-	},
-	{
-		"id": 2447,
-		"name": "Cellule5.3 - Python",
-		"slug": "cellule5-3-python"
-	},
-	{
-		"id": 2448,
-		"name": "Cellule5.4 - Python",
-		"slug": "cellule5-4-python"
-	},
-	{
-		"id": 2449,
-		"name": "Cellule5.5 - Python",
-		"slug": "cellule5-5-python"
-	},
-	{
-		"id": 2450,
-		"name": "Cellule5.6 - Python",
-		"slug": "cellule5-6-python"
-	},
-	{
-		"id": 2451,
-		"name": "Cellule5.7 - Python",
-		"slug": "cellule5-7-python"
-	},
-	{
-		"id": 2452,
-		"name": "Cellule5.8 - Python",
-		"slug": "cellule5-8-python"
-	},
-	{
-		"id": 2453,
-		"name": "Cellule5.9 - Python",
-		"slug": "cellule5-9-python"
-	},
-	{
-		"id": 2459,
-		"name": "Cellule6.0 - Python",
-		"slug": "cellule6-0-python"
-	},
-	{
-		"id": 2460,
-		"name": "Cellule6.1 - Python",
-		"slug": "cellule6-1-python"
-	},
-	{
-		"id": 2461,
-		"name": "Cellule6.2 - Python",
-		"slug": "cellule6-2-python"
-	},
-	{
-		"id": 2462,
-		"name": "Cellule6.3 - Python",
-		"slug": "cellule6-3-python"
-	},
-	{
-		"id": 2463,
-		"name": "Cellule6.4 - Python",
-		"slug": "cellule6-4-python"
-	},
-	{
-		"id": 2464,
-		"name": "Cellule6.5 - Python",
-		"slug": "cellule6-5-python"
-	},
-	{
-		"id": 2465,
-		"name": "Cellule7.0 - Python",
-		"slug": "cellule7-0-python"
-	},
-	{
-		"id": 2466,
-		"name": "Cellule7.1 - Python",
-		"slug": "cellule7-1-python"
-	},
-	{
-		"id": 2467,
-		"name": "Cellule7.2 - Python",
-		"slug": "cellule7-2-python"
-	},
-	{
-		"id": 2468,
-		"name": "Cellule7.3 - Python",
-		"slug": "cellule7-3-python"
-	},
-	{
-		"id": 836,
-		"name": "Ceryneian Hind",
-		"slug": "hercules-ceryneian-hind"
-	},
-	{
-		"id": 11,
-		"name": "C Exam Alone In The Dark - Beginner",
-		"slug": "c-exam-alone-in-the-dark-beginner"
-	},
-	{
-		"id": 1012,
-		"name": "C Exam Alone In The Dark - Intermediate",
-		"slug": "c-exam-alone-in-the-dark-intermediate"
-	},
-	{
-		"id": 612,
-		"name": "C Exam Training",
-		"slug": "piscine-c-a-distance-c-exam-training"
-	},
-	{
-		"id": 2525,
-		"name": "Challenge 42Québec",
-		"slug": "challenge-42quebec"
-	},
-	{
-		"id": 953,
-		"name": "Check Your Dorms",
-		"slug": "check-your-dorms"
-	},
-	{
-		"id": 1934,
-		"name": "churn",
-		"slug": "churn"
-	},
-	{
-		"id": 2231,
-		"name": "CiaLab Python-00",
-		"slug": "cialab-python-00"
-	},
-	{
-		"id": 2232,
-		"name": "CiaLab Python-01",
-		"slug": "cialab-python-01"
-	},
-	{
-		"id": 2233,
-		"name": "CiaLab Python-02",
-		"slug": "cialab-python-02"
-	},
-	{
-		"id": 2308,
-		"name": "CiaLab Python-03",
-		"slug": "cialab-python-03"
-	},
-	{
-		"id": 2236,
-		"name": "CiaLab Python-04",
-		"slug": "cialab-python-04"
-	},
-	{
-		"id": 2227,
-		"name": "CiaLab Shell-00",
-		"slug": "cialab-shell-00"
-	},
-	{
-		"id": 2349,
-		"name": "cinema",
-		"slug": "42cursus-cinema"
-	},
-	{
-		"id": 1951,
-		"name": "Cinema",
-		"slug": "cinema"
-	},
-	{
-		"id": 1957,
-		"name": "City Life",
-		"slug": "city-life"
-	},
-	{
-		"id": 694,
-		"name": "cloud-1",
-		"slug": "cloud-1"
 	},
 	{
 		"id": 1414,
@@ -1930,94 +120,9 @@
 		"slug": "42cursus-cloud-1"
 	},
 	{
-		"id": 114,
-		"name": "Cluedo (Prolog)",
-		"slug": "rushes-cluedo-prolog"
-	},
-	{
-		"id": 2212,
-		"name": "codam_exam_test",
-		"slug": "codam_exam_test"
-	},
-	{
 		"id": 2704,
 		"name": "Codexion",
 		"slug": "codexion"
-	},
-	{
-		"id": 2639,
-		"name": "Cod'in-maillard",
-		"slug": "cod-in-maillard"
-	},
-	{
-		"id": 623,
-		"name": "Colle 00",
-		"slug": "bootcamp-colle-00"
-	},
-	{
-		"id": 624,
-		"name": "Colle 01",
-		"slug": "bootcamp-colle-01"
-	},
-	{
-		"id": 629,
-		"name": "Colle 02",
-		"slug": "bootcamp-colle-02"
-	},
-	{
-		"id": 214,
-		"name": "Communication Trainer",
-		"slug": "communication-trainer"
-	},
-	{
-		"id": 120,
-		"name": "Company final evaluation",
-		"slug": "first-internship-company-final-evaluation"
-	},
-	{
-		"id": 210,
-		"name": "Company final evaluation",
-		"slug": "final-internship-company-final-evaluation"
-	},
-	{
-		"id": 965,
-		"name": "Company final evaluation",
-		"slug": "joburg-first-internship-company-final-evaluation"
-	},
-	{
-		"id": 182,
-		"name": "Company final evaluation",
-		"slug": "part-time-company-final-evaluation"
-	},
-	{
-		"id": 964,
-		"name": "Company mid evaluation",
-		"slug": "joburg-first-internship-company-mid-evaluation"
-	},
-	{
-		"id": 828,
-		"name": "Company mid evaluation",
-		"slug": "part-time-company-mid-evaluation"
-	},
-	{
-		"id": 828,
-		"name": "Company mid evaluation",
-		"slug": "part-time-company-mid-evaluation"
-	},
-	{
-		"id": 827,
-		"name": "Company mid evaluation",
-		"slug": "final-internship-company-mid-evaluation"
-	},
-	{
-		"id": 87,
-		"name": "Complete the project",
-		"slug": "open-project-i-complete-the-project"
-	},
-	{
-		"id": 614,
-		"name": "Complete the project",
-		"slug": "open-project-ii-complete-the-project"
 	},
 	{
 		"id": 1382,
@@ -2025,19 +130,9 @@
 		"slug": "42cursus-computorv1"
 	},
 	{
-		"id": 111,
-		"name": "ComputorV1",
-		"slug": "computorv1"
-	},
-	{
 		"id": 1433,
 		"name": "computorv2",
 		"slug": "42cursus-computorv2"
-	},
-	{
-		"id": 846,
-		"name": "ComputorV2",
-		"slug": "computorv2"
 	},
 	{
 		"id": 2174,
@@ -2045,214 +140,9 @@
 		"slug": "rushes-connect4"
 	},
 	{
-		"id": 1358,
-		"name": "Connect-4",
-		"slug": "algorithmic-puzzles-connect-4"
-	},
-	{
-		"id": 180,
-		"name": "Contract Upload",
-		"slug": "part-time-contract-upload"
-	},
-	{
-		"id": 2715,
-		"name": "Contract Upload",
-		"slug": "apprenticeship-i-contract-upload"
-	},
-	{
-		"id": 962,
-		"name": "Contract Upload",
-		"slug": "joburg-first-internship-contract-upload"
-	},
-	{
-		"id": 208,
-		"name": "Contract Upload",
-		"slug": "final-internship-contract-upload"
-	},
-	{
-		"id": 1858,
-		"name": "Contract Upload",
-		"slug": "apprentissage-2-ans-1ere-annee-contract-upload"
-	},
-	{
-		"id": 119,
-		"name": "Contract Upload",
-		"slug": "first-internship-contract-upload"
-	},
-	{
-		"id": 1866,
-		"name": "Contract Upload",
-		"slug": "apprentissage-2-ans-2eme-annee-contract-upload"
-	},
-	{
-		"id": 1874,
-		"name": "Contract Upload ",
-		"slug": "apprentissage-1-an-contract-upload"
-	},
-	{
 		"id": 1475,
 		"name": "corewar",
 		"slug": "42cursus-corewar"
-	},
-	{
-		"id": 22,
-		"name": "Corewar",
-		"slug": "corewar"
-	},
-	{
-		"id": 403,
-		"name": "Corewar Championship",
-		"slug": "corewar-championship"
-	},
-	{
-		"id": 2171,
-		"name": "coRSAir",
-		"slug": "corsair"
-	},
-	{
-		"id": 2068,
-		"name": "Cow-Neck-TID",
-		"slug": "cow-neck-tid"
-	},
-	{
-		"id": 1305,
-		"name": "C Piscine BSQ",
-		"slug": "c-piscine-bsq"
-	},
-	{
-		"id": 1257,
-		"name": "C Piscine C 00",
-		"slug": "c-piscine-c-00"
-	},
-	{
-		"id": 1258,
-		"name": "C Piscine C 01",
-		"slug": "c-piscine-c-01"
-	},
-	{
-		"id": 1259,
-		"name": "C Piscine C 02",
-		"slug": "c-piscine-c-02"
-	},
-	{
-		"id": 1260,
-		"name": "C Piscine C 03",
-		"slug": "c-piscine-c-03"
-	},
-	{
-		"id": 1261,
-		"name": "C Piscine C 04",
-		"slug": "c-piscine-c-04"
-	},
-	{
-		"id": 1262,
-		"name": "C Piscine C 05",
-		"slug": "c-piscine-c-05"
-	},
-	{
-		"id": 1263,
-		"name": "C Piscine C 06",
-		"slug": "c-piscine-c-06"
-	},
-	{
-		"id": 1270,
-		"name": "C Piscine C 07",
-		"slug": "c-piscine-c-07"
-	},
-	{
-		"id": 1264,
-		"name": "C Piscine C 08",
-		"slug": "c-piscine-c-08"
-	},
-	{
-		"id": 1265,
-		"name": "C Piscine C 09",
-		"slug": "c-piscine-c-09"
-	},
-	{
-		"id": 1266,
-		"name": "C Piscine C 10",
-		"slug": "c-piscine-c-10"
-	},
-	{
-		"id": 1267,
-		"name": "C Piscine C 11",
-		"slug": "c-piscine-c-11"
-	},
-	{
-		"id": 1268,
-		"name": "C Piscine C 12",
-		"slug": "c-piscine-c-12"
-	},
-	{
-		"id": 1271,
-		"name": "C Piscine C 13",
-		"slug": "c-piscine-c-13"
-	},
-	{
-		"id": 1301,
-		"name": "C Piscine Exam 00",
-		"slug": "c-piscine-exam-00"
-	},
-	{
-		"id": 1302,
-		"name": "C Piscine Exam 01",
-		"slug": "c-piscine-exam-01"
-	},
-	{
-		"id": 1303,
-		"name": "C Piscine Exam 02",
-		"slug": "c-piscine-exam-02"
-	},
-	{
-		"id": 2728,
-		"name": "C Piscine Exam Checkpoint 00.5",
-		"slug": "c-piscine-exam-checkpoint-00-5"
-	},
-	{
-		"id": 2729,
-		"name": "C Piscine Exam Checkpoint 01.5",
-		"slug": "c-piscine-exam-checkpoint-01-5"
-	},
-	{
-		"id": 2730,
-		"name": "C Piscine Exam Checkpoint 02.5",
-		"slug": "c-piscine-exam-checkpoint-02-5"
-	},
-	{
-		"id": 1304,
-		"name": "C Piscine Final Exam",
-		"slug": "c-piscine-final-exam"
-	},
-	{
-		"id": 2315,
-		"name": "C-piscine-reloaded",
-		"slug": "c-piscine-reloaded"
-	},
-	{
-		"id": 1308,
-		"name": "C Piscine Rush 00",
-		"slug": "c-piscine-rush-00"
-	},
-	{
-		"id": 1310,
-		"name": "C Piscine Rush 01",
-		"slug": "c-piscine-rush-01"
-	},
-	{
-		"id": 1309,
-		"name": "C Piscine Rush 02",
-		"slug": "c-piscine-rush-02"
-	},
-	{
-		"id": 1255,
-		"name": "C Piscine Shell 00",
-		"slug": "c-piscine-shell-00"
-	},
-	{
-		"id": 1256,
-		"name": "C Piscine Shell 01",
-		"slug": "c-piscine-shell-01"
 	},
 	{
 		"id": 1338,
@@ -2270,19 +160,9 @@
 		"slug": "cpp-module-02"
 	},
 	{
-		"id": 1776,
-		"name": "CPP Module 02 (OwO)",
-		"slug": "out-with-the-old-owo-cpp-module-02-owo"
-	},
-	{
 		"id": 1341,
 		"name": "CPP Module 03",
 		"slug": "cpp-module-03"
-	},
-	{
-		"id": 1777,
-		"name": "CPP Module 03 (OwO)",
-		"slug": "out-with-the-old-owo-cpp-module-03-owo"
 	},
 	{
 		"id": 1342,
@@ -2290,29 +170,14 @@
 		"slug": "cpp-module-04"
 	},
 	{
-		"id": 1778,
-		"name": "CPP Module 04 (OwO)",
-		"slug": "out-with-the-old-owo-cpp-module-04-owo"
-	},
-	{
 		"id": 1343,
 		"name": "CPP Module 05",
 		"slug": "cpp-module-05"
 	},
 	{
-		"id": 1779,
-		"name": "CPP Module 05 (OwO)",
-		"slug": "out-with-the-old-owo-cpp-module-05-owo"
-	},
-	{
 		"id": 1344,
 		"name": "CPP Module 06",
 		"slug": "cpp-module-06"
-	},
-	{
-		"id": 1780,
-		"name": "CPP Module 06 (OwO)",
-		"slug": "out-with-the-old-owo-cpp-module-06-owo"
 	},
 	{
 		"id": 1345,
@@ -2330,39 +195,9 @@
 		"slug": "cpp-module-09"
 	},
 	{
-		"id": 840,
-		"name": "Cretan Bull",
-		"slug": "hercules-cretan-bull"
-	},
-	{
-		"id": 991,
-		"name": "Crypto intro",
-		"slug": "algorithmic-puzzles-crypto-intro"
-	},
-	{
-		"id": 1207,
-		"name": "CS-Joy",
-		"slug": "cs-joy"
-	},
-	{
 		"id": 1326,
 		"name": "cub3d",
 		"slug": "cub3d"
-	},
-	{
-		"id": 2725,
-		"name": "cub3d",
-		"slug": "42cursus-cub3d"
-	},
-	{
-		"id": 902,
-		"name": "Curriculum Vitae",
-		"slug": "curriculum-vitae"
-	},
-	{
-		"id": 2217,
-		"name": "Cursus Eu Aceito Rio",
-		"slug": "cursus-eu-aceito-rio"
 	},
 	{
 		"id": 2346,
@@ -2390,59 +225,9 @@
 		"slug": "cybersecurity-inquisitor-network"
 	},
 	{
-		"id": 2540,
-		"name": "Cybersecurity - module 0x0",
-		"slug": "cybersecurity-module-0x0"
-	},
-	{
-		"id": 2541,
-		"name": "Cybersecurity - module 0x1",
-		"slug": "cybersecurity-module-0x1"
-	},
-	{
-		"id": 2542,
-		"name": "Cybersecurity - module 0x2",
-		"slug": "cybersecurity-module-0x2"
-	},
-	{
-		"id": 2543,
-		"name": "Cybersecurity - module 1x0 ",
-		"slug": "cybersecurity-module-1x0"
-	},
-	{
-		"id": 2544,
-		"name": "Cybersecurity - module 1x1",
-		"slug": "cybersecurity-module-1x1"
-	},
-	{
-		"id": 2545,
-		"name": "Cybersecurity - module 1x2",
-		"slug": "cybersecurity-module-1x2"
-	},
-	{
-		"id": 2546,
-		"name": "Cybersecurity - module 2x0 ",
-		"slug": "cybersecurity-module-2x0"
-	},
-	{
-		"id": 2547,
-		"name": "Cybersecurity - module 2x1",
-		"slug": "cybersecurity-module-2x1"
-	},
-	{
-		"id": 2548,
-		"name": "Cybersecurity - module 2x2",
-		"slug": "cybersecurity-module-2x2"
-	},
-	{
 		"id": 2336,
 		"name": "Cybersecurity - Reverse me - Rev",
 		"slug": "cybersecurity-reverse-me-rev"
-	},
-	{
-		"id": 2337,
-		"name": " Cybersecurity - Stockholm - Malware",
-		"slug": "cybersecurity-stockholm-malware"
 	},
 	{
 		"id": 2345,
@@ -2450,119 +235,9 @@
 		"slug": "cybersecurity-vaccine-web"
 	},
 	{
-		"id": 919,
-		"name": "D00",
-		"slug": "x-mansion-x-mansion-namido-d00"
-	},
-	{
-		"id": 1347,
-		"name": "D00 - HTML",
-		"slug": "d00-html"
-	},
-	{
-		"id": 89,
-		"name": "D00 - Shell",
-		"slug": "web-initiation-d00-shell"
-	},
-	{
-		"id": 920,
-		"name": "D01",
-		"slug": "x-mansion-x-mansion-namido-d01"
-	},
-	{
-		"id": 1348,
-		"name": "D01 - CSS",
-		"slug": "d01-css"
-	},
-	{
-		"id": 90,
-		"name": "D01 - HTML, CSS & JS",
-		"slug": "web-initiation-d01-html-css-js"
-	},
-	{
-		"id": 921,
-		"name": "D02",
-		"slug": "x-mansion-x-mansion-namido-d02"
-	},
-	{
-		"id": 1351,
-		"name": "D02 - CSS/JS",
-		"slug": "d02-css-js"
-	},
-	{
-		"id": 92,
-		"name": "D02 - Ratchet & Parse",
-		"slug": "web-initiation-d02-ratchet-parse"
-	},
-	{
-		"id": 922,
-		"name": "D03",
-		"slug": "x-mansion-x-mansion-namido-d03"
-	},
-	{
-		"id": 1349,
-		"name": "D03 - Javascript",
-		"slug": "d03-javascript"
-	},
-	{
-		"id": 923,
-		"name": "D04 Advanced",
-		"slug": "x-mansion-x-mansion-namido-d04-advanced"
-	},
-	{
-		"id": 1350,
-		"name": "D04 - Advanced Javascript",
-		"slug": "d04-advanced-javascript"
-	},
-	{
-		"id": 933,
-		"name": "D04 Basics",
-		"slug": "x-mansion-x-mansion-namido-d04-basics"
-	},
-	{
-		"id": 924,
-		"name": "D05",
-		"slug": "x-mansion-x-mansion-namido-d05"
-	},
-	{
-		"id": 925,
-		"name": "D06",
-		"slug": "x-mansion-x-mansion-namido-d06"
-	},
-	{
-		"id": 926,
-		"name": "D07",
-		"slug": "x-mansion-x-mansion-namido-d07"
-	},
-	{
-		"id": 927,
-		"name": "D08",
-		"slug": "x-mansion-x-mansion-namido-d08"
-	},
-	{
-		"id": 1198,
-		"name": "Dapp-init",
-		"slug": "dapp-init"
-	},
-	{
 		"id": 1405,
 		"name": "darkly",
 		"slug": "42cursus-darkly"
-	},
-	{
-		"id": 604,
-		"name": "Darkly",
-		"slug": "darkly"
-	},
-	{
-		"id": 1814,
-		"name": "darkly - web",
-		"slug": "darkly-web"
-	},
-	{
-		"id": 1191,
-		"name": "Data Mining",
-		"slug": "data-mining"
 	},
 	{
 		"id": 2306,
@@ -2590,9 +265,9 @@
 		"slug": "data-science-4"
 	},
 	{
-		"id": 1353,
-		"name": "Data Structures",
-		"slug": "data-structures"
+		"id": 2753,
+		"name": "datomic",
+		"slug": "42cursus-datomic"
 	},
 	{
 		"id": 2751,
@@ -2600,969 +275,9 @@
 		"slug": "datomic"
 	},
 	{
-		"id": 1800,
-		"name": "Day 00",
-		"slug": "piscine-java-day-00"
-	},
-	{
-		"id": 850,
-		"name": "Day 00",
-		"slug": "piscine-starfleet-day-00"
-	},
-	{
-		"id": 381,
-		"name": "Day 00",
-		"slug": "piscine-unity-day-00"
-	},
-	{
-		"id": 1787,
-		"name": "Day 00",
-		"slug": "piscine-python-data-science-day-00"
-	},
-	{
-		"id": 372,
-		"name": "Day 00",
-		"slug": "piscine-ocaml-day-00"
-	},
-	{
-		"id": 792,
-		"name": "Day 00",
-		"slug": "piscine-ruby-on-rails-day-00"
-	},
-	{
-		"id": 154,
-		"name": "Day 00",
-		"slug": "piscine-c-day-00"
-	},
-	{
-		"id": 746,
-		"name": "Day 00",
-		"slug": "piscine-python-django-day-00"
-	},
-	{
-		"id": 1148,
-		"name": "Day 00",
-		"slug": "piscine-php-symfony-day-00"
-	},
-	{
-		"id": 670,
-		"name": "Day 00",
-		"slug": "bootcamp-day-00"
-	},
-	{
-		"id": 743,
-		"name": "Day 00",
-		"slug": "piscine-swift-ios-day-00"
-	},
-	{
-		"id": 63,
-		"name": "Day 00",
-		"slug": "42-piscine-c-formation-piscine-cpp-day-00"
-	},
-	{
-		"id": 49,
-		"name": "Day 00",
-		"slug": "42-piscine-c-formation-piscine-php-day-00"
-	},
-	{
-		"id": 1676,
-		"name": "Day00 - HTML",
-		"slug": "day00-html"
-	},
-	{
-		"id": 507,
-		"name": "Day 00 - Shell",
-		"slug": "42partnerships-initiation-ruby-day-00-shell"
-	},
-	{
-		"id": 513,
-		"name": "Day 00 - Shell",
-		"slug": "42partnerships-initiation-web-day-00-shell"
-	},
-	{
-		"id": 50,
-		"name": "Day 01",
-		"slug": "42-piscine-c-formation-piscine-php-day-01"
-	},
-	{
-		"id": 852,
-		"name": "Day 01",
-		"slug": "piscine-starfleet-day-01"
-	},
-	{
-		"id": 1801,
-		"name": "Day 01",
-		"slug": "piscine-java-day-01"
-	},
-	{
-		"id": 1149,
-		"name": "Day 01",
-		"slug": "piscine-php-symfony-day-01"
-	},
-	{
-		"id": 793,
-		"name": "Day 01",
-		"slug": "piscine-ruby-on-rails-day-01"
-	},
-	{
-		"id": 1788,
-		"name": "Day 01",
-		"slug": "piscine-python-data-science-day-01"
-	},
-	{
-		"id": 374,
-		"name": "Day 01",
-		"slug": "piscine-ocaml-day-01"
-	},
-	{
-		"id": 382,
-		"name": "Day 01",
-		"slug": "piscine-unity-day-01"
-	},
-	{
-		"id": 744,
-		"name": "Day 01",
-		"slug": "piscine-swift-ios-day-01"
-	},
-	{
-		"id": 64,
-		"name": "Day 01",
-		"slug": "42-piscine-c-formation-piscine-cpp-day-01"
-	},
-	{
-		"id": 606,
-		"name": "Day 01",
-		"slug": "bootcamp-day-01"
-	},
-	{
-		"id": 155,
-		"name": "Day 01",
-		"slug": "piscine-c-day-01"
-	},
-	{
-		"id": 1677,
-		"name": "Day01 - CSS",
-		"slug": "day01-css"
-	},
-	{
-		"id": 520,
-		"name": "Day 01 - HTML & CSS",
-		"slug": "42partnerships-initiation-web-day-01-html-css"
-	},
-	{
-		"id": 508,
-		"name": "Day 01 - Ruby",
-		"slug": "42partnerships-initiation-ruby-day-01-ruby"
-	},
-	{
-		"id": 853,
-		"name": "Day 02",
-		"slug": "piscine-starfleet-day-02"
-	},
-	{
-		"id": 794,
-		"name": "Day 02",
-		"slug": "piscine-ruby-on-rails-day-02"
-	},
-	{
-		"id": 383,
-		"name": "Day 02",
-		"slug": "piscine-unity-day-02"
-	},
-	{
-		"id": 1150,
-		"name": "Day 02",
-		"slug": "piscine-php-symfony-day-02"
-	},
-	{
-		"id": 65,
-		"name": "Day 02",
-		"slug": "42-piscine-c-formation-piscine-cpp-day-02"
-	},
-	{
-		"id": 745,
-		"name": "Day 02",
-		"slug": "piscine-swift-ios-day-02"
-	},
-	{
-		"id": 1789,
-		"name": "Day 02",
-		"slug": "piscine-python-data-science-day-02"
-	},
-	{
-		"id": 608,
-		"name": "Day 02",
-		"slug": "bootcamp-day-02"
-	},
-	{
-		"id": 375,
-		"name": "Day 02",
-		"slug": "piscine-ocaml-day-02"
-	},
-	{
-		"id": 51,
-		"name": "Day 02",
-		"slug": "42-piscine-c-formation-piscine-php-day-02"
-	},
-	{
-		"id": 156,
-		"name": "Day 02",
-		"slug": "piscine-c-day-02"
-	},
-	{
-		"id": 1802,
-		"name": "Day 02",
-		"slug": "piscine-java-day-02"
-	},
-	{
-		"id": 1678,
-		"name": "Day02 - JS",
-		"slug": "day02-js"
-	},
-	{
-		"id": 521,
-		"name": "Day 02 - PHP",
-		"slug": "42partnerships-initiation-web-day-02-php"
-	},
-	{
-		"id": 509,
-		"name": "Day 02 - Ruby",
-		"slug": "42partnerships-initiation-ruby-day-02-ruby"
-	},
-	{
-		"id": 377,
-		"name": "Day 03",
-		"slug": "piscine-ocaml-day-03"
-	},
-	{
-		"id": 66,
-		"name": "Day 03",
-		"slug": "42-piscine-c-formation-piscine-cpp-day-03"
-	},
-	{
-		"id": 52,
-		"name": "Day 03",
-		"slug": "42-piscine-c-formation-piscine-php-day-03"
-	},
-	{
-		"id": 1151,
-		"name": "Day 03",
-		"slug": "piscine-php-symfony-day-03"
-	},
-	{
-		"id": 1790,
-		"name": "Day 03",
-		"slug": "piscine-python-data-science-day-03"
-	},
-	{
-		"id": 855,
-		"name": "Day 03",
-		"slug": "piscine-starfleet-day-03"
-	},
-	{
-		"id": 157,
-		"name": "Day 03",
-		"slug": "piscine-c-day-03"
-	},
-	{
-		"id": 732,
-		"name": "Day 03",
-		"slug": "piscine-python-django-day-03"
-	},
-	{
-		"id": 384,
-		"name": "Day 03",
-		"slug": "piscine-unity-day-03"
-	},
-	{
-		"id": 747,
-		"name": "Day 03",
-		"slug": "piscine-swift-ios-day-03"
-	},
-	{
-		"id": 795,
-		"name": "Day 03",
-		"slug": "piscine-ruby-on-rails-day-03"
-	},
-	{
-		"id": 672,
-		"name": "Day 03",
-		"slug": "bootcamp-day-03"
-	},
-	{
-		"id": 1803,
-		"name": "Day 03",
-		"slug": "piscine-java-day-03"
-	},
-	{
-		"id": 510,
-		"name": "Day 03 - Ruby",
-		"slug": "42partnerships-initiation-ruby-day-03-ruby"
-	},
-	{
-		"id": 53,
-		"name": "Day 04",
-		"slug": "42-piscine-c-formation-piscine-php-day-04"
-	},
-	{
-		"id": 379,
-		"name": "Day 04",
-		"slug": "piscine-ocaml-day-04"
-	},
-	{
-		"id": 796,
-		"name": "Day 04",
-		"slug": "piscine-ruby-on-rails-day-04"
-	},
-	{
-		"id": 385,
-		"name": "Day 04",
-		"slug": "piscine-unity-day-04"
-	},
-	{
-		"id": 616,
-		"name": "Day 04",
-		"slug": "bootcamp-day-04"
-	},
-	{
-		"id": 733,
-		"name": "Day 04",
-		"slug": "piscine-python-django-day-04"
-	},
-	{
-		"id": 859,
-		"name": "Day 04",
-		"slug": "piscine-starfleet-day-04"
-	},
-	{
-		"id": 67,
-		"name": "Day 04",
-		"slug": "42-piscine-c-formation-piscine-cpp-day-04"
-	},
-	{
-		"id": 158,
-		"name": "Day 04",
-		"slug": "piscine-c-day-04"
-	},
-	{
-		"id": 748,
-		"name": "Day 04",
-		"slug": "piscine-swift-ios-day-04"
-	},
-	{
-		"id": 1152,
-		"name": "Day 04",
-		"slug": "piscine-php-symfony-day-04"
-	},
-	{
-		"id": 1804,
-		"name": "Day 04",
-		"slug": "piscine-java-day-04"
-	},
-	{
-		"id": 1791,
-		"name": "Day 04",
-		"slug": "piscine-python-data-science-day-04"
-	},
-	{
-		"id": 159,
-		"name": "Day 05",
-		"slug": "piscine-c-day-05"
-	},
-	{
-		"id": 1154,
-		"name": "Day 05",
-		"slug": "piscine-php-symfony-day-05"
-	},
-	{
-		"id": 380,
-		"name": "Day 05",
-		"slug": "piscine-ocaml-day-05"
-	},
-	{
-		"id": 1792,
-		"name": "Day 05",
-		"slug": "piscine-python-data-science-day-05"
-	},
-	{
-		"id": 1805,
-		"name": "Day 05",
-		"slug": "piscine-java-day-05"
-	},
-	{
-		"id": 735,
-		"name": "Day 05",
-		"slug": "piscine-python-django-day-05"
-	},
-	{
-		"id": 70,
-		"name": "Day 05",
-		"slug": "42-piscine-c-formation-piscine-cpp-day-05"
-	},
-	{
-		"id": 1805,
-		"name": "Day 05",
-		"slug": "piscine-java-day-05"
-	},
-	{
-		"id": 735,
-		"name": "Day 05",
-		"slug": "piscine-python-django-day-05"
-	},
-	{
-		"id": 617,
-		"name": "Day 05",
-		"slug": "bootcamp-day-05"
-	},
-	{
-		"id": 70,
-		"name": "Day 05",
-		"slug": "42-piscine-c-formation-piscine-cpp-day-05"
-	},
-	{
-		"id": 798,
-		"name": "Day 05",
-		"slug": "piscine-ruby-on-rails-day-05"
-	},
-	{
-		"id": 380,
-		"name": "Day 05",
-		"slug": "piscine-ocaml-day-05"
-	},
-	{
-		"id": 71,
-		"name": "Day 06",
-		"slug": "42-piscine-c-formation-piscine-cpp-day-06"
-	},
-	{
-		"id": 736,
-		"name": "Day 06",
-		"slug": "piscine-python-django-day-06"
-	},
-	{
-		"id": 1793,
-		"name": "Day 06",
-		"slug": "piscine-python-data-science-day-06"
-	},
-	{
-		"id": 389,
-		"name": "Day 06",
-		"slug": "piscine-unity-day-06"
-	},
-	{
-		"id": 751,
-		"name": "Day 06",
-		"slug": "piscine-swift-ios-day-06"
-	},
-	{
-		"id": 863,
-		"name": "Day 06",
-		"slug": "piscine-starfleet-day-06"
-	},
-	{
-		"id": 55,
-		"name": "Day 06",
-		"slug": "42-piscine-c-formation-piscine-php-day-06"
-	},
-	{
-		"id": 395,
-		"name": "Day 06",
-		"slug": "piscine-ocaml-day-06"
-	},
-	{
-		"id": 1155,
-		"name": "Day 06",
-		"slug": "piscine-php-symfony-day-06"
-	},
-	{
-		"id": 160,
-		"name": "Day 06",
-		"slug": "piscine-c-day-06"
-	},
-	{
-		"id": 1806,
-		"name": "Day 06",
-		"slug": "piscine-java-day-06"
-	},
-	{
-		"id": 618,
-		"name": "Day 06",
-		"slug": "bootcamp-day-06"
-	},
-	{
-		"id": 799,
-		"name": "Day 06",
-		"slug": "piscine-ruby-on-rails-day-06"
-	},
-	{
-		"id": 737,
-		"name": "Day 07",
-		"slug": "piscine-python-django-day-07"
-	},
-	{
-		"id": 1807,
-		"name": "Day 07",
-		"slug": "piscine-java-day-07"
-	},
-	{
-		"id": 396,
-		"name": "Day 07",
-		"slug": "piscine-ocaml-day-07"
-	},
-	{
-		"id": 1794,
-		"name": "Day 07",
-		"slug": "piscine-python-data-science-day-07"
-	},
-	{
-		"id": 621,
-		"name": "Day 07",
-		"slug": "bootcamp-day-07"
-	},
-	{
-		"id": 752,
-		"name": "Day 07",
-		"slug": "piscine-swift-ios-day-07"
-	},
-	{
-		"id": 865,
-		"name": "Day 07",
-		"slug": "piscine-starfleet-day-07"
-	},
-	{
-		"id": 72,
-		"name": "Day 07",
-		"slug": "42-piscine-c-formation-piscine-cpp-day-07"
-	},
-	{
-		"id": 390,
-		"name": "Day 07",
-		"slug": "piscine-unity-day-07"
-	},
-	{
-		"id": 800,
-		"name": "Day 07",
-		"slug": "piscine-ruby-on-rails-day-07"
-	},
-	{
-		"id": 161,
-		"name": "Day 07",
-		"slug": "piscine-c-day-07"
-	},
-	{
-		"id": 56,
-		"name": "Day 07",
-		"slug": "42-piscine-c-formation-piscine-php-day-07"
-	},
-	{
-		"id": 1156,
-		"name": "Day 07",
-		"slug": "piscine-php-symfony-day-07"
-	},
-	{
-		"id": 1795,
-		"name": "Day 08",
-		"slug": "piscine-python-data-science-day-08"
-	},
-	{
-		"id": 620,
-		"name": "Day 08",
-		"slug": "bootcamp-day-08"
-	},
-	{
-		"id": 753,
-		"name": "Day 08",
-		"slug": "piscine-swift-ios-day-08"
-	},
-	{
-		"id": 801,
-		"name": "Day 08",
-		"slug": "piscine-ruby-on-rails-day-08"
-	},
-	{
-		"id": 162,
-		"name": "Day 08",
-		"slug": "piscine-c-day-08"
-	},
-	{
-		"id": 73,
-		"name": "Day 08",
-		"slug": "42-piscine-c-formation-piscine-cpp-day-08"
-	},
-	{
-		"id": 391,
-		"name": "Day 08",
-		"slug": "piscine-unity-day-08"
-	},
-	{
-		"id": 57,
-		"name": "Day 08",
-		"slug": "42-piscine-c-formation-piscine-php-day-08"
-	},
-	{
-		"id": 1157,
-		"name": "Day 08",
-		"slug": "piscine-php-symfony-day-08"
-	},
-	{
-		"id": 397,
-		"name": "Day 08",
-		"slug": "piscine-ocaml-day-08"
-	},
-	{
-		"id": 1808,
-		"name": "Day 08",
-		"slug": "piscine-java-day-08"
-	},
-	{
-		"id": 802,
-		"name": "Day 09",
-		"slug": "piscine-ruby-on-rails-day-09"
-	},
-	{
-		"id": 1809,
-		"name": "Day 09",
-		"slug": "piscine-java-day-09"
-	},
-	{
-		"id": 1158,
-		"name": "Day 09",
-		"slug": "piscine-php-symfony-day-09"
-	},
-	{
-		"id": 58,
-		"name": "Day 09",
-		"slug": "42-piscine-c-formation-piscine-php-day-09"
-	},
-	{
-		"id": 754,
-		"name": "Day 09",
-		"slug": "piscine-swift-ios-day-09"
-	},
-	{
-		"id": 398,
-		"name": "Day 09",
-		"slug": "piscine-ocaml-day-09"
-	},
-	{
-		"id": 401,
-		"name": "Day 09",
-		"slug": "piscine-unity-day-09"
-	},
-	{
-		"id": 1219,
-		"name": "Day 09",
-		"slug": "day-09"
-	},
-	{
-		"id": 633,
-		"name": "Day 09",
-		"slug": "bootcamp-day-09"
-	},
-	{
-		"id": 167,
-		"name": "Day 09",
-		"slug": "piscine-c-day-09"
-	},
-	{
-		"id": 1796,
-		"name": "Day 09",
-		"slug": "piscine-python-data-science-day-09"
-	},
-	{
-		"id": 626,
-		"name": "Day 10",
-		"slug": "bootcamp-day-10"
-	},
-	{
-		"id": 163,
-		"name": "Day 10",
-		"slug": "piscine-c-day-10"
-	},
-	{
-		"id": 625,
-		"name": "Day 11",
-		"slug": "bootcamp-day-11"
-	},
-	{
-		"id": 164,
-		"name": "Day 11",
-		"slug": "piscine-c-day-11"
-	},
-	{
-		"id": 627,
-		"name": "Day 12",
-		"slug": "bootcamp-day-12"
-	},
-	{
-		"id": 165,
-		"name": "Day 12",
-		"slug": "piscine-c-day-12"
-	},
-	{
-		"id": 628,
-		"name": "Day 13",
-		"slug": "bootcamp-day-13"
-	},
-	{
-		"id": 166,
-		"name": "Day 13",
-		"slug": "piscine-c-day-13"
-	},
-	{
 		"id": 1445,
 		"name": "death",
 		"slug": "42cursus-death"
-	},
-	{
-		"id": 908,
-		"name": "Death",
-		"slug": "death"
-	},
-	{
-		"id": 613,
-		"name": "Define your subject",
-		"slug": "open-project-ii-define-your-subject"
-	},
-	{
-		"id": 86,
-		"name": "Define your subject",
-		"slug": "open-project-i-define-your-subject"
-	},
-	{
-		"id": 1668,
-		"name": "[Deprecated]APCSP_00",
-		"slug": "deprecated-apcsp_00"
-	},
-	{
-		"id": 1766,
-		"name": "[DEPRECATED] CPP Module 00 (OwO)",
-		"slug": "deprecated-out-with-the-old-owo-deprecated-cpp-module-00-owo"
-	},
-	{
-		"id": 1775,
-		"name": "[DEPRECATED] CPP Module 01 (OwO)",
-		"slug": "deprecated-out-with-the-old-owo-deprecated-cpp-module-01-owo"
-	},
-	{
-		"id": 1781,
-		"name": "[DEPRECATED] CPP Module 07 (OwO)",
-		"slug": "deprecated-out-with-the-old-owo-deprecated-cpp-module-07-owo"
-	},
-	{
-		"id": 1767,
-		"name": "[DEPRECATED] CPP Module 08 (OwO)",
-		"slug": "deprecated-out-with-the-old-owo-deprecated-cpp-module-08-owo"
-	},
-	{
-		"id": 4,
-		"name": "[Deprecated]FdF",
-		"slug": "deprecated-fdf"
-	},
-	{
-		"id": 15,
-		"name": "[Deprecated]Fract'ol",
-		"slug": "deprecated-fract-ol"
-	},
-	{
-		"id": 1751,
-		"name": " [DEPRECATED] ft_transcendence (OwO)",
-		"slug": "deprecated-out-with-the-old-owo-deprecated-ft_transcendence-owo"
-	},
-	{
-		"id": 1685,
-		"name": "[DEPRECATED] Old-CPP Module 00",
-		"slug": "deprecated-old-cpp-module-00"
-	},
-	{
-		"id": 1686,
-		"name": "[DEPRECATED] Old-CPP Module 01",
-		"slug": "deprecated-old-cpp-module-01"
-	},
-	{
-		"id": 1687,
-		"name": "[DEPRECATED] Old-CPP Module 02",
-		"slug": "deprecated-old-cpp-module-02"
-	},
-	{
-		"id": 1688,
-		"name": "[DEPRECATED] Old-CPP Module 03",
-		"slug": "deprecated-old-cpp-module-03"
-	},
-	{
-		"id": 1689,
-		"name": "[DEPRECATED] Old-CPP Module 04",
-		"slug": "deprecated-old-cpp-module-04"
-	},
-	{
-		"id": 1690,
-		"name": "[DEPRECATED] Old-CPP Module 05",
-		"slug": "deprecated-old-cpp-module-05"
-	},
-	{
-		"id": 1691,
-		"name": "[DEPRECATED] Old-CPP Module 06",
-		"slug": "deprecated-old-cpp-module-06"
-	},
-	{
-		"id": 1692,
-		"name": "[DEPRECATED] Old-CPP Module 07",
-		"slug": "deprecated-old-cpp-module-07"
-	},
-	{
-		"id": 1693,
-		"name": "[DEPRECATED] Old-CPP Module 08",
-		"slug": "deprecated-old-cpp-module-08"
-	},
-	{
-		"id": 1748,
-		"name": "[DEPRECATED] Philosophers (OwO)",
-		"slug": "deprecated-out-with-the-old-owo-deprecated-philosophers-owo"
-	},
-	{
-		"id": 1749,
-		"name": "[DEPRECATED] webserv (OwO)",
-		"slug": "deprecated-out-with-the-old-owo-deprecated-webserv-owo"
-	},
-	{
-		"id": 2484,
-		"name": "Dirbato 00",
-		"slug": "dirbato-00"
-	},
-	{
-		"id": 2494,
-		"name": "Dirbato 01",
-		"slug": "dirbato-01"
-	},
-	{
-		"id": 2518,
-		"name": "dirbato-02",
-		"slug": "dirbato-02"
-	},
-	{
-		"id": 2519,
-		"name": "dirbato-03",
-		"slug": "dirbato-03"
-	},
-	{
-		"id": 2524,
-		"name": "dirbato-04",
-		"slug": "dirbato-04"
-	},
-	{
-		"id": 2526,
-		"name": "dirbato-04-reboot",
-		"slug": "dirbato-04-reboot"
-	},
-	{
-		"id": 2532,
-		"name": "dirbato-05",
-		"slug": "dirbato-05"
-	},
-	{
-		"id": 2536,
-		"name": "dirbato-06",
-		"slug": "dirbato-06"
-	},
-	{
-		"id": 2535,
-		"name": "dirbato-07",
-		"slug": "dirbato-07"
-	},
-	{
-		"id": 2537,
-		"name": "dirbato-08",
-		"slug": "dirbato-08"
-	},
-	{
-		"id": 2538,
-		"name": "dirbato-09",
-		"slug": "dirbato-09"
-	},
-	{
-		"id": 2539,
-		"name": "dirbato-10",
-		"slug": "dirbato-10"
-	},
-	{
-		"id": 2601,
-		"name": "disco-ai-module-0",
-		"slug": "disco-ai-module-0"
-	},
-	{
-		"id": 2602,
-		"name": "disco-ai-module-1",
-		"slug": "disco-ai-module-1"
-	},
-	{
-		"id": 2603,
-		"name": "disco-ai-module-2",
-		"slug": "disco-ai-module-2"
-	},
-	{
-		"id": 2604,
-		"name": "disco-ai-module-3",
-		"slug": "disco-ai-module-3"
-	},
-	{
-		"id": 2605,
-		"name": "disco-ai-module-Rush",
-		"slug": "disco-ai-module-rush"
-	},
-	{
-		"id": 2612,
-		"name": "Disco Piscine - Python - Module 0",
-		"slug": "disco-piscine-python-module-0"
-	},
-	{
-		"id": 2613,
-		"name": "Disco Piscine - Python - Module 1",
-		"slug": "disco-piscine-python-module-1"
-	},
-	{
-		"id": 2614,
-		"name": "Disco Piscine - Python - Module 2",
-		"slug": "disco-piscine-python-module-2"
-	},
-	{
-		"id": 2615,
-		"name": "Disco Piscine - Python - Module 3",
-		"slug": "disco-piscine-python-module-3"
-	},
-	{
-		"id": 2616,
-		"name": "Disco Piscine - Python - Module 4",
-		"slug": "disco-piscine-python-module-4"
-	},
-	{
-		"id": 2617,
-		"name": "Disco Piscine - Python - Module 5",
-		"slug": "disco-piscine-python-module-5"
-	},
-	{
-		"id": 2618,
-		"name": "Disco Piscine - Python - Module 6",
-		"slug": "disco-piscine-python-module-6"
-	},
-	{
-		"id": 2619,
-		"name": "Disco Piscine - Python - Module 7",
-		"slug": "disco-piscine-python-module-7"
-	},
-	{
-		"id": 2620,
-		"name": "Disco Piscine - Python - Module 8",
-		"slug": "disco-piscine-python-module-8"
-	},
-	{
-		"id": 2621,
-		"name": "Disco Piscine - Python - Module 9",
-		"slug": "disco-piscine-python-module-9"
-	},
-	{
-		"id": 1674,
-		"name": "Discovery-Pedagogy",
-		"slug": "discovery-pedagogy"
 	},
 	{
 		"id": 2190,
@@ -3610,39 +325,9 @@
 		"slug": "django-3-sessions"
 	},
 	{
-		"id": 847,
-		"name": "docker-1",
-		"slug": "docker-1"
-	},
-	{
-		"id": 685,
-		"name": "Domino",
-		"slug": "rushes-domino"
-	},
-	{
-		"id": 1853,
-		"name": "doom_nukem",
-		"slug": "doom_nukem"
-	},
-	{
 		"id": 1458,
 		"name": "doom-nukem",
 		"slug": "42cursus-doom-nukem"
-	},
-	{
-		"id": 1182,
-		"name": "Doom Nukem",
-		"slug": "doom-nukem"
-	},
-	{
-		"id": 1422,
-		"name": "drivers-and-interrupts",
-		"slug": "42cursus-drivers-and-interrupts"
-	},
-	{
-		"id": 710,
-		"name": "Drivers and Interrupts",
-		"slug": "drivers-and-interrupts"
 	},
 	{
 		"id": 1418,
@@ -3650,259 +335,14 @@
 		"slug": "42cursus-dr-quine"
 	},
 	{
-		"id": 700,
-		"name": "Dr Quine",
-		"slug": "dr-quine"
+		"id": 1422,
+		"name": "drivers-and-interrupts",
+		"slug": "42cursus-drivers-and-interrupts"
 	},
 	{
 		"id": 1453,
 		"name": "dslr",
 		"slug": "42cursus-dslr"
-	},
-	{
-		"id": 1081,
-		"name": "DSLR",
-		"slug": "dslr"
-	},
-	{
-		"id": 209,
-		"name": "Duration",
-		"slug": "final-internship-duration"
-	},
-	{
-		"id": 963,
-		"name": "Duration",
-		"slug": "joburg-first-internship-duration"
-	},
-	{
-		"id": 181,
-		"name": "Duration",
-		"slug": "part-time-duration"
-	},
-	{
-		"id": 2714,
-		"name": "Duration",
-		"slug": "apprenticeship-i-duration"
-	},
-	{
-		"id": 140,
-		"name": "Duration",
-		"slug": "first-internship-duration"
-	},
-	{
-		"id": 910,
-		"name": "Durex",
-		"slug": "durex"
-	},
-	{
-		"id": 411,
-		"name": "Electronics",
-		"slug": "electronics"
-	},
-	{
-		"id": 2665,
-		"name": "electronics - Design",
-		"slug": "electronics-design"
-	},
-	{
-		"id": 666,
-		"name": "Electronics Project",
-		"slug": "electronics-electronics-project"
-	},
-	{
-		"id": 1106,
-		"name": "Electronics Project - Level UP",
-		"slug": "electronics-electronics-project-level-up"
-	},
-	{
-		"id": 2664,
-		"name": "electronics - Prototyping",
-		"slug": "electronics-prototyping"
-	},
-	{
-		"id": 659,
-		"name": "Electronics Selection Test",
-		"slug": "electronics-electronics-selection-test"
-	},
-	{
-		"id": 1848,
-		"name": "Electronique",
-		"slug": "electronique"
-	},
-	{
-		"id": 1093,
-		"name": "Entrepreneurship final evaluation",
-		"slug": "startup-internship-entrepreneurship-final-evaluation"
-	},
-	{
-		"id": 1092,
-		"name": "Entrepreneurship mid evaluation",
-		"slug": "startup-internship-entrepreneurship-mid-evaluation"
-	},
-	{
-		"id": 837,
-		"name": "Erymanthian Boar",
-		"slug": "hercules-erymanthian-boar"
-	},
-	{
-		"id": 1480,
-		"name": "Eu aceito",
-		"slug": "eu-aceito"
-	},
-	{
-		"id": 2051,
-		"name": "Eu Aceito!",
-		"slug": "basecamp-warm-up-rio-eu-aceito"
-	},
-	{
-		"id": 2085,
-		"name": "Eu Aceito!!",
-		"slug": "basecamp-rio-eu-aceito"
-	},
-	{
-		"id": 2397,
-		"name": "Eu Aceito Lisboa",
-		"slug": "eu-aceito-lisboa"
-	},
-	{
-		"id": 2396,
-		"name": "Eu Aceito Porto",
-		"slug": "eu-aceito-porto"
-	},
-	{
-		"id": 630,
-		"name": "EvalExpr",
-		"slug": "bootcamp-evalexpr"
-	},
-	{
-		"id": 173,
-		"name": "EvalExpr",
-		"slug": "piscine-c-evalexpr"
-	},
-	{
-		"id": 498,
-		"name": "EvalExpr",
-		"slug": "piscine-c-a-distance-evalexpr"
-	},
-	{
-		"id": 2572,
-		"name": "Évaluation entreprise finale",
-		"slug": "fr-alternance-rncp7-1-an-evaluation-entreprise-finale"
-	},
-	{
-		"id": 2566,
-		"name": "Évaluation entreprise finale",
-		"slug": "fr-alternance-rncp6-1-an-evaluation-entreprise-finale"
-	},
-	{
-		"id": 2576,
-		"name": "Évaluation entreprise finale",
-		"slug": "fr-alternance-rncp7-2-ans-evaluation-entreprise-finale"
-	},
-	{
-		"id": 2570,
-		"name": "Évaluation entreprise finale",
-		"slug": "fr-alternance-rncp6-2-ans-evaluation-entreprise-finale"
-	},
-	{
-		"id": 2573,
-		"name": "Évaluation entreprise intermédiaire 1",
-		"slug": "fr-alternance-rncp7-2-ans-evaluation-entreprise-intermediaire-1"
-	},
-	{
-		"id": 2567,
-		"name": "Évaluation entreprise intermédiaire 1",
-		"slug": "fr-alternance-rncp6-2-ans-evaluation-entreprise-intermediaire-1"
-	},
-	{
-		"id": 2571,
-		"name": "Évaluation entreprise intermédiaire 1",
-		"slug": "fr-alternance-rncp7-1-an-evaluation-entreprise-intermediaire-1"
-	},
-	{
-		"id": 2565,
-		"name": "Évaluation entreprise intermédiaire 1",
-		"slug": "fr-alternance-rncp6-1-an-evaluation-entreprise-intermediaire-1"
-	},
-	{
-		"id": 2568,
-		"name": "Évaluation entreprise intermédiaire 2",
-		"slug": "fr-alternance-rncp6-2-ans-evaluation-entreprise-intermediaire-2"
-	},
-	{
-		"id": 2574,
-		"name": "Évaluation entreprise intermédiaire 2",
-		"slug": "fr-alternance-rncp7-2-ans-evaluation-entreprise-intermediaire-2"
-	},
-	{
-		"id": 2569,
-		"name": "Évaluation entreprise intermédiaire 3",
-		"slug": "fr-alternance-rncp6-2-ans-evaluation-entreprise-intermediaire-3"
-	},
-	{
-		"id": 2575,
-		"name": "Évaluation entreprise intermédiaire 3",
-		"slug": "fr-alternance-rncp7-2-ans-evaluation-entreprise-intermediaire-3"
-	},
-	{
-		"id": 2348,
-		"name": "[Event]April_2023",
-		"slug": "event-april_2023"
-	},
-	{
-		"id": 404,
-		"name": "Exam00",
-		"slug": "piscine-c-exam00"
-	},
-	{
-		"id": 851,
-		"name": "Exam 00",
-		"slug": "piscine-starfleet-exam-00"
-	},
-	{
-		"id": 405,
-		"name": "Exam01",
-		"slug": "piscine-c-exam01"
-	},
-	{
-		"id": 406,
-		"name": "Exam02",
-		"slug": "piscine-c-exam02"
-	},
-	{
-		"id": 857,
-		"name": "Exam 02",
-		"slug": "piscine-starfleet-exam-02"
-	},
-	{
-		"id": 860,
-		"name": "Exam 03",
-		"slug": "piscine-starfleet-exam-03"
-	},
-	{
-		"id": 867,
-		"name": "Exam 05",
-		"slug": "piscine-starfleet-exam-05"
-	},
-	{
-		"id": 668,
-		"name": "Exam06",
-		"slug": "piscine-c-formation-exam06"
-	},
-	{
-		"id": 2072,
-		"name": "Exam 42 Zip",
-		"slug": "exam-42-zip"
-	},
-	{
-		"id": 586,
-		"name": "Exam Final",
-		"slug": "piscine-c-formation-exam-final"
-	},
-	{
-		"id": 407,
-		"name": "Exam Final",
-		"slug": "piscine-c-exam-final"
 	},
 	{
 		"id": 1320,
@@ -3915,34 +355,9 @@
 		"slug": "42next-exam-rank-02"
 	},
 	{
-		"id": 1321,
-		"name": "Exam Rank 03",
-		"slug": "exam-rank-03"
-	},
-	{
-		"id": 2709,
-		"name": "Exam Rank 03",
-		"slug": "42next-exam-rank-03"
-	},
-	{
-		"id": 1322,
-		"name": "Exam Rank 04",
-		"slug": "exam-rank-04"
-	},
-	{
-		"id": 2710,
-		"name": "Exam Rank 04",
-		"slug": "42next-exam-rank-04"
-	},
-	{
 		"id": 1323,
 		"name": "Exam Rank 05",
 		"slug": "exam-rank-05"
-	},
-	{
-		"id": 2711,
-		"name": "Exam Rank 05",
-		"slug": "42next-exam-rank-05"
 	},
 	{
 		"id": 1324,
@@ -3950,64 +365,14 @@
 		"slug": "exam-rank-06"
 	},
 	{
-		"id": 2712,
-		"name": "Exam Rank 06",
-		"slug": "42next-exam-rank-06"
-	},
-	{
-		"id": 2238,
-		"name": "exam_test_42",
-		"slug": "exam_test_42"
-	},
-	{
-		"id": 2374,
-		"name": "exam_test_43",
-		"slug": "exam_test_43"
-	},
-	{
-		"id": 2556,
-		"name": "exam_test_44",
-		"slug": "exam_test_44"
-	},
-	{
-		"id": 2557,
-		"name": "exam_test_45",
-		"slug": "exam_test_45"
-	},
-	{
-		"id": 2558,
-		"name": "exam_test_46",
-		"slug": "exam_test_46"
-	},
-	{
 		"id": 1384,
 		"name": "expert-system",
 		"slug": "42cursus-expert-system"
 	},
 	{
-		"id": 98,
-		"name": "Expert System",
-		"slug": "expert-system"
-	},
-	{
-		"id": 2168,
-		"name": "extraction",
-		"slug": "extraction"
-	},
-	{
-		"id": 703,
-		"name": "Factrace",
-		"slug": "rushes-factrace"
-	},
-	{
 		"id": 1430,
 		"name": "famine",
 		"slug": "42cursus-famine"
-	},
-	{
-		"id": 820,
-		"name": "Famine",
-		"slug": "famine"
 	},
 	{
 		"id": 2008,
@@ -4020,56 +385,6 @@
 		"slug": "42cursus-filesystem"
 	},
 	{
-		"id": 711,
-		"name": "Filesystem",
-		"slug": "filesystem"
-	},
-	{
-		"id": 26,
-		"name": "Filler",
-		"slug": "filler"
-	},
-	{
-		"id": 540,
-		"name": "Fillit",
-		"slug": "fillit"
-	},
-	{
-		"id": 595,
-		"name": "Fillit",
-		"slug": "piscine-c-a-distance-fillit"
-	},
-	{
-		"id": 2717,
-		"name": "Final evaluation",
-		"slug": "apprenticeship-i-final-evaluation"
-	},
-	{
-		"id": 212,
-		"name": "Final Internship",
-		"slug": "final-internship"
-	},
-	{
-		"id": 975,
-		"name": "Final Jury",
-		"slug": "wethinkcode_-social-tech-lab-final-jury"
-	},
-	{
-		"id": 118,
-		"name": "First Internship",
-		"slug": "first-internship"
-	},
-	{
-		"id": 961,
-		"name": "First-Internship",
-		"slug": "wethinkcode_-first-internship"
-	},
-	{
-		"id": 872,
-		"name": "fix-me",
-		"slug": "fix-me"
-	},
-	{
 		"id": 1437,
 		"name": "fix-me",
 		"slug": "42cursus-fix-me"
@@ -4080,54 +395,9 @@
 		"slug": "fly-in"
 	},
 	{
-		"id": 1357,
-		"name": "Fractal",
-		"slug": "algorithmic-puzzles-fractal"
-	},
-	{
 		"id": 1476,
 		"name": "fract-ol",
 		"slug": "42cursus-fract-ol"
-	},
-	{
-		"id": 2561,
-		"name": "FR - Alternance - RNCP6 - 1 an",
-		"slug": "fr-alternance-rncp6-1-an"
-	},
-	{
-		"id": 2562,
-		"name": "FR - Alternance - RNCP6 - 2 ans",
-		"slug": "fr-alternance-rncp6-2-ans"
-	},
-	{
-		"id": 2563,
-		"name": "FR - Alternance - RNCP7 - 1 an",
-		"slug": "fr-alternance-rncp7-1-an"
-	},
-	{
-		"id": 2564,
-		"name": "FR - Alternance - RNCP7 - 2 ans",
-		"slug": "fr-alternance-rncp7-2-ans"
-	},
-	{
-		"id": 2338,
-		"name": "FR Apprentissage RNCP 6 - 1 an",
-		"slug": "fr-apprentissage-rncp-6-1-an"
-	},
-	{
-		"id": 2339,
-		"name": "FR Apprentissage RNCP 6 - 2 ans",
-		"slug": "fr-apprentissage-rncp-6-2-ans"
-	},
-	{
-		"id": 2340,
-		"name": "FR Apprentissage RNCP 7 - 1 an",
-		"slug": "fr-apprentissage-rncp-7-1-an"
-	},
-	{
-		"id": 2341,
-		"name": "FR Apprentissage RNCP 7 - 2 ans",
-		"slug": "fr-apprentissage-rncp-7-2-ans"
 	},
 	{
 		"id": 1883,
@@ -4135,84 +405,14 @@
 		"slug": "freddie-mercury"
 	},
 	{
-		"id": 1960,
-		"name": "Fried eggs",
-		"slug": "fried-eggs"
-	},
-	{
-		"id": 683,
-		"name": "Friends with Benefits",
-		"slug": "friends-with-benefits"
-	},
-	{
-		"id": 1025,
-		"name": "Frozen",
-		"slug": "rushes-frozen"
-	},
-	{
-		"id": 2114,
-		"name": "ft_abstract_vm",
-		"slug": "ft_abstract_vm"
-	},
-	{
-		"id": 665,
-		"name": "ft_ality",
-		"slug": "ft_ality"
-	},
-	{
 		"id": 1407,
 		"name": "ft_ality",
 		"slug": "42cursus-ft_ality"
 	},
 	{
-		"id": 2159,
-		"name": "ft_blockchain",
-		"slug": "ft_blockchain"
-	},
-	{
-		"id": 2046,
-		"name": "ft_communication",
-		"slug": "ft_communication"
-	},
-	{
-		"id": 2073,
-		"name": "ft_communication_v2",
-		"slug": "ft_communication_v2"
-	},
-	{
-		"id": 887,
-		"name": "ft_contrast",
-		"slug": "rushes-ft_contrast"
-	},
-	{
-		"id": 888,
-		"name": "ft_db",
-		"slug": "ft_db"
-	},
-	{
-		"id": 1023,
-		"name": "ft_debut",
-		"slug": "ft_debut"
-	},
-	{
 		"id": 1379,
 		"name": "ft_hangouts",
 		"slug": "42cursus-ft_hangouts"
-	},
-	{
-		"id": 409,
-		"name": "ft_hangouts",
-		"slug": "ft_hangouts"
-	},
-	{
-		"id": 2103,
-		"name": "ft_helpme",
-		"slug": "ft_helpme"
-	},
-	{
-		"id": 2560,
-		"name": "ft_IaC",
-		"slug": "ft_iac"
 	},
 	{
 		"id": 1336,
@@ -4225,11 +425,6 @@
 		"slug": "ft_kalman"
 	},
 	{
-		"id": 2380,
-		"name": "ft_lex",
-		"slug": "ft_lex"
-	},
-	{
 		"id": 2747,
 		"name": "ft_lgtm",
 		"slug": "ft_lgtm"
@@ -4240,29 +435,9 @@
 		"slug": "42cursus-ft_linear_regression"
 	},
 	{
-		"id": 414,
-		"name": "ft_linear_regression",
-		"slug": "ft_linear_regression"
-	},
-	{
 		"id": 1415,
 		"name": "ft_linux",
 		"slug": "42cursus-ft_linux"
-	},
-	{
-		"id": 695,
-		"name": "ft_linux",
-		"slug": "ft_linux"
-	},
-	{
-		"id": 2225,
-		"name": "Ftl_quantum",
-		"slug": "ftl_quantum"
-	},
-	{
-		"id": 3,
-		"name": "ft_ls",
-		"slug": "ft_ls"
 	},
 	{
 		"id": 1479,
@@ -4275,29 +450,9 @@
 		"slug": "ft_malcolm"
 	},
 	{
-		"id": 2117,
-		"name": "ft_malcolm_42",
-		"slug": "ft_malcolm_42"
-	},
-	{
-		"id": 2394,
-		"name": "ft_microservices",
-		"slug": "ft_microservices"
-	},
-	{
 		"id": 2126,
 		"name": "ft_minecraft",
 		"slug": "ft_minecraft"
-	},
-	{
-		"id": 1881,
-		"name": "ft_mini_ls",
-		"slug": "ft_mini_ls"
-	},
-	{
-		"id": 538,
-		"name": "ft_minirogue",
-		"slug": "rushes-ft_minirogue"
 	},
 	{
 		"id": 1962,
@@ -4305,44 +460,9 @@
 		"slug": "ft_newton"
 	},
 	{
-		"id": 2113,
-		"name": "ft_newton42",
-		"slug": "ft_newton42"
-	},
-	{
 		"id": 1400,
 		"name": "ft_nmap",
 		"slug": "42cursus-ft_nmap"
-	},
-	{
-		"id": 593,
-		"name": "ft_nmap",
-		"slug": "ft_nmap"
-	},
-	{
-		"id": 2162,
-		"name": "ft_onion",
-		"slug": "ft_onion"
-	},
-	{
-		"id": 2163,
-		"name": "ft_otp",
-		"slug": "ft_otp"
-	},
-	{
-		"id": 40,
-		"name": "ft_p",
-		"slug": "ft_p"
-	},
-	{
-		"id": 1163,
-		"name": "ft_pastebin",
-		"slug": "rushes-ft_pastebin"
-	},
-	{
-		"id": 539,
-		"name": "ft_ping",
-		"slug": "ft_ping"
 	},
 	{
 		"id": 1397,
@@ -4355,46 +475,6 @@
 		"slug": "42cursus-ft_printf"
 	},
 	{
-		"id": 5,
-		"name": "ft_printf",
-		"slug": "ft_printf"
-	},
-	{
-		"id": 1466,
-		"name": "ft_script",
-		"slug": "42cursus-ft_script"
-	},
-	{
-		"id": 38,
-		"name": "ft_script",
-		"slug": "ft_script"
-	},
-	{
-		"id": 1469,
-		"name": "ft_select",
-		"slug": "42cursus-ft_select"
-	},
-	{
-		"id": 33,
-		"name": "ft_select",
-		"slug": "ft_select"
-	},
-	{
-		"id": 2088,
-		"name": "ft_self-analysis",
-		"slug": "ft_self-analysis"
-	},
-	{
-		"id": 31,
-		"name": "ft_sh2",
-		"slug": "ft_sh2"
-	},
-	{
-		"id": 34,
-		"name": "ft_sh3",
-		"slug": "ft_sh3"
-	},
-	{
 		"id": 1447,
 		"name": "ft_shield",
 		"slug": "42cursus-ft_shield"
@@ -4405,24 +485,9 @@
 		"slug": "rushes-ft_shmup"
 	},
 	{
-		"id": 1165,
-		"name": "ft_sommelier",
-		"slug": "ft_sommelier"
-	},
-	{
 		"id": 1452,
 		"name": "ft_ssl_des",
 		"slug": "42cursus-ft_ssl_des"
-	},
-	{
-		"id": 985,
-		"name": "ft_ssl_des",
-		"slug": "ft_ssl_des"
-	},
-	{
-		"id": 2112,
-		"name": "ft_ssl_md5",
-		"slug": "ft_ssl_md5"
 	},
 	{
 		"id": 1451,
@@ -4435,21 +500,6 @@
 		"slug": "42cursus-ft_ssl_rsa"
 	},
 	{
-		"id": 983,
-		"name": "ft_ssl_rsa",
-		"slug": "ft_ssl_rsa"
-	},
-	{
-		"id": 1112,
-		"name": "ft_tar",
-		"slug": "rushes-ft_tar"
-	},
-	{
-		"id": 548,
-		"name": "ft_traceroute",
-		"slug": "ft_traceroute"
-	},
-	{
 		"id": 1399,
 		"name": "ft_traceroute",
 		"slug": "42cursus-ft_traceroute"
@@ -4458,11 +508,6 @@
 		"id": 1337,
 		"name": "ft_transcendence",
 		"slug": "ft_transcendence"
-	},
-	{
-		"id": 601,
-		"name": "ft_turing",
-		"slug": "ft_turing"
 	},
 	{
 		"id": 1403,
@@ -4475,159 +520,9 @@
 		"slug": "42cursus-ft_vox"
 	},
 	{
-		"id": 978,
-		"name": "ft_vox",
-		"slug": "ft_vox"
-	},
-	{
-		"id": 2381,
-		"name": "ft_yacc",
-		"slug": "ft_yacc"
-	},
-	{
-		"id": 977,
-		"name": "ft_zenko",
-		"slug": "ft_zenko"
-	},
-	{
-		"id": 2347,
-		"name": "fwa",
-		"slug": "42cursus-fwa"
-	},
-	{
-		"id": 1945,
-		"name": "FWA",
-		"slug": "fwa"
-	},
-	{
-		"id": 2178,
-		"name": "Game of Life",
-		"slug": "rushes-game-of-life"
-	},
-	{
-		"id": 1359,
-		"name": "Game Of Life",
-		"slug": "algorithmic-puzzles-game-of-life"
-	},
-	{
-		"id": 1306,
-		"name": "Genesis B",
-		"slug": "genesis-b"
-	},
-	{
-		"id": 1892,
-		"name": "Germany Basecamp C 00",
-		"slug": "germany-basecamp-c-00"
-	},
-	{
-		"id": 1893,
-		"name": "Germany Basecamp C 01",
-		"slug": "germany-basecamp-c-01"
-	},
-	{
-		"id": 1894,
-		"name": "Germany Basecamp C 02",
-		"slug": "germany-basecamp-c-02"
-	},
-	{
-		"id": 1895,
-		"name": "Germany Basecamp C 03",
-		"slug": "germany-basecamp-c-03"
-	},
-	{
-		"id": 1896,
-		"name": "Germany Basecamp C 04",
-		"slug": "germany-basecamp-c-04"
-	},
-	{
-		"id": 1897,
-		"name": "Germany Basecamp C 05",
-		"slug": "germany-basecamp-c-05"
-	},
-	{
-		"id": 1898,
-		"name": "Germany Basecamp C 06",
-		"slug": "germany-basecamp-c-06"
-	},
-	{
-		"id": 1899,
-		"name": "Germany Basecamp C 07",
-		"slug": "germany-basecamp-c-07"
-	},
-	{
-		"id": 1900,
-		"name": "Germany Basecamp C 08",
-		"slug": "germany-basecamp-c-08"
-	},
-	{
-		"id": 1901,
-		"name": "Germany Basecamp C 09",
-		"slug": "germany-basecamp-c-09"
-	},
-	{
-		"id": 1903,
-		"name": "Germany Basecamp C 10",
-		"slug": "germany-basecamp-c-10"
-	},
-	{
-		"id": 1904,
-		"name": "Germany Basecamp C 11",
-		"slug": "germany-basecamp-c-11"
-	},
-	{
-		"id": 1905,
-		"name": "Germany Basecamp C 12",
-		"slug": "germany-basecamp-c-12"
-	},
-	{
-		"id": 1906,
-		"name": "Germany Basecamp C 13",
-		"slug": "germany-basecamp-c-13"
-	},
-	{
-		"id": 1909,
-		"name": "Germany Basecamp Exam 00",
-		"slug": "germany-basecamp-exam-00"
-	},
-	{
-		"id": 1910,
-		"name": "Germany Basecamp Exam 01",
-		"slug": "germany-basecamp-exam-01"
-	},
-	{
-		"id": 1911,
-		"name": "Germany Basecamp Final Exam",
-		"slug": "germany-basecamp-final-exam"
-	},
-	{
-		"id": 2082,
-		"name": "Germany Basecamp I Accept",
-		"slug": "germany-basecamp-i-accept"
-	},
-	{
-		"id": 1889,
-		"name": "Germany Basecamp I Accept (OLD)",
-		"slug": "germany-basecamp-i-accept-old"
-	},
-	{
-		"id": 1907,
-		"name": "Germany Basecamp Rush 00",
-		"slug": "germany-basecamp-rush-00"
-	},
-	{
-		"id": 1908,
-		"name": "Germany Basecamp Rush 01",
-		"slug": "germany-basecamp-rush-01"
-	},
-	{
-		"id": 1890,
-		"name": "Germany Basecamp Shell 00",
-		"slug": "germany-basecamp-germany-basecamp-shell-00"
-	},
-	{
-		"id": 1891,
-		"name": "Germany Basecamp Shell 01",
-		"slug": "germany-basecamp-shell-01"
+		"id": 2225,
+		"name": "Ftl_quantum",
+		"slug": "ftl_quantum"
 	},
 	{
 		"id": 1327,
@@ -4635,124 +530,9 @@
 		"slug": "42cursus-get_next_line"
 	},
 	{
-		"id": 2,
-		"name": "GET_Next_Line",
-		"slug": "get_next_line"
-	},
-	{
-		"id": 842,
-		"name": "Girdle of Hippolyta",
-		"slug": "hercules-girdle-of-hippolyta"
-	},
-	{
-		"id": 1240,
-		"name": "Go 00",
-		"slug": "go-programming-go-00"
-	},
-	{
 		"id": 1383,
 		"name": "gomoku",
 		"slug": "42cursus-gomoku"
-	},
-	{
-		"id": 107,
-		"name": "Gomoku",
-		"slug": "gomoku"
-	},
-	{
-		"id": 2135,
-		"name": "Go Piscine Go 00",
-		"slug": "go-piscine-go-00"
-	},
-	{
-		"id": 1986,
-		"name": "Go Piscine Go 00 Advanced",
-		"slug": "go-piscine-go-00-advanced"
-	},
-	{
-		"id": 2137,
-		"name": "Go Piscine Go 01",
-		"slug": "go-piscine-go-01"
-	},
-	{
-		"id": 2138,
-		"name": "Go Piscine Go 02",
-		"slug": "go-piscine-go-02"
-	},
-	{
-		"id": 2139,
-		"name": "Go Piscine Go 03",
-		"slug": "go-piscine-go-03"
-	},
-	{
-		"id": 2140,
-		"name": "Go Piscine Go 04",
-		"slug": "go-piscine-go-04"
-	},
-	{
-		"id": 2141,
-		"name": "Go Piscine Go 05",
-		"slug": "go-piscine-go-05"
-	},
-	{
-		"id": 2142,
-		"name": "Go Piscine Go 06",
-		"slug": "go-piscine-go-06"
-	},
-	{
-		"id": 2143,
-		"name": "Go Piscine Go 07",
-		"slug": "go-piscine-go-07"
-	},
-	{
-		"id": 2144,
-		"name": "Go Piscine Go 08",
-		"slug": "go-piscine-go-08"
-	},
-	{
-		"id": 2145,
-		"name": "Go Piscine Go 09",
-		"slug": "go-piscine-go-09"
-	},
-	{
-		"id": 2146,
-		"name": "Go Piscine Go 10",
-		"slug": "go-piscine-go-10"
-	},
-	{
-		"id": 2151,
-		"name": "Go Piscine Go BSQ",
-		"slug": "go-piscine-go-bsq"
-	},
-	{
-		"id": 2148,
-		"name": "Go Piscine Rush 00",
-		"slug": "go-piscine-rush-00"
-	},
-	{
-		"id": 2149,
-		"name": "Go Piscine Rush 01",
-		"slug": "go-piscine-rush-01"
-	},
-	{
-		"id": 2150,
-		"name": "Go Piscine Rush 02",
-		"slug": "go-piscine-rush-02"
-	},
-	{
-		"id": 1239,
-		"name": "Go Programming",
-		"slug": "go-programming"
-	},
-	{
-		"id": 948,
-		"name": "greenlight",
-		"slug": "greenlight"
-	},
-	{
-		"id": 1058,
-		"name": "Grimly",
-		"slug": "grimly"
 	},
 	{
 		"id": 1455,
@@ -4760,274 +540,9 @@
 		"slug": "42cursus-guimp"
 	},
 	{
-		"id": 1117,
-		"name": "GUImp",
-		"slug": "guimp"
-	},
-	{
-		"id": 1113,
-		"name": "H2S Mentorship - Project Auditing",
-		"slug": "h2s-mentorship-project-auditing"
-	},
-	{
-		"id": 1111,
-		"name": "H2S Project Authorship - T1",
-		"slug": "h2s-project-authorship-t1"
-	},
-	{
-		"id": 1080,
-		"name": "H2S Project Authorship - T2",
-		"slug": "h2s-project-authorship-t2"
-	},
-	{
-		"id": 1189,
-		"name": "H2S Project Editor T1",
-		"slug": "h2s-project-editor-t1"
-	},
-	{
-		"id": 1285,
-		"name": "H2S Project Editor T2",
-		"slug": "h2s-project-editor-t2"
-	},
-	{
 		"id": 1429,
 		"name": "h42n42",
 		"slug": "42cursus-h42n42"
-	},
-	{
-		"id": 819,
-		"name": "H42N42",
-		"slug": "h42n42"
-	},
-	{
-		"id": 1183,
-		"name": "Hackathon Born2Hack",
-		"slug": "hackathon-born2hack"
-	},
-	{
-		"id": 1118,
-		"name": "HackerRank University CodeSprint 4",
-		"slug": "hackerrank-university-codesprint-4"
-	},
-	{
-		"id": 1237,
-		"name": "HackHighSchool Mentorship Program",
-		"slug": "hackhighschool-mentorship-program"
-	},
-	{
-		"id": 1109,
-		"name": "Hack Your Own Adventure",
-		"slug": "hack-your-own-adventure"
-	},
-	{
-		"id": 942,
-		"name": "harassment_policy",
-		"slug": "42-piscine-c-harassment_policy"
-	},
-	{
-		"id": 1882,
-		"name": "hello_node",
-		"slug": "hello_node"
-	},
-	{
-		"id": 1884,
-		"name": "hello_vue",
-		"slug": "hello_vue"
-	},
-	{
-		"id": 833,
-		"name": "Hercules",
-		"slug": "hercules"
-	},
-	{
-		"id": 1992,
-		"name": "Hive Basecamp - BSQ",
-		"slug": "hive-basecamp-bsq"
-	},
-	{
-		"id": 1964,
-		"name": "Hive Basecamp - Day 00",
-		"slug": "hive-basecamp-day-00"
-	},
-	{
-		"id": 1965,
-		"name": "Hive Basecamp - Day 01",
-		"slug": "hive-basecamp-day-01"
-	},
-	{
-		"id": 1966,
-		"name": "Hive Basecamp - Day 02",
-		"slug": "hive-basecamp-day-02"
-	},
-	{
-		"id": 1967,
-		"name": "Hive Basecamp - Day 03",
-		"slug": "hive-basecamp-day-03"
-	},
-	{
-		"id": 1968,
-		"name": "Hive Basecamp - Day 04",
-		"slug": "hive-basecamp-day-04"
-	},
-	{
-		"id": 1969,
-		"name": "Hive Basecamp - Day 05",
-		"slug": "hive-basecamp-day-05"
-	},
-	{
-		"id": 1970,
-		"name": "Hive Basecamp - Day 06",
-		"slug": "hive-basecamp-day-06"
-	},
-	{
-		"id": 1971,
-		"name": "Hive Basecamp - Day 07",
-		"slug": "hive-basecamp-day-07"
-	},
-	{
-		"id": 1972,
-		"name": "Hive Basecamp - Day 08",
-		"slug": "hive-basecamp-day-08"
-	},
-	{
-		"id": 1973,
-		"name": "Hive Basecamp - Day 10",
-		"slug": "hive-basecamp-day-10"
-	},
-	{
-		"id": 1974,
-		"name": "Hive Basecamp - Day 11",
-		"slug": "hive-basecamp-day-11"
-	},
-	{
-		"id": 1988,
-		"name": "Hive Basecamp - Day 12",
-		"slug": "hive-basecamp-day-12"
-	},
-	{
-		"id": 1987,
-		"name": "Hive Basecamp - Day 13",
-		"slug": "hive-basecamp-day-13"
-	},
-	{
-		"id": 1990,
-		"name": "Hive Basecamp - EvalExpr",
-		"slug": "hive-basecamp-evalexpr"
-	},
-	{
-		"id": 1975,
-		"name": "Hive Basecamp - Exam 00",
-		"slug": "hive-basecamp-exam-00"
-	},
-	{
-		"id": 1976,
-		"name": "Hive Basecamp - Exam 01",
-		"slug": "hive-basecamp-exam-01"
-	},
-	{
-		"id": 1989,
-		"name": "Hive Basecamp - Exam 02",
-		"slug": "hive-basecamp-exam-02"
-	},
-	{
-		"id": 1977,
-		"name": "Hive Basecamp - Final exam",
-		"slug": "hive-basecamp-final-exam"
-	},
-	{
-		"id": 1981,
-		"name": "Hive Basecamp - Match-N-Match",
-		"slug": "hive-basecamp-match-n-match"
-	},
-	{
-		"id": 1978,
-		"name": "Hive Basecamp - Rush 00",
-		"slug": "hive-basecamp-rush-00"
-	},
-	{
-		"id": 1979,
-		"name": "Hive Basecamp - Rush 01",
-		"slug": "hive-basecamp-rush-01"
-	},
-	{
-		"id": 1991,
-		"name": "Hive Basecamp - Rush 02",
-		"slug": "hive-basecamp-rush-02"
-	},
-	{
-		"id": 1980,
-		"name": "Hive Basecamp - Sastantua",
-		"slug": "hive-basecamp-sastantua"
-	},
-	{
-		"id": 2239,
-		"name": "Hive Internship",
-		"slug": "hive-internship"
-	},
-	{
-		"id": 2243,
-		"name": "Hive Internship - Company final evaluation",
-		"slug": "hive-internship-hive-internship-company-final-evaluation"
-	},
-	{
-		"id": 2242,
-		"name": "Hive Internship - Company mid evaluation",
-		"slug": "hive-internship-hive-internship-company-mid-evaluation"
-	},
-	{
-		"id": 2240,
-		"name": "Hive Internship - Contract Upload",
-		"slug": "hive-internship-hive-internship-contract-upload"
-	},
-	{
-		"id": 2241,
-		"name": "Hive Internship - Duration",
-		"slug": "hive-internship-hive-internship-duration"
-	},
-	{
-		"id": 2244,
-		"name": "Hive Internship - Peer video",
-		"slug": "hive-internship-hive-internship-peer-video"
-	},
-	{
-		"id": 2245,
-		"name": "Hive Startup Internship",
-		"slug": "hive-startup-internship"
-	},
-	{
-		"id": 2246,
-		"name": "Hive Startup Internship - Contract Upload",
-		"slug": "hive-startup-internship-hive-startup-internship-contract-upload"
-	},
-	{
-		"id": 2247,
-		"name": "Hive Startup Internship - Duration",
-		"slug": "hive-startup-internship-hive-startup-internship-duration"
-	},
-	{
-		"id": 2249,
-		"name": "Hive Startup Internship - Entrepreneurship final evaluation",
-		"slug": "hive-startup-internship-hive-startup-internship-entrepreneurship-final-evaluation"
-	},
-	{
-		"id": 2248,
-		"name": "Hive Startup Internship - Entrepreneurship mid evaluation",
-		"slug": "hive-startup-internship-hive-startup-internship-entrepreneurship-mid-evaluation"
-	},
-	{
-		"id": 2250,
-		"name": "Hive Startup Internship - Peer Video",
-		"slug": "hive-startup-internship-hive-startup-internship-peer-video"
-	},
-	{
-		"id": 1298,
-		"name": "Hosting on Heroku",
-		"slug": "api-s-with-node-js-hosting-on-heroku"
-	},
-	{
-		"id": 25,
-		"name": "Hotrace",
-		"slug": "rushes-c-hotrace"
 	},
 	{
 		"id": 2070,
@@ -5040,39 +555,14 @@
 		"slug": "42cursus-humangl"
 	},
 	{
-		"id": 535,
-		"name": "HumanGL",
-		"slug": "humangl"
-	},
-	{
 		"id": 1402,
 		"name": "hypertube",
 		"slug": "42cursus-hypertube"
 	},
 	{
-		"id": 597,
-		"name": "Hypertube",
-		"slug": "hypertube"
-	},
-	{
-		"id": 2177,
-		"name": "I accept",
-		"slug": "i-accept"
-	},
-	{
-		"id": 1712,
-		"name": "IBM Machine Learning 00",
-		"slug": "machine-learning-ibm-machine-learning-00"
-	},
-	{
-		"id": 1713,
-		"name": "IBM Machine Learning 01",
-		"slug": "machine-learning-ibm-machine-learning-01"
-	},
-	{
-		"id": 971,
-		"name": "Idea Pitch",
-		"slug": "wethinkcode_-social-tech-lab-idea-pitch"
+		"id": 1409,
+		"name": "in-the-shadows",
+		"slug": "42cursus-in-the-shadows"
 	},
 	{
 		"id": 1983,
@@ -5085,449 +575,14 @@
 		"slug": "inception-of-context"
 	},
 	{
-		"id": 2064,
-		"name": "Inception-of-Things",
-		"slug": "inception-of-things"
-	},
-	{
 		"id": 2750,
 		"name": "Inception of wisdom",
 		"slug": "inception-of-wisdom"
 	},
 	{
-		"id": 687,
-		"name": "init",
-		"slug": "init"
-	},
-	{
-		"id": 506,
-		"name": "Initiation Ruby",
-		"slug": "42partnerships-initiation-ruby"
-	},
-	{
-		"id": 519,
-		"name": "Initiation Web",
-		"slug": "42partnerships-initiation-web"
-	},
-	{
-		"id": 2164,
-		"name": "inquisitor",
-		"slug": "inquisitor"
-	},
-	{
-		"id": 1104,
-		"name": "Internet Simulator: Binary Encodings",
-		"slug": "apcsp-internet-simulator-internet-simulator-binary-encodings"
-	},
-	{
-		"id": 1105,
-		"name": "Internet Simulator: Network Architecture",
-		"slug": "apcsp-internet-simulator-internet-simulator-network-architecture"
-	},
-	{
-		"id": 1409,
-		"name": "in-the-shadows",
-		"slug": "42cursus-in-the-shadows"
-	},
-	{
-		"id": 678,
-		"name": "In the Shadows",
-		"slug": "in-the-shadows"
-	},
-	{
-		"id": 903,
-		"name": "Intra API Interview",
-		"slug": "technical-interview-intra-api-interview"
-	},
-	{
-		"id": 2640,
-		"name": "intra_test2",
-		"slug": "intra_test2"
-	},
-	{
-		"id": 18,
-		"name": "Introduction to iOS",
-		"slug": "rushes-introduction-to-ios"
-	},
-	{
-		"id": 14,
-		"name": "Introduction to Wordpress",
-		"slug": "rushes-introduction-to-wordpress"
-	},
-	{
-		"id": 1354,
-		"name": "Intro to OOP",
-		"slug": "pygame-intro-to-oop"
-	},
-	{
-		"id": 1733,
-		"name": "IoTApp",
-		"slug": "iotapp"
-	},
-	{
-		"id": 2650,
-		"name": "IPA-Module-1",
-		"slug": "ipa-module-1"
-	},
-	{
-		"id": 2651,
-		"name": "IPA-Module-2",
-		"slug": "ipa-module-2"
-	},
-	{
-		"id": 2653,
-		"name": "IPA-Module-3",
-		"slug": "ipa-module-3"
-	},
-	{
-		"id": 2654,
-		"name": "IPA-Module-4",
-		"slug": "ipa-module-4"
-	},
-	{
-		"id": 2652,
-		"name": "IPA-Module-5",
-		"slug": "ipa-module-5"
-	},
-	{
-		"id": 2655,
-		"name": "IPA-Rush-1",
-		"slug": "ipa-rush-1"
-	},
-	{
-		"id": 2656,
-		"name": "ipcloud-module1",
-		"slug": "ipcloud-module1"
-	},
-	{
-		"id": 2661,
-		"name": "IPCloud-Module2",
-		"slug": "ipcloud-module2"
-	},
-	{
-		"id": 2658,
-		"name": "ipcloud-module3",
-		"slug": "ipcloud-module3"
-	},
-	{
-		"id": 2659,
-		"name": "ipcloud-module4",
-		"slug": "ipcloud-module4"
-	},
-	{
-		"id": 2660,
-		"name": "ipcloud-module5",
-		"slug": "ipcloud-module5"
-	},
-	{
-		"id": 2642,
-		"name": "IPC-Module1",
-		"slug": "ipc-module1"
-	},
-	{
-		"id": 2643,
-		"name": "IPC-Module2",
-		"slug": "ipc-module2"
-	},
-	{
-		"id": 2644,
-		"name": "IPC-Module3",
-		"slug": "ipc-module3"
-	},
-	{
-		"id": 2645,
-		"name": "IPC-Module4",
-		"slug": "ipc-module4"
-	},
-	{
-		"id": 2646,
-		"name": "IPC-Module5",
-		"slug": "ipc-module5"
-	},
-	{
-		"id": 2647,
-		"name": "IPC-Module6",
-		"slug": "ipc-module6"
-	},
-	{
-		"id": 2648,
-		"name": "IPC-Rush1",
-		"slug": "ipc-rush1"
-	},
-	{
-		"id": 2649,
-		"name": "IPC-Rush2",
-		"slug": "ipc-rush2"
-	},
-	{
-		"id": 41,
-		"name": "IRC",
-		"slug": "irc"
-	},
-	{
-		"id": 2167,
-		"name": "iron_dome",
-		"slug": "iron_dome"
-	},
-	{
-		"id": 1208,
-		"name": "Java",
-		"slug": "java"
-	},
-	{
-		"id": 2411,
-		"name": "Java day-00",
-		"slug": "java-day-00"
-	},
-	{
-		"id": 2412,
-		"name": "Java day-01",
-		"slug": "java-day-01"
-	},
-	{
-		"id": 2413,
-		"name": "Java day-02",
-		"slug": "java-day-02"
-	},
-	{
-		"id": 2414,
-		"name": "Java day-03",
-		"slug": "java-day-03"
-	},
-	{
-		"id": 2415,
-		"name": "Java day-04",
-		"slug": "java-day-04"
-	},
-	{
-		"id": 2416,
-		"name": "Java day-05",
-		"slug": "java-day-05"
-	},
-	{
-		"id": 2417,
-		"name": "Java day-06",
-		"slug": "java-day-06"
-	},
-	{
-		"id": 2418,
-		"name": "Java day-07",
-		"slug": "java-day-07"
-	},
-	{
-		"id": 2419,
-		"name": "Java day-08",
-		"slug": "java-day-08"
-	},
-	{
-		"id": 2420,
-		"name": "Java day-09",
-		"slug": "java-day-09"
-	},
-	{
-		"id": 2320,
-		"name": "Java Module 00",
-		"slug": "java-module-00"
-	},
-	{
-		"id": 2321,
-		"name": "Java Module 01",
-		"slug": "java-module-01"
-	},
-	{
-		"id": 2322,
-		"name": "Java Module 02",
-		"slug": "java-module-02"
-	},
-	{
-		"id": 2329,
-		"name": "Java Module 03",
-		"slug": "java-module-03"
-	},
-	{
-		"id": 2330,
-		"name": "Java Module 04",
-		"slug": "java-module-04"
-	},
-	{
-		"id": 2331,
-		"name": "Java Module 05",
-		"slug": "java-module-05"
-	},
-	{
-		"id": 2332,
-		"name": "Java Module 06",
-		"slug": "java-module-06"
-	},
-	{
-		"id": 2333,
-		"name": "Java Module 07",
-		"slug": "java-module-07"
-	},
-	{
-		"id": 2334,
-		"name": "Java Module 08",
-		"slug": "java-module-08"
-	},
-	{
-		"id": 2335,
-		"name": "Java Module 09",
-		"slug": "java-module-09"
-	},
-	{
-		"id": 2421,
-		"name": "Java Rush-00",
-		"slug": "java-rush-00"
-	},
-	{
-		"id": 2422,
-		"name": "Java Rush-01",
-		"slug": "java-rush-01"
-	},
-	{
-		"id": 1175,
-		"name": "Javascript",
-		"slug": "javascript"
-	},
-	{
-		"id": 416,
-		"name": "Jour 00",
-		"slug": "piscine-c-a-distance-jour-00"
-	},
-	{
-		"id": 541,
-		"name": "Jour 00",
-		"slug": "piscine-c-formation-jour-00"
-	},
-	{
-		"id": 542,
-		"name": "Jour 01",
-		"slug": "piscine-c-formation-jour-01"
-	},
-	{
-		"id": 418,
-		"name": "Jour 01",
-		"slug": "piscine-c-a-distance-jour-01"
-	},
-	{
-		"id": 420,
-		"name": "Jour 02",
-		"slug": "piscine-c-a-distance-jour-02"
-	},
-	{
-		"id": 587,
-		"name": "Jour 02",
-		"slug": "piscine-c-formation-jour-02"
-	},
-	{
-		"id": 422,
-		"name": "Jour 03",
-		"slug": "piscine-c-a-distance-jour-03"
-	},
-	{
-		"id": 588,
-		"name": "Jour 03",
-		"slug": "piscine-c-formation-jour-03"
-	},
-	{
-		"id": 589,
-		"name": "Jour 04",
-		"slug": "piscine-c-formation-jour-04"
-	},
-	{
-		"id": 424,
-		"name": "Jour 04",
-		"slug": "piscine-c-a-distance-jour-04"
-	},
-	{
-		"id": 425,
-		"name": "Jour 05",
-		"slug": "piscine-c-a-distance-jour-05"
-	},
-	{
-		"id": 590,
-		"name": "Jour 05",
-		"slug": "piscine-c-formation-jour-05"
-	},
-	{
-		"id": 591,
-		"name": "Jour 06",
-		"slug": "piscine-c-formation-jour-06"
-	},
-	{
-		"id": 427,
-		"name": "Jour 06",
-		"slug": "piscine-c-a-distance-jour-06"
-	},
-	{
-		"id": 430,
-		"name": "Jour 07",
-		"slug": "piscine-c-a-distance-jour-07"
-	},
-	{
-		"id": 549,
-		"name": "Jour 07",
-		"slug": "piscine-c-formation-jour-07"
-	},
-	{
-		"id": 431,
-		"name": "Jour 08",
-		"slug": "piscine-c-a-distance-jour-08"
-	},
-	{
-		"id": 551,
-		"name": "Jour 08",
-		"slug": "piscine-c-formation-jour-08"
-	},
-	{
-		"id": 457,
-		"name": "Jour 09",
-		"slug": "piscine-c-a-distance-jour-09"
-	},
-	{
-		"id": 483,
-		"name": "Jour 10",
-		"slug": "piscine-c-a-distance-jour-10"
-	},
-	{
-		"id": 581,
-		"name": "Jour 10",
-		"slug": "piscine-c-formation-jour-10"
-	},
-	{
-		"id": 580,
-		"name": "Jour 11",
-		"slug": "piscine-c-formation-jour-11"
-	},
-	{
-		"id": 485,
-		"name": "Jour 11",
-		"slug": "piscine-c-a-distance-jour-11"
-	},
-	{
-		"id": 487,
-		"name": "Jour 12",
-		"slug": "piscine-c-a-distance-jour-12"
-	},
-	{
-		"id": 583,
-		"name": "Jour 12",
-		"slug": "piscine-c-formation-jour-12"
-	},
-	{
-		"id": 489,
-		"name": "Jour 13",
-		"slug": "piscine-c-a-distance-jour-13"
-	},
-	{
-		"id": 582,
-		"name": "Jour 13",
-		"slug": "piscine-c-formation-jour-13"
-	},
-	{
-		"id": 1201,
-		"name": "jQuery",
-		"slug": "javascript-jquery"
+		"id": 2064,
+		"name": "Inception-of-Things",
+		"slug": "inception-of-things"
 	},
 	{
 		"id": 1425,
@@ -5535,19 +590,9 @@
 		"slug": "42cursus-kfs-1"
 	},
 	{
-		"id": 716,
-		"name": "KFS-1",
-		"slug": "kfs-1"
-	},
-	{
 		"id": 1424,
 		"name": "kfs-2",
 		"slug": "42cursus-kfs-2"
-	},
-	{
-		"id": 714,
-		"name": "KFS-2",
-		"slug": "kfs-2"
 	},
 	{
 		"id": 1426,
@@ -5555,19 +600,9 @@
 		"slug": "42cursus-kfs-3"
 	},
 	{
-		"id": 717,
-		"name": "KFS-3",
-		"slug": "kfs-3"
-	},
-	{
 		"id": 1431,
 		"name": "kfs-4",
 		"slug": "42cursus-kfs-4"
-	},
-	{
-		"id": 824,
-		"name": "KFS-4",
-		"slug": "kfs-4"
 	},
 	{
 		"id": 1432,
@@ -5575,19 +610,9 @@
 		"slug": "42cursus-kfs-5"
 	},
 	{
-		"id": 825,
-		"name": "KFS-5",
-		"slug": "kfs-5"
-	},
-	{
 		"id": 1438,
 		"name": "kfs-6",
 		"slug": "42cursus-kfs-6"
-	},
-	{
-		"id": 873,
-		"name": "KFS-6",
-		"slug": "kfs-6"
 	},
 	{
 		"id": 1439,
@@ -5595,19 +620,9 @@
 		"slug": "42cursus-kfs-7"
 	},
 	{
-		"id": 874,
-		"name": "KFS-7",
-		"slug": "kfs-7"
-	},
-	{
 		"id": 1440,
 		"name": "kfs-8",
 		"slug": "42cursus-kfs-8"
-	},
-	{
-		"id": 876,
-		"name": "KFS-8",
-		"slug": "kfs-8"
 	},
 	{
 		"id": 1441,
@@ -5615,34 +630,14 @@
 		"slug": "42cursus-kfs-9"
 	},
 	{
-		"id": 877,
-		"name": "KFS-9",
-		"slug": "kfs-9"
-	},
-	{
 		"id": 1442,
 		"name": "kfs-x",
 		"slug": "42cursus-kfs-x"
 	},
 	{
-		"id": 882,
-		"name": "KFS-X",
-		"slug": "kfs-x"
-	},
-	{
-		"id": 914,
-		"name": "KIFT",
-		"slug": "kift"
-	},
-	{
 		"id": 1392,
 		"name": "krpsim",
 		"slug": "42cursus-krpsim"
-	},
-	{
-		"id": 522,
-		"name": "KrpSim",
-		"slug": "krpsim"
 	},
 	{
 		"id": 2372,
@@ -5660,24 +655,9 @@
 		"slug": "42cursus-lem_in"
 	},
 	{
-		"id": 29,
-		"name": "Lem_in",
-		"slug": "lem_in"
-	},
-	{
 		"id": 1464,
 		"name": "lem-ipc",
 		"slug": "42cursus-lem-ipc"
-	},
-	{
-		"id": 42,
-		"name": "Lem-ipc",
-		"slug": "lem-ipc"
-	},
-	{
-		"id": 835,
-		"name": "Lernaean Hydra",
-		"slug": "hercules-lernaean-hydra"
 	},
 	{
 		"id": 1330,
@@ -5685,54 +665,9 @@
 		"slug": "libasm"
 	},
 	{
-		"id": 1,
-		"name": "Libft",
-		"slug": "libft"
-	},
-	{
 		"id": 1314,
 		"name": "Libft",
 		"slug": "42cursus-libft"
-	},
-	{
-		"id": 2104,
-		"name": "Libft-00",
-		"slug": "libft-00"
-	},
-	{
-		"id": 2105,
-		"name": "Libft-01",
-		"slug": "libft-01"
-	},
-	{
-		"id": 2106,
-		"name": "Libft-02",
-		"slug": "libft-02"
-	},
-	{
-		"id": 2108,
-		"name": "Libft-03",
-		"slug": "libft-03"
-	},
-	{
-		"id": 2109,
-		"name": "Libft-04",
-		"slug": "libft-04"
-	},
-	{
-		"id": 79,
-		"name": "LibftASM",
-		"slug": "libftasm"
-	},
-	{
-		"id": 594,
-		"name": "Libft-old",
-		"slug": "piscine-c-a-distance-libft-old"
-	},
-	{
-		"id": 675,
-		"name": "Libft-old",
-		"slug": "formation-pole-emploi-libft-old"
 	},
 	{
 		"id": 2550,
@@ -5740,29 +675,9 @@
 		"slug": "libftpp"
 	},
 	{
-		"id": 823,
-		"name": "libunit",
-		"slug": "42-formation-pole-emploi-rushes-libunit"
-	},
-	{
-		"id": 1963,
-		"name": "libunit",
-		"slug": "libunit"
-	},
-	{
 		"id": 2066,
 		"name": "Libunit",
 		"slug": "rushes-libunit"
-	},
-	{
-		"id": 1238,
-		"name": "LinkedIn",
-		"slug": "linkedin"
-	},
-	{
-		"id": 1633,
-		"name": "LinkedIn Profile Task",
-		"slug": "linkedin-profile-task"
 	},
 	{
 		"id": 1416,
@@ -5770,119 +685,14 @@
 		"slug": "42cursus-little-penguin-1"
 	},
 	{
-		"id": 696,
-		"name": "little-penguin-1",
-		"slug": "little-penguin-1"
-	},
-	{
-		"id": 697,
-		"name": "LLDB",
-		"slug": "rushes-lldb"
-	},
-	{
-		"id": 1283,
-		"name": "Machine Learning",
-		"slug": "machine-learning"
-	},
-	{
 		"id": 1468,
 		"name": "malloc",
 		"slug": "42cursus-malloc"
 	},
 	{
-		"id": 36,
-		"name": "Malloc",
-		"slug": "malloc"
-	},
-	{
-		"id": 2263,
-		"name": "Manufacturing lab - Hardware part",
-		"slug": "manufacturing-lab-hardware-part"
-	},
-	{
-		"id": 1193,
-		"name": "Mapping Geographical Data in Plotly",
-		"slug": "data-mining-the-49ers-mapping-geographical-data-in-plotly"
-	},
-	{
-		"id": 1110,
-		"name": "Map Your Own Adventure",
-		"slug": "hack-your-own-adventure-map-your-own-adventure"
-	},
-	{
-		"id": 841,
-		"name": "Mares of Diomedes",
-		"slug": "hercules-mares-of-diomedes"
-	},
-	{
 		"id": 1401,
 		"name": "matcha",
 		"slug": "42cursus-matcha"
-	},
-	{
-		"id": 596,
-		"name": "Matcha",
-		"slug": "matcha"
-	},
-	{
-		"id": 1108,
-		"name": "Matchbox",
-		"slug": "algorithmic-puzzles-matchbox"
-	},
-	{
-		"id": 172,
-		"name": "Match-N-Match",
-		"slug": "piscine-c-match-n-match"
-	},
-	{
-		"id": 622,
-		"name": "Match-N-Match",
-		"slug": "bootcamp-match-n-match"
-	},
-	{
-		"id": 496,
-		"name": "Match-N-Match",
-		"slug": "piscine-c-a-distance-match-n-match"
-	},
-	{
-		"id": 830,
-		"name": "Matrice",
-		"slug": "matrice"
-	},
-	{
-		"id": 1300,
-		"name": "Matrice Air Data",
-		"slug": "matrice-matrice-air-data"
-	},
-	{
-		"id": 1096,
-		"name": "Matrice Arts & Numérique",
-		"slug": "matrice-matrice-arts-numerique"
-	},
-	{
-		"id": 869,
-		"name": "Matrice CEA",
-		"slug": "matrice-matrice-cea"
-	},
-	{
-		"id": 1716,
-		"name": "Matrice Concept car",
-		"slug": "matrice-matrice-concept-car"
-	},
-	{
-		"id": 831,
-		"name": "Matrice CPA",
-		"slug": "matrice-matrice-cpa"
-	},
-	{
-		"id": 1272,
-		"name": "Matrice Santé",
-		"slug": "matrice-matrice-sante"
-	},
-	{
-		"id": 1634,
-		"name": "Matrice Solutions Urbaines",
-		"slug": "matrice-matrice-solutions-urbaines"
 	},
 	{
 		"id": 2077,
@@ -5895,129 +705,9 @@
 		"slug": "42cursus-matt-daemon"
 	},
 	{
-		"id": 702,
-		"name": "Matt Daemon",
-		"slug": "matt-daemon"
-	},
-	{
-		"id": 2353,
-		"name": "messagequeue",
-		"slug": "42cursus-messagequeue"
-	},
-	{
-		"id": 1958,
-		"name": "MessageQueue",
-		"slug": "messagequeue"
-	},
-	{
-		"id": 599,
-		"name": "Mexican Standoff",
-		"slug": "rushes-mexican-standoff"
-	},
-	{
-		"id": 2527,
-		"name": "MicroForensX",
-		"slug": "microforensx"
-	},
-	{
-		"id": 1947,
-		"name": "MicroServices",
-		"slug": "microservices"
-	},
-	{
-		"id": 2323,
-		"name": "microshell-00",
-		"slug": "microshell-00"
-	},
-	{
-		"id": 2324,
-		"name": "microshell-01",
-		"slug": "microshell-01"
-	},
-	{
-		"id": 2325,
-		"name": "microshell-02",
-		"slug": "microshell-02"
-	},
-	{
-		"id": 2373,
-		"name": "Microshop",
-		"slug": "microshop"
-	},
-	{
-		"id": 2716,
-		"name": "Mid-evaluation",
-		"slug": "apprenticeship-i-mid-evaluation"
-	},
-	{
-		"id": 2607,
-		"name": "minicomp",
-		"slug": "minicomp"
-	},
-	{
-		"id": 2294,
-		"name": "Mini-Piscine Python Django Day 00",
-		"slug": "mini-piscine-python-django-day-00"
-	},
-	{
-		"id": 2297,
-		"name": "Mini-Piscine Python Django Day 01",
-		"slug": "mini-piscine-python-django-day-01"
-	},
-	{
-		"id": 2298,
-		"name": "Mini-Piscine Python Django Day 02",
-		"slug": "mini-piscine-python-django-day-02"
-	},
-	{
-		"id": 2299,
-		"name": "Mini-Piscine Python Django Day 03",
-		"slug": "mini-piscine-python-django-day-03"
-	},
-	{
-		"id": 2300,
-		"name": "Mini-Piscine Python Django Day 04",
-		"slug": "mini-piscine-python-django-day-04"
-	},
-	{
-		"id": 2301,
-		"name": "Mini-Piscine Python Django Day 05",
-		"slug": "mini-piscine-python-django-day-05"
-	},
-	{
-		"id": 2302,
-		"name": "Mini-Piscine Python Django Day 06",
-		"slug": "mini-piscine-python-django-day-06"
-	},
-	{
-		"id": 2303,
-		"name": "Mini-Piscine Python Django Day 07",
-		"slug": "mini-piscine-python-django-day-07"
-	},
-	{
-		"id": 2304,
-		"name": "Mini-Piscine Python Django Day 08",
-		"slug": "mini-piscine-python-django-day-08"
-	},
-	{
-		"id": 2305,
-		"name": "Mini-Piscine Python Django Day 09",
-		"slug": "mini-piscine-python-django-day-09"
-	},
-	{
-		"id": 2726,
-		"name": "miniRT",
-		"slug": "42cursus-minirt"
-	},
-	{
 		"id": 1315,
 		"name": "miniRT",
 		"slug": "minirt"
-	},
-	{
-		"id": 2727,
-		"name": "minishell",
-		"slug": "minishell-d972f7c4-dbec-4811-b575-c967db09f1f1"
 	},
 	{
 		"id": 1331,
@@ -6025,39 +715,9 @@
 		"slug": "42cursus-minishell"
 	},
 	{
-		"id": 7,
-		"name": "minishell",
-		"slug": "minishell"
-	},
-	{
 		"id": 2005,
 		"name": "minitalk",
 		"slug": "minitalk"
-	},
-	{
-		"id": 32,
-		"name": "Minitalk",
-		"slug": "rushes-c-minitalk"
-	},
-	{
-		"id": 1286,
-		"name": "ML_01",
-		"slug": "machine-learning-using-python-ml_01"
-	},
-	{
-		"id": 1287,
-		"name": "ML_02",
-		"slug": "machine-learning-using-python-ml_02"
-	},
-	{
-		"id": 1288,
-		"name": "ML_03",
-		"slug": "machine-learning-using-python-ml_03"
-	},
-	{
-		"id": 1289,
-		"name": "ML_04",
-		"slug": "machine-learning-using-python-ml_04"
 	},
 	{
 		"id": 2355,
@@ -6100,54 +760,9 @@
 		"slug": "42cursus-mod1"
 	},
 	{
-		"id": 78,
-		"name": "mod1",
-		"slug": "mod1"
-	},
-	{
-		"id": 1816,
-		"name": "Module 00 DS test",
-		"slug": "module-00-ds-test"
-	},
-	{
-		"id": 2608,
-		"name": "Module00 - Turing",
-		"slug": "module00-turing"
-	},
-	{
-		"id": 2609,
-		"name": "Module01 - Watson",
-		"slug": "module01-watson"
-	},
-	{
-		"id": 2610,
-		"name": "Module02 - St. Exupéry",
-		"slug": "module02-st-exupery"
-	},
-	{
-		"id": 2611,
-		"name": "Module03 - Darwin",
-		"slug": "module03-darwin"
-	},
-	{
-		"id": 1297,
-		"name": "MongoDB Setup",
-		"slug": "api-s-with-node-js-mongodb-setup"
-	},
-	{
 		"id": 1457,
 		"name": "multilayer-perceptron",
 		"slug": "42cursus-multilayer-perceptron"
-	},
-	{
-		"id": 1162,
-		"name": "Multilayer Perceptron",
-		"slug": "multilayer-perceptron"
-	},
-	{
-		"id": 2153,
-		"name": "Music Collection",
-		"slug": "rushes-music-collection"
 	},
 	{
 		"id": 1427,
@@ -6155,24 +770,9 @@
 		"slug": "42cursus-music-room"
 	},
 	{
-		"id": 719,
-		"name": "Music Room",
-		"slug": "music-room"
-	},
-	{
-		"id": 1943,
-		"name": "mySpotify",
-		"slug": "myspotify"
-	},
-	{
-		"id": 834,
-		"name": "Nemean Lion",
-		"slug": "hercules-nemean-lion"
-	},
-	{
-		"id": 1124,
-		"name": "Netflix Hackathon",
-		"slug": "netflix-hackathon"
+		"id": 1385,
+		"name": "n-puzzle",
+		"slug": "42cursus-n-puzzle"
 	},
 	{
 		"id": 2007,
@@ -6185,44 +785,14 @@
 		"slug": "42cursus-nibbler"
 	},
 	{
-		"id": 95,
-		"name": "Nibbler",
-		"slug": "nibbler"
-	},
-	{
 		"id": 1467,
 		"name": "nm",
 		"slug": "nm"
 	},
 	{
-		"id": 37,
-		"name": "Nm-otool",
-		"slug": "nm-otool"
-	},
-	{
-		"id": 1295,
-		"name": "Node.js",
-		"slug": "node-js"
-	},
-	{
-		"id": 1166,
-		"name": "NP1",
-		"slug": "np1"
-	},
-	{
-		"id": 1385,
-		"name": "n-puzzle",
-		"slug": "42cursus-n-puzzle"
-	},
-	{
-		"id": 97,
-		"name": "N-puzzle",
-		"slug": "n-puzzle"
-	},
-	{
-		"id": 1095,
-		"name": "Numpy",
-		"slug": "rushes-numpy"
+		"id": 2251,
+		"name": "OCAML  - OCaml’s modules language - 1",
+		"slug": "ocaml-ocaml-s-modules-language-1"
 	},
 	{
 		"id": 2230,
@@ -6255,11 +825,6 @@
 		"slug": "ocaml-object-oriented-programming-2"
 	},
 	{
-		"id": 2251,
-		"name": "OCAML  - OCaml’s modules language - 1",
-		"slug": "ocaml-ocaml-s-modules-language-1"
-	},
-	{
 		"id": 2237,
 		"name": "OCAML - Pattern Matching and Data Types - 0",
 		"slug": "ocaml-pattern-matching-and-data-types-0"
@@ -6270,79 +835,9 @@
 		"slug": "ocaml-recursion-and-higher-order-functions-0"
 	},
 	{
-		"id": 1684,
-		"name": "Old-IRC",
-		"slug": "old-irc"
-	},
-	{
-		"id": 1683,
-		"name": "Old-Philosophers",
-		"slug": "old-philosophers"
-	},
-	{
-		"id": 1293,
-		"name": "OOP Essentials in Java",
-		"slug": "java-oop-essentials-in-java"
-	},
-	{
 		"id": 1635,
 		"name": "Open Project",
 		"slug": "open-project"
-	},
-	{
-		"id": 1637,
-		"name": "Open Project - Complete the project",
-		"slug": "open-project-open-project-complete-the-project"
-	},
-	{
-		"id": 1636,
-		"name": "Open Project - Define your Subject",
-		"slug": "open-project-open-project-define-your-subject"
-	},
-	{
-		"id": 85,
-		"name": "Open Project I",
-		"slug": "open-project-i"
-	},
-	{
-		"id": 615,
-		"name": "Open Project II",
-		"slug": "open-project-ii"
-	},
-	{
-		"id": 2344,
-		"name": "(Optional) Cybersecurity - Iron Dome - Malware",
-		"slug": "optional-cybersecurity-iron-dome-malware"
-	},
-	{
-		"id": 2577,
-		"name": "[Optional] Shell 0x0",
-		"slug": "optional-shell-0x0"
-	},
-	{
-		"id": 2578,
-		"name": "[Optional] Shell 0x1",
-		"slug": "optional-shell-0x1"
-	},
-	{
-		"id": 2579,
-		"name": "[Optional] Shell 0x2",
-		"slug": "optional-shell-0x2"
-	},
-	{
-		"id": 2580,
-		"name": "[Optional] Shell 0x3",
-		"slug": "optional-shell-0x3"
-	},
-	{
-		"id": 2581,
-		"name": "[Optional] Shell 0x4",
-		"slug": "optional-shell-0x4"
-	},
-	{
-		"id": 2582,
-		"name": "[Optional] Shell 0x5",
-		"slug": "optional-shell-0x5"
 	},
 	{
 		"id": 1448,
@@ -6350,99 +845,9 @@
 		"slug": "42cursus-override"
 	},
 	{
-		"id": 912,
-		"name": "Override",
-		"slug": "override"
-	},
-	{
-		"id": 2218,
-		"name": "P2P 101",
-		"slug": "p2p-101"
-	},
-	{
-		"id": 1200,
-		"name": "p5JS",
-		"slug": "p5js"
-	},
-	{
-		"id": 1221,
-		"name": "p5js-00",
-		"slug": "javascript-and-graphics-in-p5js-p5js-00"
-	},
-	{
-		"id": 1222,
-		"name": "p5js-01",
-		"slug": "javascript-and-graphics-in-p5js-p5js-01"
-	},
-	{
-		"id": 1224,
-		"name": "p5js-02",
-		"slug": "javascript-and-graphics-in-p5js-p5js-02"
-	},
-	{
-		"id": 1225,
-		"name": "p5js-03",
-		"slug": "javascript-and-graphics-in-p5js-p5js-03"
-	},
-	{
-		"id": 1229,
-		"name": "p5js-04",
-		"slug": "javascript-and-graphics-in-p5js-p5js-04"
-	},
-	{
-		"id": 1231,
-		"name": "p5js-05",
-		"slug": "javascript-and-graphics-in-p5js-p5js-05"
-	},
-	{
 		"id": 2706,
 		"name": "Pac-Man",
 		"slug": "pac-man"
-	},
-	{
-		"id": 1143,
-		"name": "Parseltongue - Part 1",
-		"slug": "parseltongue-piscine-parseltongue-part-1"
-	},
-	{
-		"id": 1145,
-		"name": "Parseltongue - Part 2",
-		"slug": "parseltongue-piscine-parseltongue-part-2"
-	},
-	{
-		"id": 1144,
-		"name": "Parseltongue - Part 3",
-		"slug": "parseltongue-piscine-parseltongue-part-3"
-	},
-	{
-		"id": 1146,
-		"name": "Parseltongue - Part 4",
-		"slug": "parseltongue-piscine-parseltongue-part-4"
-	},
-	{
-		"id": 1368,
-		"name": "Part 1: Linked Lists",
-		"slug": "data-structures-in-python-part-1-linked-lists"
-	},
-	{
-		"id": 1369,
-		"name": "Part 2: Queues and Stacks",
-		"slug": "data-structures-in-python-part-2-queues-and-stacks"
-	},
-	{
-		"id": 1410,
-		"name": "particle-system",
-		"slug": "42cursus-particle-system"
-	},
-	{
-		"id": 679,
-		"name": "Particle System",
-		"slug": "particle-system"
-	},
-	{
-		"id": 184,
-		"name": "Part-time",
-		"slug": "part-time"
 	},
 	{
 		"id": 1650,
@@ -6450,59 +855,9 @@
 		"slug": "part_time-i"
 	},
 	{
-		"id": 1653,
-		"name": "Part_Time I Company Final Evaluation",
-		"slug": "part_time-i-part_time-i-company-final-evaluation"
-	},
-	{
-		"id": 1654,
-		"name": "Part_Time I Company Mid Evaluation",
-		"slug": "part_time-i-part_time-i-company-mid-evaluation"
-	},
-	{
-		"id": 1651,
-		"name": "Part_Time I - Contract Upload",
-		"slug": "part_time-i-part_time-i-contract-upload"
-	},
-	{
-		"id": 1652,
-		"name": "Part_Time I - Duration",
-		"slug": "part_time-i-part_time-i-duration"
-	},
-	{
-		"id": 1656,
-		"name": "Part_Time II",
-		"slug": "part_time-ii"
-	},
-	{
-		"id": 1660,
-		"name": "Part_Time II - Company Final Evaluation",
-		"slug": "part_time-ii-part_time-ii-company-final-evaluation"
-	},
-	{
-		"id": 1659,
-		"name": "Part_Time II - Company Mid Evaluation",
-		"slug": "part_time-ii-part_time-ii-company-mid-evaluation"
-	},
-	{
-		"id": 1657,
-		"name": "Part_Time II - Contract Upload",
-		"slug": "part_time-ii-part_time-ii-contract-upload"
-	},
-	{
-		"id": 1658,
-		"name": "Part_Time II - Duration",
-		"slug": "part_time-ii-part_time-ii-duration"
-	},
-	{
-		"id": 1661,
-		"name": "Part_Time II - Peer Video",
-		"slug": "part_time-ii-part_time-ii-peer-video"
-	},
-	{
-		"id": 1655,
-		"name": "Part_Time I Peer Video",
-		"slug": "part_time-i-part_time-i-peer-video"
+		"id": 1410,
+		"name": "particle-system",
+		"slug": "42cursus-particle-system"
 	},
 	{
 		"id": 2552,
@@ -6510,54 +865,9 @@
 		"slug": "peace_break"
 	},
 	{
-		"id": 2718,
-		"name": "Peer video",
-		"slug": "apprenticeship-i-peer-video"
-	},
-	{
-		"id": 1094,
-		"name": "Peer Video",
-		"slug": "startup-internship-peer-video"
-	},
-	{
-		"id": 211,
-		"name": "Peer Video",
-		"slug": "final-internship-peer-video"
-	},
-	{
-		"id": 121,
-		"name": "Peer Video",
-		"slug": "first-internship-peer-video"
-	},
-	{
-		"id": 183,
-		"name": "Peer Video",
-		"slug": "part-time-peer-video"
-	},
-	{
-		"id": 966,
-		"name": "Peer Video",
-		"slug": "joburg-first-internship-peer-video"
-	},
-	{
 		"id": 1443,
 		"name": "pestilence",
 		"slug": "42cursus-pestilence"
-	},
-	{
-		"id": 905,
-		"name": "Pestilence",
-		"slug": "pestilence"
-	},
-	{
-		"id": 972,
-		"name": "Phase 2",
-		"slug": "wethinkcode_-social-tech-lab-phase-2"
-	},
-	{
-		"id": 973,
-		"name": "Phase 3",
-		"slug": "wethinkcode_-social-tech-lab-phase-3"
 	},
 	{
 		"id": 1334,
@@ -6565,84 +875,9 @@
 		"slug": "42cursus-philosophers"
 	},
 	{
-		"id": 39,
-		"name": "Philosophers",
-		"slug": "philosophers"
-	},
-	{
 		"id": 2004,
 		"name": "pipex",
 		"slug": "pipex"
-	},
-	{
-		"id": 30,
-		"name": "Pipex",
-		"slug": "rushes-c-pipex"
-	},
-	{
-		"id": 1953,
-		"name": "Piscine 101 Python 01",
-		"slug": "piscine-101-python-01"
-	},
-	{
-		"id": 1948,
-		"name": "Piscine 101 Python 02",
-		"slug": "piscine-101-python-02"
-	},
-	{
-		"id": 1954,
-		"name": "Piscine 101 Python 03",
-		"slug": "piscine-101-python-03"
-	},
-	{
-		"id": 1949,
-		"name": "Piscine 101 Python 04",
-		"slug": "piscine-101-python-04"
-	},
-	{
-		"id": 1950,
-		"name": "Piscine 101 Python Rush",
-		"slug": "piscine-101-python-rush"
-	},
-	{
-		"id": 1938,
-		"name": "Piscine 101 Shell 00",
-		"slug": "piscine-101-shell-00"
-	},
-	{
-		"id": 891,
-		"name": "Piscine After Effects Day 00",
-		"slug": "crea-piscine-after-effects-day-00"
-	},
-	{
-		"id": 892,
-		"name": "Piscine After Effects Day 01",
-		"slug": "crea-piscine-after-effects-day-01"
-	},
-	{
-		"id": 893,
-		"name": "Piscine After Effects Day 02",
-		"slug": "crea-piscine-after-effects-day-02"
-	},
-	{
-		"id": 895,
-		"name": "Piscine After Effects Day 03",
-		"slug": "crea-piscine-after-effects-day-03"
-	},
-	{
-		"id": 897,
-		"name": "Piscine After Effects Day 04",
-		"slug": "crea-piscine-after-effects-day-04"
-	},
-	{
-		"id": 901,
-		"name": "Piscine After Effects Rush 00",
-		"slug": "crea-piscine-after-effects-rush-00"
-	},
-	{
-		"id": 62,
-		"name": "Piscine CPP",
-		"slug": "piscine-cpp"
 	},
 	{
 		"id": 2295,
@@ -6653,106 +888,6 @@
 		"id": 2189,
 		"name": "Piscine Django",
 		"slug": "piscine-django"
-	},
-	{
-		"id": 2627,
-		"name": "Piscine Embedded - Module00",
-		"slug": "piscine-embedded-module00"
-	},
-	{
-		"id": 2628,
-		"name": "Piscine Embedded - Module01",
-		"slug": "piscine-embedded-module01"
-	},
-	{
-		"id": 2629,
-		"name": "Piscine Embedded - Module02",
-		"slug": "piscine-embedded-module02"
-	},
-	{
-		"id": 2630,
-		"name": "Piscine Embedded - Module03",
-		"slug": "piscine-embedded-module03"
-	},
-	{
-		"id": 2631,
-		"name": "Piscine Embedded - Module04",
-		"slug": "piscine-embedded-module04"
-	},
-	{
-		"id": 2632,
-		"name": "Piscine Embedded - Module05",
-		"slug": "piscine-embedded-module05"
-	},
-	{
-		"id": 2633,
-		"name": "Piscine Embedded - Module06",
-		"slug": "piscine-embedded-module06"
-	},
-	{
-		"id": 2634,
-		"name": "Piscine Embedded - Module07",
-		"slug": "piscine-embedded-module07"
-	},
-	{
-		"id": 2635,
-		"name": "Piscine Embedded - Module08",
-		"slug": "piscine-embedded-module08"
-	},
-	{
-		"id": 2636,
-		"name": "Piscine Embedded - Module09",
-		"slug": "piscine-embedded-module09"
-	},
-	{
-		"id": 2637,
-		"name": "Piscine Embedded - Rush00",
-		"slug": "piscine-embedded-rush00"
-	},
-	{
-		"id": 2638,
-		"name": "Piscine Embedded - Rush01",
-		"slug": "piscine-embedded-rush01"
-	},
-	{
-		"id": 1241,
-		"name": "Piscine Illustrator Day 00",
-		"slug": "piscine-illustrator-day-00"
-	},
-	{
-		"id": 1242,
-		"name": "Piscine Illustrator Day 01",
-		"slug": "piscine-illustrator-day-01"
-	},
-	{
-		"id": 1243,
-		"name": "Piscine Illustrator Day 02",
-		"slug": "piscine-illustrator-day-02"
-	},
-	{
-		"id": 1245,
-		"name": "Piscine Illustrator Day 03",
-		"slug": "piscine-illustrator-day-03"
-	},
-	{
-		"id": 1244,
-		"name": "Piscine Illustrator Day 04",
-		"slug": "piscine-illustrator-day-04"
-	},
-	{
-		"id": 1246,
-		"name": "Piscine Illustrator Rush00",
-		"slug": "piscine-illustrator-rush00"
-	},
-	{
-		"id": 849,
-		"name": "Piscine Interview",
-		"slug": "piscine-interview"
-	},
-	{
-		"id": 1799,
-		"name": "Piscine Java",
-		"slug": "piscine-java"
 	},
 	{
 		"id": 2364,
@@ -6795,134 +930,9 @@
 		"slug": "42cursus-piscine-ocaml"
 	},
 	{
-		"id": 370,
-		"name": "Piscine OCaml",
-		"slug": "piscine-ocaml"
-	},
-	{
-		"id": 1125,
-		"name": "Piscine Photoshop Day 00",
-		"slug": "piscine-photoshop-day-00"
-	},
-	{
-		"id": 1126,
-		"name": "Piscine Photoshop Day 01",
-		"slug": "piscine-photoshop-day-01"
-	},
-	{
-		"id": 1127,
-		"name": "Piscine Photoshop Day 02",
-		"slug": "piscine-photoshop-day-02"
-	},
-	{
-		"id": 1128,
-		"name": "Piscine Photoshop Day 03",
-		"slug": "piscine-photoshop-day-03"
-	},
-	{
-		"id": 1129,
-		"name": "Piscine Photoshop Day 04",
-		"slug": "piscine-photoshop-day-04"
-	},
-	{
-		"id": 1130,
-		"name": "Piscine Photoshop Rush 00",
-		"slug": "piscine-photoshop-rush-00"
-	},
-	{
-		"id": 48,
-		"name": "Piscine PHP",
-		"slug": "piscine-php"
-	},
-	{
-		"id": 1147,
-		"name": "Piscine PHP Symfony",
-		"slug": "piscine-php-symfony"
-	},
-	{
-		"id": 727,
-		"name": "Piscine Python Django",
-		"slug": "piscine-python-django"
-	},
-	{
-		"id": 1209,
-		"name": "Piscine Python Django Day00",
-		"slug": "piscine-python-django-day00"
-	},
-	{
-		"id": 1210,
-		"name": "Piscine Python Django Day01",
-		"slug": "piscine-python-django-day01"
-	},
-	{
-		"id": 1211,
-		"name": "Piscine Python Django Day02",
-		"slug": "piscine-python-django-day02"
-	},
-	{
-		"id": 1212,
-		"name": "Piscine Python Django Day03",
-		"slug": "piscine-python-django-day03"
-	},
-	{
-		"id": 1213,
-		"name": "Piscine Python Django Day04",
-		"slug": "piscine-python-django-day04"
-	},
-	{
-		"id": 1215,
-		"name": "Piscine Python Django Day05",
-		"slug": "piscine-python-django-day05"
-	},
-	{
-		"id": 1216,
-		"name": "Piscine Python Django Day06",
-		"slug": "piscine-python-django-day06"
-	},
-	{
-		"id": 1217,
-		"name": "Piscine Python Django Day07",
-		"slug": "piscine-python-django-day07"
-	},
-	{
-		"id": 1218,
-		"name": "Piscine Python Django Day08",
-		"slug": "piscine-python-django-day08"
-	},
-	{
-		"id": 1214,
-		"name": "piscine-python-django-rush-00",
-		"slug": "piscine-python-django-rush-00"
-	},
-	{
-		"id": 1220,
-		"name": "Piscine Python Django Rush 01",
-		"slug": "piscine-python-django-rush-01"
-	},
-	{
-		"id": 756,
-		"name": "Piscine Reloaded",
-		"slug": "piscine-reloaded"
-	},
-	{
-		"id": 2124,
-		"name": "Piscine_Reloaded",
-		"slug": "piscine_reloaded"
-	},
-	{
 		"id": 2179,
 		"name": "Piscine RoR",
 		"slug": "piscine-ror"
-	},
-	{
-		"id": 791,
-		"name": "Piscine Ruby on Rails",
-		"slug": "piscine-ruby-on-rails"
-	},
-	{
-		"id": 742,
-		"name": "Piscine Swift iOS",
-		"slug": "piscine-swift-ios"
 	},
 	{
 		"id": 2199,
@@ -6930,94 +940,9 @@
 		"slug": "piscine-symfony"
 	},
 	{
-		"id": 394,
-		"name": "Piscine Unity",
-		"slug": "piscine-unity"
-	},
-	{
-		"id": 1228,
-		"name": "Plagiart",
-		"slug": "plagiart"
-	},
-	{
-		"id": 1370,
-		"name": "Plants vs NonPlants!",
-		"slug": "data-structures-plants-vs-nonplants"
-	},
-	{
-		"id": 1885,
-		"name": "pokedex_vue",
-		"slug": "pokedex_vue"
-	},
-	{
-		"id": 1759,
-		"name": "Pre Open 00",
-		"slug": "pre-open-00"
-	},
-	{
-		"id": 1758,
-		"name": "Pre Open 01",
-		"slug": "pre-open-01"
-	},
-	{
-		"id": 1760,
-		"name": "Pre Open 02",
-		"slug": "pre-open-02"
-	},
-	{
 		"id": 1421,
 		"name": "process-and-memory",
 		"slug": "42cursus-process-and-memory"
-	},
-	{
-		"id": 709,
-		"name": "Process and Memory",
-		"slug": "process-and-memory"
-	},
-	{
-		"id": 2486,
-		"name": "Project_1",
-		"slug": "project_1"
-	},
-	{
-		"id": 2487,
-		"name": "project_2",
-		"slug": "project_2"
-	},
-	{
-		"id": 2488,
-		"name": "project_3",
-		"slug": "project_3"
-	},
-	{
-		"id": 2489,
-		"name": "Project_4",
-		"slug": "project_4"
-	},
-	{
-		"id": 2490,
-		"name": "project_5",
-		"slug": "project_5"
-	},
-	{
-		"id": 2491,
-		"name": "project_6",
-		"slug": "project_6"
-	},
-	{
-		"id": 1072,
-		"name": "Projet Ruby",
-		"slug": "projet-ruby"
-	},
-	{
-		"id": 1079,
-		"name": "Projet Web",
-		"slug": "projet-web"
-	},
-	{
-		"id": 684,
-		"name": "Puissance 4",
-		"slug": "rushes-puissance-4"
 	},
 	{
 		"id": 1471,
@@ -7030,59 +955,9 @@
 		"slug": "42next-push_swap"
 	},
 	{
-		"id": 27,
-		"name": "Push_swap",
-		"slug": "push_swap"
-	},
-	{
-		"id": 1681,
-		"name": "Pygame",
-		"slug": "apcsp-programming-pygame"
-	},
-	{
-		"id": 1291,
-		"name": "Pygame",
-		"slug": "pygame"
-	},
-	{
-		"id": 1141,
-		"name": "Python",
-		"slug": "python"
-	},
-	{
 		"id": 2268,
 		"name": "Python - 0 - Starting",
 		"slug": "python-0-starting"
-	},
-	{
-		"id": 1372,
-		"name": "Python-101 D00",
-		"slug": "python-101-d00"
-	},
-	{
-		"id": 1373,
-		"name": "Python-101 D01",
-		"slug": "python-101-d01"
-	},
-	{
-		"id": 1374,
-		"name": "Python-101 D02",
-		"slug": "python-101-d02"
-	},
-	{
-		"id": 1376,
-		"name": "Python-101 D03",
-		"slug": "python-101-d03"
-	},
-	{
-		"id": 1377,
-		"name": "Python-101 D04",
-		"slug": "python-101-d04"
-	},
-	{
-		"id": 1378,
-		"name": "Python-101 Rush",
-		"slug": "python-101-rush"
 	},
 	{
 		"id": 2269,
@@ -7103,11 +978,6 @@
 		"id": 2272,
 		"name": "Python - 4 - Dod",
 		"slug": "python-4-dod"
-	},
-	{
-		"id": 2662,
-		"name": "python exam 00",
-		"slug": "python-exam-00"
 	},
 	{
 		"id": 2267,
@@ -7180,19 +1050,9 @@
 		"slug": "42cursus-rag-against-the-machine"
 	},
 	{
-		"id": 602,
-		"name": "Rage Against The aPi",
-		"slug": "rushes-rage-against-the-api"
-	},
-	{
 		"id": 1417,
 		"name": "rainfall",
 		"slug": "42cursus-rainfall"
-	},
-	{
-		"id": 699,
-		"name": "RainFall",
-		"slug": "rainfall"
 	},
 	{
 		"id": 2076,
@@ -7200,44 +1060,9 @@
 		"slug": "ready-set-boole"
 	},
 	{
-		"id": 2169,
-		"name": "recovery",
-		"slug": "recovery"
-	},
-	{
 		"id": 1428,
 		"name": "red-tetris",
 		"slug": "42cursus-red-tetris"
-	},
-	{
-		"id": 818,
-		"name": "Red Tetris",
-		"slug": "red-tetris"
-	},
-	{
-		"id": 2047,
-		"name": "refactor_bsq",
-		"slug": "refactor_bsq"
-	},
-	{
-		"id": 2209,
-		"name": "refactor_tetris",
-		"slug": "refactor_tetris"
-	},
-	{
-		"id": 2351,
-		"name": "restful",
-		"slug": "42cursus-restful"
-	},
-	{
-		"id": 1946,
-		"name": "Restful",
-		"slug": "restful"
-	},
-	{
-		"id": 2749,
-		"name": "RetroEmu",
-		"slug": "retroemu"
 	},
 	{
 		"id": 2210,
@@ -7245,74 +1070,9 @@
 		"slug": "rushes-retro-mfa"
 	},
 	{
-		"id": 1176,
-		"name": "Reverse Engineering",
-		"slug": "rushes-reverse-engineering"
-	},
-	{
-		"id": 945,
-		"name": "Reverse Game of Life",
-		"slug": "reverse-game-of-life"
-	},
-	{
-		"id": 2107,
-		"name": "Road-to-CyberAgent-CA-Tech-Dojo-Go",
-		"slug": "road-to-cyberagent-ca-tech-dojo-go"
-	},
-	{
-		"id": 2075,
-		"name": "Road-to-DMM-Bootcamp-Go",
-		"slug": "road-to-dmm-bootcamp-go"
-	},
-	{
-		"id": 2010,
-		"name": "Road-to-Mercari-Gopher-Dojo-00",
-		"slug": "road-to-mercari-gopher-dojo-00"
-	},
-	{
-		"id": 2037,
-		"name": "Road-to-Mercari-Gopher-Dojo-01",
-		"slug": "road-to-mercari-gopher-dojo-01"
-	},
-	{
-		"id": 2035,
-		"name": "Road-to-Mercari-Gopher-Dojo-02",
-		"slug": "road-to-mercari-gopher-dojo-02"
-	},
-	{
-		"id": 2044,
-		"name": "Road-to-Mercari-Gopher-Dojo-03",
-		"slug": "road-to-mercari-gopher-dojo-03"
-	},
-	{
-		"id": 2074,
-		"name": "Road-to-Mercari-Gopher-Dojoo-01",
-		"slug": "road-to-mercari-gopher-dojoo-01"
-	},
-	{
-		"id": 2100,
-		"name": "Road-to-MIXI-Mini-SNS-00",
-		"slug": "road-to-mixi-mini-sns-00"
-	},
-	{
-		"id": 2101,
-		"name": "Road-to-MIXI-Mini-SNS-01",
-		"slug": "road-to-mixi-mini-sns-01"
-	},
-	{
-		"id": 1190,
-		"name": "roger-skyline-1",
-		"slug": "roger-skyline-1"
-	},
-	{
-		"id": 688,
-		"name": "roger-skyline-2",
-		"slug": "roger-skyline-2"
-	},
-	{
-		"id": 94,
-		"name": "Root-me | App-Systeme",
-		"slug": "root-me-app-systeme"
+		"id": 2749,
+		"name": "RetroEmu",
+		"slug": "retroemu"
 	},
 	{
 		"id": 2180,
@@ -7365,254 +1125,9 @@
 		"slug": "42cursus-rt"
 	},
 	{
-		"id": 24,
-		"name": "RT",
-		"slug": "rt"
-	},
-	{
-		"id": 23,
-		"name": "RTv1",
-		"slug": "rtv1"
-	},
-	{
 		"id": 1393,
 		"name": "rubik",
 		"slug": "42cursus-rubik"
-	},
-	{
-		"id": 534,
-		"name": "Rubik",
-		"slug": "rubik"
-	},
-	{
-		"id": 1063,
-		"name": "Ruby 00",
-		"slug": "ruby-00"
-	},
-	{
-		"id": 1064,
-		"name": "Ruby 01",
-		"slug": "ruby-01"
-	},
-	{
-		"id": 1065,
-		"name": "Ruby 02",
-		"slug": "ruby-02"
-	},
-	{
-		"id": 1066,
-		"name": "Ruby 03",
-		"slug": "ruby-03"
-	},
-	{
-		"id": 1067,
-		"name": "Ruby 04",
-		"slug": "ruby-04"
-	},
-	{
-		"id": 1068,
-		"name": "Ruby 05",
-		"slug": "ruby-05"
-	},
-	{
-		"id": 1070,
-		"name": "Ruby 06",
-		"slug": "ruby-06"
-	},
-	{
-		"id": 1071,
-		"name": "Ruby 07",
-		"slug": "ruby-07"
-	},
-	{
-		"id": 1367,
-		"name": "Runestone Academy - AP Java",
-		"slug": "java-runestone-academy-ap-java"
-	},
-	{
-		"id": 1352,
-		"name": "RUSH",
-		"slug": "rush"
-	},
-	{
-		"id": 797,
-		"name": "Rush00",
-		"slug": "piscine-ruby-on-rails-rush00"
-	},
-	{
-		"id": 734,
-		"name": "Rush00",
-		"slug": "piscine-python-django-rush00"
-	},
-	{
-		"id": 386,
-		"name": "Rush00",
-		"slug": "piscine-unity-rush00"
-	},
-	{
-		"id": 69,
-		"name": "Rush00",
-		"slug": "piscine-cpp-rush00"
-	},
-	{
-		"id": 59,
-		"name": "Rush00",
-		"slug": "piscine-php-rush00"
-	},
-	{
-		"id": 749,
-		"name": "Rush00",
-		"slug": "piscine-swift-ios-rush00"
-	},
-	{
-		"id": 399,
-		"name": "Rush00",
-		"slug": "piscine-ocaml-rush00"
-	},
-	{
-		"id": 1153,
-		"name": "Rush00",
-		"slug": "piscine-php-symfony-rush00"
-	},
-	{
-		"id": 1606,
-		"name": "Rush 00",
-		"slug": "piscine-swift-ios-rush-00"
-	},
-	{
-		"id": 168,
-		"name": "Rush 00",
-		"slug": "piscine-c-rush-00"
-	},
-	{
-		"id": 1810,
-		"name": "Rush 00",
-		"slug": "piscine-java-rush-00"
-	},
-	{
-		"id": 1582,
-		"name": "Rush 00",
-		"slug": "piscine-ocaml-rush-00"
-	},
-	{
-		"id": 1594,
-		"name": "Rush 00",
-		"slug": "piscine-php-symfony-rush-00"
-	},
-	{
-		"id": 1618,
-		"name": "Rush 00",
-		"slug": "piscine-ruby-on-rails-rush-00"
-	},
-	{
-		"id": 858,
-		"name": "Rush 00",
-		"slug": "piscine-starfleet-rush-00"
-	},
-	{
-		"id": 1797,
-		"name": "Rush 00",
-		"slug": "piscine-python-data-science-rush-00"
-	},
-	{
-		"id": 2055,
-		"name": "RUSH 00",
-		"slug": "rush-00"
-	},
-	{
-		"id": 512,
-		"name": "Rush 00 - rpg_txt",
-		"slug": "42partnerships-initiation-ruby-rush-00-rpg_txt"
-	},
-	{
-		"id": 803,
-		"name": "Rush01",
-		"slug": "piscine-ruby-on-rails-rush01"
-	},
-	{
-		"id": 400,
-		"name": "Rush01",
-		"slug": "piscine-ocaml-rush01"
-	},
-	{
-		"id": 755,
-		"name": "Rush01",
-		"slug": "piscine-swift-ios-rush01"
-	},
-	{
-		"id": 76,
-		"name": "Rush01",
-		"slug": "piscine-cpp-rush01"
-	},
-	{
-		"id": 60,
-		"name": "Rush01",
-		"slug": "piscine-php-rush01"
-	},
-	{
-		"id": 393,
-		"name": "Rush01",
-		"slug": "piscine-unity-rush01"
-	},
-	{
-		"id": 1160,
-		"name": "Rush01",
-		"slug": "piscine-php-symfony-rush01"
-	},
-	{
-		"id": 1583,
-		"name": "Rush 01",
-		"slug": "piscine-ocaml-rush-01"
-	},
-	{
-		"id": 868,
-		"name": "Rush 01",
-		"slug": "piscine-starfleet-rush-01"
-	},
-	{
-		"id": 1815,
-		"name": "Rush 01",
-		"slug": "piscine-python-data-science-rush-01"
-	},
-	{
-		"id": 169,
-		"name": "Rush 01",
-		"slug": "piscine-c-rush-01"
-	},
-	{
-		"id": 1619,
-		"name": "Rush 01",
-		"slug": "piscine-ruby-on-rails-rush-01"
-	},
-	{
-		"id": 1607,
-		"name": "Rush 01",
-		"slug": "piscine-swift-ios-rush-01"
-	},
-	{
-		"id": 1595,
-		"name": "Rush 01",
-		"slug": "piscine-php-symfony-rush-01"
-	},
-	{
-		"id": 1811,
-		"name": "Rush 01",
-		"slug": "piscine-java-rush-01"
-	},
-	{
-		"id": 2056,
-		"name": "RUSH 01",
-		"slug": "rush-01"
-	},
-	{
-		"id": 170,
-		"name": "Rush 02",
-		"slug": "piscine-c-rush-02"
-	},
-	{
-		"id": 61,
-		"name": "Rushes",
-		"slug": "rushes"
 	},
 	{
 		"id": 2065,
@@ -7620,49 +1135,9 @@
 		"slug": "42cursus-rushes"
 	},
 	{
-		"id": 1679,
-		"name": "Rush final",
-		"slug": "rush-final"
-	},
-	{
-		"id": 108,
-		"name": "Rush Network and System Administration #0",
-		"slug": "rushes-rush-network-and-system-administration-0"
-	},
-	{
-		"id": 109,
-		"name": "Rush Network and System Administration #1",
-		"slug": "rushes-rush-network-and-system-administration-1"
-	},
-	{
-		"id": 611,
-		"name": "Sastantua",
-		"slug": "bootcamp-sastantua"
-	},
-	{
-		"id": 171,
-		"name": "Sastantua",
-		"slug": "piscine-c-sastantua"
-	},
-	{
-		"id": 494,
-		"name": "Sastantua",
-		"slug": "piscine-c-a-distance-sastantua"
-	},
-	{
 		"id": 1390,
 		"name": "scop",
 		"slug": "42cursus-scop"
-	},
-	{
-		"id": 135,
-		"name": "Scop",
-		"slug": "scop"
-	},
-	{
-		"id": 1993,
-		"name": "SEOUL LABS MEMBER",
-		"slug": "seoul-labs-member"
 	},
 	{
 		"id": 1454,
@@ -7670,79 +1145,9 @@
 		"slug": "42cursus-shaderpixel"
 	},
 	{
-		"id": 1087,
-		"name": "ShaderPixel",
-		"slug": "shaderpixel"
-	},
-	{
-		"id": 1059,
-		"name": "Shell 0",
-		"slug": "shell-0"
-	},
-	{
-		"id": 2554,
-		"name": "Shell-0-0",
-		"slug": "shell-0-0"
-	},
-	{
-		"id": 2049,
-		"name": "SHELL 00",
-		"slug": "shell-00"
-	},
-	{
-		"id": 2555,
-		"name": "Shell-0-1",
-		"slug": "shell-0-1"
-	},
-	{
-		"id": 2050,
-		"name": "SHELL 01",
-		"slug": "shell-01"
-	},
-	{
-		"id": 1060,
-		"name": "Shell 1",
-		"slug": "shell-1"
-	},
-	{
-		"id": 1061,
-		"name": "Shell 2",
-		"slug": "shell-2"
-	},
-	{
-		"id": 1062,
-		"name": "Shell 3",
-		"slug": "shell-3"
-	},
-	{
-		"id": 1292,
-		"name": "Showcase: Arcade",
-		"slug": "pygame-showcase-arcade"
-	},
-	{
-		"id": 1313,
-		"name": "Showcase: Command-Line Games",
-		"slug": "python-showcase-command-line-games"
-	},
-	{
-		"id": 1052,
-		"name": "SimplyElectronic",
-		"slug": "simplyelectronic"
-	},
-	{
 		"id": 1404,
 		"name": "snow-crash",
 		"slug": "42cursus-snow-crash"
-	},
-	{
-		"id": 603,
-		"name": "Snow Crash",
-		"slug": "snow-crash"
-	},
-	{
-		"id": 970,
-		"name": "Social-Tech-Lab",
-		"slug": "wethinkcode_-social-tech-lab"
 	},
 	{
 		"id": 2009,
@@ -7750,99 +1155,14 @@
 		"slug": "so_long"
 	},
 	{
-		"id": 1360,
-		"name": "SonicPi",
-		"slug": "algorithmic-puzzles-sonicpi"
-	},
-	{
-		"id": 2176,
-		"name": "Sound Synthesis",
-		"slug": "rushes-sound-synthesis"
-	},
-	{
-		"id": 1952,
-		"name": "SpringBoot",
-		"slug": "springboot"
-	},
-	{
-		"id": 2350,
-		"name": "Spring Boot",
-		"slug": "spring-boot"
-	},
-	{
-		"id": 2175,
-		"name": "Sql-workshop",
-		"slug": "sql-workshop"
-	},
-	{
-		"id": 960,
-		"name": "Stairway_to_42",
-		"slug": "stairway_to_42"
-	},
-	{
-		"id": 1009,
-		"name": "START HERE - Hello 42!",
-		"slug": "start-here-hello-42"
-	},
-	{
 		"id": 1662,
 		"name": "Startup Experience",
 		"slug": "startup-experience"
 	},
 	{
-		"id": 1663,
-		"name": "Startup Experience - Contract Upload",
-		"slug": "startup-experience-startup-experience-contract-upload"
-	},
-	{
-		"id": 1664,
-		"name": "Startup Experience - Duration",
-		"slug": "startup-experience-startup-experience-duration"
-	},
-	{
-		"id": 1667,
-		"name": "Startup Experience - Peer Video",
-		"slug": "startup-experience-startup-experience-peer-video"
-	},
-	{
-		"id": 1666,
-		"name": "Startup Experience - Tutor Final Evaluation",
-		"slug": "startup-experience-startup-experience-tutor-final-evaluation"
-	},
-	{
-		"id": 1665,
-		"name": "Startup Experience - Tutor Mid Evaluation",
-		"slug": "startup-experience-startup-experience-tutor-mid-evaluation"
-	},
-	{
-		"id": 1055,
-		"name": "Startup-Internship",
-		"slug": "startup-internship"
-	},
-	{
-		"id": 1195,
-		"name": "Statistical Data Visualization with Seaborn",
-		"slug": "data-mining-the-49ers-statistical-data-visualization-with-seaborn"
-	},
-	{
-		"id": 2172,
-		"name": "stockholm",
-		"slug": "stockholm"
-	},
-	{
-		"id": 179,
-		"name": "strace",
-		"slug": "strace"
-	},
-	{
 		"id": 1388,
 		"name": "strace",
 		"slug": "42cursus-strace"
-	},
-	{
-		"id": 839,
-		"name": "Stymphalian Birds",
-		"slug": "hercules-stymphalian-birds"
 	},
 	{
 		"id": 2748,
@@ -7855,29 +1175,14 @@
 		"slug": "42cursus-swifty-companion"
 	},
 	{
-		"id": 536,
-		"name": "Swifty Companion",
-		"slug": "swifty-companion"
-	},
-	{
 		"id": 1406,
 		"name": "swifty-proteins",
 		"slug": "42cursus-swifty-proteins"
 	},
 	{
-		"id": 661,
-		"name": "Swifty Proteins",
-		"slug": "swifty-proteins"
-	},
-	{
 		"id": 1436,
 		"name": "swingy",
 		"slug": "42cursus-swingy"
-	},
-	{
-		"id": 871,
-		"name": "swingy",
-		"slug": "swingy"
 	},
 	{
 		"id": 2200,
@@ -7925,44 +1230,9 @@
 		"slug": "symfony-3-sessions"
 	},
 	{
-		"id": 904,
-		"name": "Sys admin Technical Tests",
-		"slug": "technical-interview-sys-admin-technical-tests"
-	},
-	{
 		"id": 1381,
 		"name": "taskmaster",
 		"slug": "42cursus-taskmaster"
-	},
-	{
-		"id": 122,
-		"name": "Taskmaster",
-		"slug": "taskmaster"
-	},
-	{
-		"id": 1184,
-		"name": "Teen Idol",
-		"slug": "teen-idol"
-	},
-	{
-		"id": 2099,
-		"name": "term3d",
-		"slug": "term3d"
-	},
-	{
-		"id": 1887,
-		"name": "test-basecamp-i-accept",
-		"slug": "test-basecamp-i-accept"
-	},
-	{
-		"id": 1888,
-		"name": "test-basecamp-shell-00",
-		"slug": "test-basecamp-shell-00"
-	},
-	{
-		"id": 1886,
-		"name": "test-bassecamp-c-00",
-		"slug": "test-bassecamp-c-00"
 	},
 	{
 		"id": 2701,
@@ -7993,56 +1263,6 @@
 		"id": 1460,
 		"name": "total-perspective-vortex",
 		"slug": "42cursus-total-perspective-vortex"
-	},
-	{
-		"id": 1203,
-		"name": "Total-perspective-vortex",
-		"slug": "total-perspective-vortex"
-	},
-	{
-		"id": 215,
-		"name": "Trainees sessions",
-		"slug": "communication-trainer-trainees-sessions"
-	},
-	{
-		"id": 216,
-		"name": "Training the community",
-		"slug": "communication-trainer-training-the-community"
-	},
-	{
-		"id": 2166,
-		"name": "tsunami",
-		"slug": "tsunami"
-	},
-	{
-		"id": 2319,
-		"name": "tweet",
-		"slug": "tweet"
-	},
-	{
-		"id": 1933,
-		"name": "tweets [DEPRECATED]",
-		"slug": "tweets-deprecated"
-	},
-	{
-		"id": 1955,
-		"name": "Uber",
-		"slug": "uber"
-	},
-	{
-		"id": 1199,
-		"name": "uf_bird",
-		"slug": "uf_bird"
-	},
-	{
-		"id": 1956,
-		"name": " Understanding customer",
-		"slug": "understanding-customer"
-	},
-	{
-		"id": 1049,
-		"name": "UNIT Factory Harassment & Tolerance Policy",
-		"slug": "unit-factory-harassment-tolerance-policy"
 	},
 	{
 		"id": 2288,
@@ -8095,24 +1315,9 @@
 		"slug": "42cursus-userspace_digressions"
 	},
 	{
-		"id": 1119,
-		"name": "userspace_digressions",
-		"slug": "userspace_digressions"
-	},
-	{
-		"id": 2165,
-		"name": "vaccine",
-		"slug": "vaccine"
-	},
-	{
 		"id": 2553,
 		"name": "Very_Real_Engine",
 		"slug": "very_real_engine"
-	},
-	{
-		"id": 980,
-		"name": "Walking Marvin",
-		"slug": "walking-marvin"
 	},
 	{
 		"id": 1444,
@@ -8120,174 +1325,9 @@
 		"slug": "42cursus-war"
 	},
 	{
-		"id": 907,
-		"name": "War",
-		"slug": "war"
-	},
-	{
-		"id": 1073,
-		"name": "Web 00",
-		"slug": "web-00"
-	},
-	{
-		"id": 1074,
-		"name": "Web 01",
-		"slug": "web-01"
-	},
-	{
-		"id": 1131,
-		"name": "Web01 - HTML_CSS",
-		"slug": "javascript-web01-html_css"
-	},
-	{
-		"id": 1075,
-		"name": "Web 02",
-		"slug": "web-02"
-	},
-	{
-		"id": 1294,
-		"name": "Web02 - FreeCodeCamp JS",
-		"slug": "javascript-web02-freecodecamp-js"
-	},
-	{
-		"id": 1076,
-		"name": "Web 03",
-		"slug": "web-03"
-	},
-	{
-		"id": 1077,
-		"name": "Web 04",
-		"slug": "web-04"
-	},
-	{
-		"id": 1078,
-		"name": "Web 05",
-		"slug": "web-05"
-	},
-	{
-		"id": 1694,
-		"name": "Web Basics 01 - Recipe",
-		"slug": "javascript-web-basics-01-recipe"
-	},
-	{
-		"id": 1695,
-		"name": "Web Basics 02 - Pinterest",
-		"slug": "javascript-web-basics-02-pinterest"
-	},
-	{
-		"id": 2583,
-		"name": "Web Cell 1x0",
-		"slug": "web-cell-1x0"
-	},
-	{
-		"id": 2584,
-		"name": "Web Cell 1x1",
-		"slug": "web-cell-1x1"
-	},
-	{
-		"id": 2585,
-		"name": "Web Cell 1x2",
-		"slug": "web-cell-1x2"
-	},
-	{
-		"id": 2586,
-		"name": "Web Cell 1x3",
-		"slug": "web-cell-1x3"
-	},
-	{
-		"id": 2587,
-		"name": "Web Cell 1x4",
-		"slug": "web-cell-1x4"
-	},
-	{
-		"id": 2588,
-		"name": "Web Cell 1x5",
-		"slug": "web-cell-1x5"
-	},
-	{
-		"id": 2589,
-		"name": "Web Cell 1x6",
-		"slug": "web-cell-1x6"
-	},
-	{
-		"id": 2590,
-		"name": "Web Cell 2x0",
-		"slug": "web-cell-2x0"
-	},
-	{
-		"id": 2591,
-		"name": "Web Cell 2x1",
-		"slug": "web-cell-2x1"
-	},
-	{
-		"id": 2592,
-		"name": "Web Cell 2x2",
-		"slug": "web-cell-2x2"
-	},
-	{
-		"id": 2593,
-		"name": "Web Cell 2x3",
-		"slug": "web-cell-2x3"
-	},
-	{
-		"id": 2594,
-		"name": "Web Cell 3x0",
-		"slug": "web-cell-3x0"
-	},
-	{
-		"id": 2595,
-		"name": "Web Cell 3x1",
-		"slug": "web-cell-3x1"
-	},
-	{
-		"id": 2596,
-		"name": "Web Cell 3x2",
-		"slug": "web-cell-3x2"
-	},
-	{
-		"id": 2597,
-		"name": "Web Cell 3x3",
-		"slug": "web-cell-3x3"
-	},
-	{
-		"id": 2598,
-		"name": "Web Cell 3x4",
-		"slug": "web-cell-3x4"
-	},
-	{
-		"id": 2599,
-		"name": "Web Cell 4x0",
-		"slug": "web-cell-4x0"
-	},
-	{
-		"id": 1192,
-		"name": "Web Scraping with Beautiful Soup",
-		"slug": "data-mining-the-49ers-web-scraping-with-beautiful-soup"
-	},
-	{
 		"id": 1332,
 		"name": "webserv",
 		"slug": "webserv"
-	},
-	{
-		"id": 1230,
-		"name": "Wildcard",
-		"slug": "wildcard"
-	},
-	{
-		"id": 8,
-		"name": "Wolf3d",
-		"slug": "wolf3d"
-	},
-	{
-		"id": 2078,
-		"name": "Wolfsburg I Accept",
-		"slug": "wolfsburg-i-accept"
-	},
-	{
-		"id": 93,
-		"name": "wong_kar_wai",
-		"slug": "rushes-wong_kar_wai"
 	},
 	{
 		"id": 2122,
@@ -8300,19 +1340,9 @@
 		"slug": "42cursus-woody-woodpacker"
 	},
 	{
-		"id": 701,
-		"name": "Woody Woodpacker",
-		"slug": "woody-woodpacker"
-	},
-	{
 		"id": 2173,
 		"name": "wordle",
 		"slug": "42cursus-rushes-wordle"
-	},
-	{
-		"id": 2110,
-		"name": "Wordle",
-		"slug": "rushes-wordle"
 	},
 	{
 		"id": 1638,
@@ -8320,24 +1350,9 @@
 		"slug": "work-experience-i"
 	},
 	{
-		"id": 1642,
-		"name": "Work Experience I - Company Final Evaluation",
-		"slug": "work-experience-i-work-experience-i-company-final-evaluation"
-	},
-	{
-		"id": 1641,
-		"name": "Work Experience I - Company Mid Evaluation",
-		"slug": "work-experience-i-work-experience-i-company-mid-evaluation"
-	},
-	{
-		"id": 1640,
-		"name": "Work Experience I  - Contract Upload",
-		"slug": "work-experience-i-work-experience-i-contract-upload"
-	},
-	{
-		"id": 1639,
-		"name": "Work Experience I - Duration",
-		"slug": "work-experience-i-work-experience-i-duration"
+		"id": 1643,
+		"name": "Work Experience I - Peer Video",
+		"slug": "work-experience-i-work-experience-i-peer-video"
 	},
 	{
 		"id": 1644,
@@ -8370,19 +1385,9 @@
 		"slug": "work-experience-ii-work-experience-ii-peer-video"
 	},
 	{
-		"id": 1643,
-		"name": "Work Experience I - Peer Video",
-		"slug": "work-experience-i-work-experience-i-peer-video"
-	},
-	{
 		"id": 1408,
 		"name": "xv",
 		"slug": "42cursus-xv"
-	},
-	{
-		"id": 677,
-		"name": "XV",
-		"slug": "xv"
 	},
 	{
 		"id": 2136,
@@ -8390,23 +1395,8 @@
 		"slug": "42cursus-rushes-yasl"
 	},
 	{
-		"id": 662,
-		"name": "YASL",
-		"slug": "rushes-yasl"
-	},
-	{
-		"id": 1185,
-		"name": "Yellow Brick Road",
-		"slug": "yellow-brick-road"
-	},
-	{
 		"id": 1463,
 		"name": "zappy",
 		"slug": "42cursus-zappy"
-	},
-	{
-		"id": 43,
-		"name": "Zappy",
-		"slug": "zappy"
 	}
 ]

@@ -1,5 +1,6 @@
 import { fail, redirect } from '@sveltejs/kit';
-import { getProject, IntraError } from '$lib/server/intra';
+import { getApplicationAccessToken, getCampusProjectSessions, IntraError } from '$lib/server/intra';
+import { campusUserCache } from '$lib/server/campus-user-cache';
 import { getCachedProject, getCachedProjects } from '$lib/server/project-cache';
 import type { Actions, PageServerLoad } from './$types';
 
@@ -17,9 +18,15 @@ export const actions: Actions = {
 			return fail(400, { message: 'Choose a project from the loaded list.' });
 		}
 		try {
+			const token = await getApplicationAccessToken();
 			return {
 				selectedId: id,
-				response: await getProject(locals.session.accessToken, id)
+				response: await getCampusProjectSessions(
+					token,
+					id,
+					campusUserCache.campusId,
+					campusUserCache.cursusId
+				)
 			};
 		} catch (cause) {
 			console.error('Could not load 42 project', cause);
@@ -33,6 +40,9 @@ export const actions: Actions = {
 
 function intraErrorMessage(action: string, cause: unknown): string {
 	if (!(cause instanceof IntraError)) return `Could not ${action}.`;
+	if (cause.status === 403) {
+		return `Could not ${action}: the 42 application is not allowed to read this project session.`;
+	}
 	const detail =
 		typeof cause.body === 'object' &&
 		cause.body !== null &&

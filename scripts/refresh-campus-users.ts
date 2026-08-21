@@ -46,7 +46,6 @@ async function fetchCampusUsers(token: string, campusId: number): Promise<Campus
 	first.search = new URLSearchParams({
 		'filter[campus_id]': String(campusId),
 		'filter[active]': 'true',
-		'filter[blackholed]': 'false',
 		page: '1',
 		per_page: '100',
 		sort: 'user_id'
@@ -63,6 +62,7 @@ async function fetchCampusUsers(token: string, campusId: number): Promise<Campus
 		}
 		for (const cursusUser of body) {
 			if (!isRecord(cursusUser) || !isRecord(cursusUser.user)) continue;
+			if (!hasNotReachedBlackhole(cursusUser.blackholed_at)) continue;
 			const { id, login, displayname } = cursusUser.user;
 			if (typeof id === 'number' && typeof login === 'string' && typeof displayname === 'string') {
 				users.push({ id, login, displayName: displayname });
@@ -71,6 +71,10 @@ async function fetchCampusUsers(token: string, campusId: number): Promise<Campus
 		url = nextPage(response.headers.get('link'));
 	}
 	return users;
+}
+
+function hasNotReachedBlackhole(value: unknown): boolean {
+	return value === null || (typeof value === 'string' && Date.parse(value) > Date.now());
 }
 
 function parseCampusId(value: string | undefined): number {
