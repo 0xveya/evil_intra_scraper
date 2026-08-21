@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Eval Dossier</title>
+	<title>evil_intra_scraper</title>
 	<meta name="description" content="Inspect 42 project and evaluation data." />
 	<meta name="theme-color" content="#050505" />
 </svelte:head>
@@ -13,9 +13,9 @@
 <style>
 	:global(:root) {
 		color-scheme: dark;
-		font-family: 'DM Mono', monospace;
-		background: #050505;
-		color: #f5f2e9;
+		font-family: sans-serif;
+		background: #080808;
+		color: #eee;
 	}
 	:global(*) {
 		box-sizing: border-box;
@@ -24,14 +24,14 @@
 		margin: 0;
 		min-width: 20rem;
 		min-height: 100dvh;
-		background: radial-gradient(circle at 78% 8%, #173126 0, transparent 24rem), #050505;
+		background: #080808;
 	}
 	:global(button),
 	:global(select) {
 		font: inherit;
 	}
 	:global(:focus-visible) {
-		outline: 2px solid #b8ff5a;
-		outline-offset: 3px;
+		outline: 2px solid #8ab4f8;
+		outline-offset: 2px;
 	}
 </style>

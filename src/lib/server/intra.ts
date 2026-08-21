@@ -37,18 +37,6 @@ export async function getMe(token: string): Promise<{ id: number; login: string 
 	return { id: body.id, login: body.login };
 }
 
-export async function getProjects(token: string): Promise<ProjectChoice[]> {
-	const body = await request(token, '/v2/me/projects_users?page[size]=100');
-	if (!Array.isArray(body)) throw new Error('42 returned an unexpected projects response');
-	return body.flatMap((entry) => {
-		if (!isRecord(entry) || !isRecord(entry.project)) return [];
-		const { id, name, slug } = entry.project;
-		return typeof id === 'number' && typeof name === 'string' && typeof slug === 'string'
-			? [{ id, name, slug }]
-			: [];
-	});
-}
-
 export function getProject(token: string, id: number): Promise<unknown> {
 	return request(token, `/v2/projects/${id}`);
 }
