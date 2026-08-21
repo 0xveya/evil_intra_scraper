@@ -1,0 +1,766 @@
+{
+	"campusId": 53,
+	"cursusId": 21,
+	"users": [
+		{
+			"id": 100746,
+			"login": "fbruggem",
+			"displayName": "Felix Brüggemann"
+		},
+		{
+			"id": 111472,
+			"login": "hjorg-ot",
+			"displayName": "Hans Jörg Otto"
+		},
+		{
+			"id": 114637,
+			"login": "chaschek",
+			"displayName": "Christian Haschek"
+		},
+		{
+			"id": 128013,
+			"login": "rpinchas",
+			"displayName": "Ruben Pinchasov"
+		},
+		{
+			"id": 128059,
+			"login": "aapostol",
+			"displayName": "Adelaide Apostolova"
+		},
+		{
+			"id": 128079,
+			"login": "huaydin",
+			"displayName": "Hüseyin Kaya Aydin"
+		},
+		{
+			"id": 128087,
+			"login": "mhochsto",
+			"displayName": "Matthias Hochstöger"
+		},
+		{
+			"id": 128089,
+			"login": "rrupp",
+			"displayName": "Raphael Rupp"
+		},
+		{
+			"id": 128090,
+			"login": "jrainpre",
+			"displayName": "Jonathan Rainprechter"
+		},
+		{
+			"id": 128097,
+			"login": "gkonstan",
+			"displayName": "Grigorii Konstantinov"
+		},
+		{
+			"id": 128105,
+			"login": "vhappenh",
+			"displayName": "Valerian Happenhofer"
+		},
+		{
+			"id": 128117,
+			"login": "gwolf",
+			"displayName": "Gabriel Wolf"
+		},
+		{
+			"id": 128123,
+			"login": "kmoraga",
+			"displayName": "Kris Moraga"
+		},
+		{
+			"id": 128124,
+			"login": "chasling",
+			"displayName": "Christopher Lux"
+		},
+		{
+			"id": 128126,
+			"login": "nweghofe",
+			"displayName": "Nicol Weghofer"
+		},
+		{
+			"id": 128404,
+			"login": "tvienna",
+			"displayName": "Norminet But In Vienna"
+		},
+		{
+			"id": 128734,
+			"login": "lyeh",
+			"displayName": "Lea Yeh"
+		},
+		{
+			"id": 130128,
+			"login": "tesvienn",
+			"displayName": "Vienna Evaluation"
+		},
+		{
+			"id": 131855,
+			"login": "dvaisman",
+			"displayName": "David Vaisman"
+		},
+		{
+			"id": 131870,
+			"login": "vharkush",
+			"displayName": "Valeriia Harkusha"
+		},
+		{
+			"id": 131876,
+			"login": "ohnatiuk",
+			"displayName": "Oksana Hnatiuk"
+		},
+		{
+			"id": 131901,
+			"login": "mleitner",
+			"displayName": "Michael Leitner"
+		},
+		{
+			"id": 131905,
+			"login": "xgossing",
+			"displayName": "Xaver Gössinger"
+		},
+		{
+			"id": 131907,
+			"login": "bhielsch",
+			"displayName": "Benedikt Hielscher"
+		},
+		{
+			"id": 131909,
+			"login": "aplank",
+			"displayName": "Anna Fiona Plank"
+		},
+		{
+			"id": 131915,
+			"login": "vschneid",
+			"displayName": "Viktoria Schneider"
+		},
+		{
+			"id": 131933,
+			"login": "mperger",
+			"displayName": "Michael Perger"
+		},
+		{
+			"id": 131944,
+			"login": "jorgonca",
+			"displayName": "Jorge Luis Goncalves Maldonado"
+		},
+		{
+			"id": 131947,
+			"login": "jklocker",
+			"displayName": "Jakob Klocker"
+		},
+		{
+			"id": 131949,
+			"login": "jkatzenb",
+			"displayName": "Johannes Katzenbeisser"
+		},
+		{
+			"id": 131960,
+			"login": "ynguyen",
+			"displayName": "Yen Nguyen"
+		},
+		{
+			"id": 131961,
+			"login": "ddyankov",
+			"displayName": "Deyan Dyankov"
+		},
+		{
+			"id": 131963,
+			"login": "qtran",
+			"displayName": "Quoc Su Tran"
+		},
+		{
+			"id": 131966,
+			"login": "amirfatt",
+			"displayName": "Alja Mirfattahi"
+		},
+		{
+			"id": 132031,
+			"login": "eelasam",
+			"displayName": "Ehab Elasam"
+		},
+		{
+			"id": 132037,
+			"login": "martafar",
+			"displayName": "Marta Farnia"
+		},
+		{
+			"id": 132317,
+			"login": "yscheef",
+			"displayName": "Yannic Scheef"
+		},
+		{
+			"id": 132355,
+			"login": "ndivjak",
+			"displayName": "Nik Divjak"
+		},
+		{
+			"id": 132364,
+			"login": "rbasyrov",
+			"displayName": "Ruslan Basyrov"
+		},
+		{
+			"id": 132368,
+			"login": "vstockma",
+			"displayName": "Valentin Stockmayer"
+		},
+		{
+			"id": 132375,
+			"login": "lknobloc",
+			"displayName": "Luca Marie Knobloch"
+		},
+		{
+			"id": 132377,
+			"login": "sqiu",
+			"displayName": "Sirui Qiu"
+		},
+		{
+			"id": 132385,
+			"login": "yatabay",
+			"displayName": "Yannis Atabay"
+		},
+		{
+			"id": 139110,
+			"login": "vtavitia",
+			"displayName": "Vatche Tavitian"
+		},
+		{
+			"id": 140440,
+			"login": "42vienna_tech",
+			"displayName": "Staff 42vienna"
+		},
+		{
+			"id": 142109,
+			"login": "eseferi",
+			"displayName": "Erik Seferi"
+		},
+		{
+			"id": 146862,
+			"login": "yhirai",
+			"displayName": "Yuina Hirai"
+		},
+		{
+			"id": 149128,
+			"login": "dcalore",
+			"displayName": "Drucilla Calore"
+		},
+		{
+			"id": 149172,
+			"login": "mhuszar",
+			"displayName": "Mária Kamilla Huszár"
+		},
+		{
+			"id": 149196,
+			"login": "mgeiger-",
+			"displayName": "Michael Naysmith"
+		},
+		{
+			"id": 149205,
+			"login": "tkasbari",
+			"displayName": "Thomas Kasbarian"
+		},
+		{
+			"id": 149206,
+			"login": "vsharma",
+			"displayName": "Vikas Sharma"
+		},
+		{
+			"id": 149215,
+			"login": "amalkhal",
+			"displayName": "Amr Alkhaled"
+		},
+		{
+			"id": 149219,
+			"login": "arybarsk",
+			"displayName": "Agata Rybarska"
+		},
+		{
+			"id": 149225,
+			"login": "dgutak",
+			"displayName": "Danil Gutak"
+		},
+		{
+			"id": 149227,
+			"login": "cthaler",
+			"displayName": "Christoph Thaler"
+		},
+		{
+			"id": 149232,
+			"login": "kbrauer",
+			"displayName": "Kevin Bräuer"
+		},
+		{
+			"id": 149244,
+			"login": "vvilensk",
+			"displayName": "Vladimir Vilenskii"
+		},
+		{
+			"id": 149249,
+			"login": "lbaumeis",
+			"displayName": "Lilly Baumeister"
+		},
+		{
+			"id": 149257,
+			"login": "vfrants",
+			"displayName": "Vitálij Fránc"
+		},
+		{
+			"id": 149266,
+			"login": "msumon",
+			"displayName": "Md Ohiduzzaman Sumon"
+		},
+		{
+			"id": 149268,
+			"login": "gwalchsh",
+			"displayName": "Gregor Walchshofer"
+		},
+		{
+			"id": 149269,
+			"login": "fheid",
+			"displayName": "Florian Heid"
+		},
+		{
+			"id": 149271,
+			"login": "miturk",
+			"displayName": "Miha Turk"
+		},
+		{
+			"id": 149279,
+			"login": "mzolfagh",
+			"displayName": "Mohamad Zolfaghari Pour"
+		},
+		{
+			"id": 149293,
+			"login": "mvolgger",
+			"displayName": "Matthias Volgger"
+		},
+		{
+			"id": 149405,
+			"login": "tbenz",
+			"displayName": "Thorben Benz"
+		},
+		{
+			"id": 149617,
+			"login": "bpochlau",
+			"displayName": "Benjamin Pöchlauer"
+		},
+		{
+			"id": 149700,
+			"login": "fmarggra",
+			"displayName": "Franziska Marggraf"
+		},
+		{
+			"id": 149707,
+			"login": "aszabo",
+			"displayName": "Ábel Szabó"
+		},
+		{
+			"id": 149762,
+			"login": "nsassenb",
+			"displayName": "Nikolai Sassenbach"
+		},
+		{
+			"id": 151426,
+			"login": "sdabland",
+			"displayName": "Simon Dablander"
+		},
+		{
+			"id": 151434,
+			"login": "mafurnic",
+			"displayName": "Marian Furnica"
+		},
+		{
+			"id": 151444,
+			"login": "sdanailo",
+			"displayName": "Sotir Danailov"
+		},
+		{
+			"id": 151458,
+			"login": "juitz",
+			"displayName": "Julian Uitz"
+		},
+		{
+			"id": 151461,
+			"login": "mwu",
+			"displayName": "Mingwei Wu"
+		},
+		{
+			"id": 151628,
+			"login": "fseles",
+			"displayName": "Filip Seleš"
+		},
+		{
+			"id": 151629,
+			"login": "mehmeyil",
+			"displayName": "Mehmet Emre Yildiz"
+		},
+		{
+			"id": 151630,
+			"login": "mtrojano",
+			"displayName": "Michal Trojanowski"
+		},
+		{
+			"id": 151635,
+			"login": "bmahdi",
+			"displayName": "Basem Mahdi"
+		},
+		{
+			"id": 151636,
+			"login": "apashkov",
+			"displayName": "Anastasiia Pashkova"
+		},
+		{
+			"id": 151637,
+			"login": "mresch",
+			"displayName": "Moritz Karl Resch"
+		},
+		{
+			"id": 151647,
+			"login": "shaintha",
+			"displayName": "Stephan Hainthaler"
+		},
+		{
+			"id": 151652,
+			"login": "ischmutz",
+			"displayName": "Ildiko Jasmin Schmutzer"
+		},
+		{
+			"id": 151687,
+			"login": "pgober",
+			"displayName": "Pia Gober"
+		},
+		{
+			"id": 151688,
+			"login": "marondon",
+			"displayName": "Marco Aurelio Rondón García"
+		},
+		{
+			"id": 151690,
+			"login": "abied-ch",
+			"displayName": "Arthur Bied Charreton"
+		},
+		{
+			"id": 154306,
+			"login": "bvalerii",
+			"displayName": "Bezhevets Valerii"
+		},
+		{
+			"id": 154313,
+			"login": "jseidere",
+			"displayName": "Jakob Valentin Seiderer"
+		},
+		{
+			"id": 154316,
+			"login": "sgiochal",
+			"displayName": "Spyridon Giochalas"
+		},
+		{
+			"id": 154321,
+			"login": "tmeniga",
+			"displayName": "Tom Meniga"
+		},
+		{
+			"id": 154326,
+			"login": "gdanis",
+			"displayName": "Gabriel Danis"
+		},
+		{
+			"id": 154333,
+			"login": "miheider",
+			"displayName": "Michael Heider"
+		},
+		{
+			"id": 154335,
+			"login": "aapenko",
+			"displayName": "Artem Apenko"
+		},
+		{
+			"id": 154336,
+			"login": "fgedeon",
+			"displayName": "Florian Matthias Gedeon"
+		},
+		{
+			"id": 154337,
+			"login": "rperkman",
+			"displayName": "Roman Perkmann"
+		},
+		{
+			"id": 154346,
+			"login": "mmasarov",
+			"displayName": "Michaela Masarova"
+		},
+		{
+			"id": 154362,
+			"login": "aismaili",
+			"displayName": "Alireza Ismaili"
+		},
+		{
+			"id": 154407,
+			"login": "wvan-der",
+			"displayName": "Willem Johan Van Der Vorst"
+		},
+		{
+			"id": 154411,
+			"login": "ecaliska",
+			"displayName": "Enes Mehmet Caliskan"
+		},
+		{
+			"id": 154491,
+			"login": "iguliyev",
+			"displayName": "Ismayil Guliyev"
+		},
+		{
+			"id": 154498,
+			"login": "msimic",
+			"displayName": "Monika Simic"
+		},
+		{
+			"id": 154560,
+			"login": "jlomic",
+			"displayName": "Jovan Lomic"
+		},
+		{
+			"id": 154573,
+			"login": "fstark",
+			"displayName": "Felix Stark"
+		},
+		{
+			"id": 154590,
+			"login": "mtelek",
+			"displayName": "Márton Telek"
+		},
+		{
+			"id": 154606,
+			"login": "rluari",
+			"displayName": "Richárd Luari"
+		},
+		{
+			"id": 154955,
+			"login": "ldulling",
+			"displayName": "Lukas Dullinger"
+		},
+		{
+			"id": 155043,
+			"login": "ppfiel",
+			"displayName": "Paul Pfiel"
+		},
+		{
+			"id": 155066,
+			"login": "fwechsle",
+			"displayName": "Felix Wechsler"
+		},
+		{
+			"id": 155073,
+			"login": "caigner",
+			"displayName": "Christian Aigner"
+		},
+		{
+			"id": 155092,
+			"login": "dcingoz",
+			"displayName": "Deniz Çağlar Cingöz"
+		},
+		{
+			"id": 155173,
+			"login": "dpadenko",
+			"displayName": "Daria Padenkova"
+		},
+		{
+			"id": 155180,
+			"login": "akortvel",
+			"displayName": "Áron Körtvélyessy"
+		},
+		{
+			"id": 155219,
+			"login": "jsadjina",
+			"displayName": "Jakob Sadjina"
+		},
+		{
+			"id": 155302,
+			"login": "aprevrha",
+			"displayName": "Anton Vincent Prevrhal"
+		},
+		{
+			"id": 155309,
+			"login": "hrother",
+			"displayName": "Hannes Erik Rother"
+		},
+		{
+			"id": 166626,
+			"login": "koikoube",
+			"displayName": "Kim Oikoubeh"
+		},
+		{
+			"id": 166984,
+			"login": "msacaliu",
+			"displayName": "Marian Sacaliuc"
+		},
+		{
+			"id": 173299,
+			"login": "anarama",
+			"displayName": "Andrey Arama"
+		},
+		{
+			"id": 173306,
+			"login": "iberegsz",
+			"displayName": "István Beregszászi"
+		},
+		{
+			"id": 173341,
+			"login": "dplotzl",
+			"displayName": "Daniel Plötzl"
+		},
+		{
+			"id": 173370,
+			"login": "oohnivch",
+			"displayName": "Oleh Ohnivchuk"
+		},
+		{
+			"id": 173376,
+			"login": "hanjkim",
+			"displayName": "Hanju Kim"
+		},
+		{
+			"id": 173382,
+			"login": "khuk",
+			"displayName": "Kateryna Huk"
+		},
+		{
+			"id": 173411,
+			"login": "mbonengl",
+			"displayName": "Maximilian Bonengl"
+		},
+		{
+			"id": 173434,
+			"login": "vvobis",
+			"displayName": "Victor Vobis"
+		},
+		{
+			"id": 173441,
+			"login": "bgebetsb",
+			"displayName": "Bernhard Gebetsberger"
+		},
+		{
+			"id": 173445,
+			"login": "bszilas",
+			"displayName": "Benjamin Szilas"
+		},
+		{
+			"id": 178891,
+			"login": "tkafanov",
+			"displayName": "Timofey Kafanov"
+		},
+		{
+			"id": 178900,
+			"login": "aruckenb",
+			"displayName": "Albert Aiyakup Ruckenbauer"
+		},
+		{
+			"id": 178904,
+			"login": "dcsicsak",
+			"displayName": "Daniel Csicsak"
+		},
+		{
+			"id": 178937,
+			"login": "dzhakhan",
+			"displayName": "Dinmukhamed Zhakhan"
+		},
+		{
+			"id": 178945,
+			"login": "ajovanov",
+			"displayName": "Andrija Jovanovic"
+		},
+		{
+			"id": 178954,
+			"login": "krabitsc",
+			"displayName": "Katrin Rabitsch"
+		},
+		{
+			"id": 178956,
+			"login": "sopperma",
+			"displayName": "Silas Oppermann"
+		},
+		{
+			"id": 178969,
+			"login": "aghanam",
+			"displayName": "Adam Ghanam"
+		},
+		{
+			"id": 179036,
+			"login": "icseri",
+			"displayName": "Ildikó Cseri"
+		},
+		{
+			"id": 179109,
+			"login": "pvass",
+			"displayName": "Péter Vass"
+		},
+		{
+			"id": 179909,
+			"login": "fbrunner",
+			"displayName": "Florian Brunner"
+		},
+		{
+			"id": 181157,
+			"login": "thomasbp",
+			"displayName": "Thom  "
+		},
+		{
+			"id": 187160,
+			"login": "vagarcia",
+			"displayName": "Valentino Garcia Susini"
+		},
+		{
+			"id": 188566,
+			"login": "pkurt",
+			"displayName": "Peter Kürt"
+		},
+		{
+			"id": 191493,
+			"login": "erian",
+			"displayName": "Erik An"
+		},
+		{
+			"id": 193095,
+			"login": "yalnaani",
+			"displayName": "Yamen Alnaani"
+		},
+		{
+			"id": 193136,
+			"login": "lstefane",
+			"displayName": "Lukas Stefanek"
+		},
+		{
+			"id": 193283,
+			"login": "huakbas",
+			"displayName": "Hüsrev Akbas"
+		},
+		{
+			"id": 193289,
+			"login": "dpotsch",
+			"displayName": "David Pötsch"
+		},
+		{
+			"id": 202406,
+			"login": "ssedlace",
+			"displayName": "Silvia Sedlacek"
+		},
+		{
+			"id": 214663,
+			"login": "dvavryn",
+			"displayName": "Dominic Vavryn"
+		},
+		{
+			"id": 242672,
+			"login": "onigiri",
+			"displayName": "Simon Dablander"
+		},
+		{
+			"id": 243890,
+			"login": "trvienna",
+			"displayName": "Transcender Vienna"
+		},
+		{
+			"id": 252931,
+			"login": "segfault",
+			"displayName": "Erik Seferi"
+		}
+	]
+}

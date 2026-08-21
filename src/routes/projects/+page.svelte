@@ -3,6 +3,15 @@
 	import { resolve } from '$app/paths';
 	let { data, form } = $props();
 	let loading = $state(false);
+	let search = $state('');
+	const matchingProjects = $derived(
+		data.projects.filter((project) => {
+			const query = search.trim().toLowerCase();
+			return (
+				!query || `${project.name} ${project.slug} ${project.id}`.toLowerCase().includes(query)
+			);
+		})
+	);
 	const response = $derived(form && 'response' in form ? form.response : null);
 </script>
 
@@ -14,6 +23,8 @@
 	</header>
 	<section>
 		<div class="controls">
+			<label for="projectSearch">Search projects</label>
+			<input id="projectSearch" type="search" placeholder="Name, slug, or ID" bind:value={search} />
 			<form
 				method="POST"
 				action="?/project"
@@ -28,7 +39,7 @@
 				<label for="projectId">Project</label>
 				<select id="projectId" name="projectId" required disabled={data.projects.length === 0}>
 					<option value="">Choose one…</option>
-					{#each data.projects as project (project.id)}<option
+					{#each matchingProjects as project (project.id)}<option
 							value={project.id}
 							selected={form && 'selectedId' in form && form.selectedId === project.id}
 							>{project.name} ({project.id})</option
@@ -90,6 +101,7 @@
 		margin: 1rem 0 0.4rem;
 		font-size: 0.85rem;
 	}
+	input,
 	select,
 	button {
 		width: 100%;
@@ -97,6 +109,7 @@
 		border: 1px solid #444;
 		border-radius: 0.3rem;
 	}
+	input,
 	select {
 		padding: 0 0.6rem;
 		color: #eee;

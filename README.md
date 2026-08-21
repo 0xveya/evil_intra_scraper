@@ -20,3 +20,11 @@ bun run refresh-projects
 ```
 
 This replaces `src/lib/server/generated/projects.json`. Review and commit that generated change when useful.
+
+To replace the active, non-blackholed Common Core user catalogue for a campus, pass its numeric ID:
+
+```sh
+bun run refresh-campus-users -- 53
+```
+
+The generated users are available through the ID and login maps exported by `src/lib/server/campus-user-cache.ts`. Campus `53` is Vienna.

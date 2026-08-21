@@ -8,6 +8,7 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"refresh-projects": "bun run scripts/refresh-projects.ts",
+		"refresh-campus-users": "bun run scripts/refresh-campus-users.ts",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"lint": "prettier --check . && eslint .",
