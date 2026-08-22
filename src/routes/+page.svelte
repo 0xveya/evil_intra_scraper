@@ -1,8 +1,9 @@
 <script lang="ts">
-	import { resolve } from '$app/paths';
+	import { assets, resolve } from '$app/paths';
 </script>
 
 <main>
+	<img src={`${assets}/evilasscat.webp`} alt="A green cat saying be evil" />
 	<h1>evil_intra_scraper</h1>
 	<p>Inspect project data from the 42 Intra API.</p>
 	<a href={resolve('/login')}>Sign in with 42</a>
@@ -12,6 +13,12 @@
 	main {
 		width: min(32rem, calc(100% - 2rem));
 		margin: 5rem auto;
+	}
+	img {
+		display: block;
+		width: min(20rem, 100%);
+		height: auto;
+		margin-bottom: 1.25rem;
 	}
 	h1 {
 		font-size: 1.5rem;
