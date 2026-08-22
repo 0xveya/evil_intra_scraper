@@ -68,20 +68,6 @@ export async function getMe(token: string): Promise<{ id: number; login: string 
 	return { id: body.id, login: body.login };
 }
 
-export function getCampusProjectSessions(
-	token: string,
-	projectId: number,
-	campusId: number,
-	cursusId: number
-): Promise<unknown> {
-	const query = new URLSearchParams({
-		'filter[campus_id]': String(campusId),
-		'filter[cursus_id]': String(cursusId),
-		per_page: '100'
-	});
-	return request(token, `/v2/projects/${projectId}/project_sessions?${query}`);
-}
-
 async function request(token: string, path: string): Promise<unknown> {
 	const response = await fetch(`${API_BASE}${path}`, {
 		headers: { accept: 'application/json', authorization: `Bearer ${token}` }
