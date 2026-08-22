@@ -1,4 +1,3 @@
-//TODO: keep blackholed plp in cuz kinda no brainer
 const API_BASE = 'https://api.intra.42.fr';
 const COMMON_CORE_CURSUS_ID = 21;
 const OUTPUT_PATH = new URL('../src/lib/server/generated/campus-users.json', import.meta.url);
@@ -14,7 +13,7 @@ async function main(): Promise<number> {
 			OUTPUT_PATH,
 			`${JSON.stringify({ campusId, cursusId: COMMON_CORE_CURSUS_ID, users }, null, '\t')}\n`
 		);
-		console.log(`Wrote ${users.length} active Common Core users for campus ${campusId}.`);
+		console.log(`Wrote ${users.length} Common Core users for campus ${campusId}.`);
 		return 0;
 	} catch (cause) {
 		console.error(cause instanceof Error ? cause.message : cause);
@@ -46,7 +45,6 @@ async function fetchCampusUsers(token: string, campusId: number): Promise<Campus
 	const first = new URL(`${API_BASE}/v2/cursus/${COMMON_CORE_CURSUS_ID}/cursus_users`);
 	first.search = new URLSearchParams({
 		'filter[campus_id]': String(campusId),
-		'filter[active]': 'true',
 		page: '1',
 		per_page: '100',
 		sort: 'user_id'
@@ -63,7 +61,6 @@ async function fetchCampusUsers(token: string, campusId: number): Promise<Campus
 		}
 		for (const cursusUser of body) {
 			if (!isRecord(cursusUser) || !isRecord(cursusUser.user)) continue;
-			if (!hasNotReachedBlackhole(cursusUser.blackholed_at)) continue;
 			const { id, login, displayname } = cursusUser.user;
 			if (typeof id === 'number' && typeof login === 'string' && typeof displayname === 'string') {
 				users.push({ id, login, displayName: displayname });
@@ -72,10 +69,6 @@ async function fetchCampusUsers(token: string, campusId: number): Promise<Campus
 		url = nextPage(response.headers.get('link'));
 	}
 	return users;
-}
-
-function hasNotReachedBlackhole(value: unknown): boolean {
-	return value === null || (typeof value === 'string' && Date.parse(value) > Date.now());
 }
 
 function parseCampusId(value: string | undefined): number {
