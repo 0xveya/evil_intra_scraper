@@ -9,9 +9,15 @@ import { getApplicationAccessToken } from '$lib/server/intra';
 import { createIntraClient } from '$lib/server/intra/client';
 import { getCachedProject } from '$lib/server/project-cache';
 
-const projectIdSchema = v.pipe(v.number(), v.integer(), v.minValue(1));
-
-const projectSessionIdSchema = v.pipe(v.number(), v.integer(), v.minValue(1));
+const idSchema = v.pipe(v.number(), v.integer(), v.minValue(1));
+const projectRequestSchema = v.object({
+	projectId: idSchema,
+	force: v.optional(v.boolean(), false)
+});
+const scaleTeamRequestSchema = v.object({
+	projectSessionId: idSchema,
+	force: v.optional(v.boolean(), false)
+});
 const SCALE_TEAMS_PAGE_SIZE = 100;
 const MAX_SCALE_TEAM_PAGES = 100;
 
@@ -29,8 +35,8 @@ type ScaleTeamStreamUpdate = {
 };
 
 export const streamScaleTeams = query.live(
-	projectSessionIdSchema,
-	async function* (projectSessionId) {
+	scaleTeamRequestSchema,
+	async function* ({ projectSessionId, force }) {
 		const { locals } = getRequestEvent();
 
 		if (!locals.session) {
@@ -40,7 +46,7 @@ export const streamScaleTeams = query.live(
 		const cacheKey = `intra:project-session:${projectSessionId}:scale-teams:all:v1`;
 
 		const valkey = await getValkey();
-		const cached = await valkey.get(cacheKey);
+		const cached = force ? null : await valkey.get(cacheKey);
 
 		if (cached) {
 			try {
@@ -110,7 +116,7 @@ export const streamScaleTeams = query.live(
 	}
 );
 
-export const fetchProjectSessions = query(projectIdSchema, async (projectId) => {
+export const fetchProjectSessions = query(projectRequestSchema, async ({ projectId, force }) => {
 	const { locals } = getRequestEvent();
 
 	if (!locals.session) {
@@ -126,7 +132,7 @@ export const fetchProjectSessions = query(projectIdSchema, async (projectId) => 
 	const cacheKey = `intra:project:${projectId}:sessions:v1`;
 	const valkey = await getValkey();
 
-	const cached = await valkey.get(cacheKey);
+	const cached = force ? null : await valkey.get(cacheKey);
 
 	if (cached) {
 		try {

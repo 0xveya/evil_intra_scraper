@@ -71,7 +71,7 @@
 		selectedProject = null;
 	}
 
-	async function fetchSelectedProject() {
+	async function fetchSelectedProject(force = false) {
 		if (!selectedProject) return;
 
 		const project = selectedProject;
@@ -87,7 +87,7 @@
 		}
 
 		try {
-			const sessions = await fetchProjectSessions(project.id);
+			const sessions = await fetchProjectSessions({ projectId: project.id, force });
 			const projectSession = sessions[0];
 
 			if (!projectSession) {
@@ -96,7 +96,7 @@
 				return;
 			}
 
-			for await (const update of streamScaleTeams(projectSession.id)) {
+			for await (const update of streamScaleTeams({ projectSessionId: projectSession.id, force })) {
 				if (generation !== fetchGeneration) break;
 				scaleTeams = update.items;
 				loadedPages = update.page;
@@ -203,7 +203,8 @@ sigma balls 676767676767 i am going insaine 😭
 	error={remoteError}
 	onSelect={selectProject}
 	onClear={clearProject}
-	onFetch={fetchSelectedProject}
+	onFetch={() => fetchSelectedProject()}
+	onRefresh={() => fetchSelectedProject(true)}
 	onFilter={(value) => (evaluationSearch = value)}
 	onFilterMode={(value) => (evaluationFilter = value)}
 	onFlag={(value) => (selectedFlag = value)}

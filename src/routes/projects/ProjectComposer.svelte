@@ -21,6 +21,7 @@
 		onFilterMode,
 		onFlag,
 		onCopy,
+		onRefresh,
 		onChangeProject
 	}: {
 		projects: ProjectChoice[];
@@ -41,6 +42,7 @@
 		onFilterMode: (value: EvaluationFilter) => void;
 		onFlag: (value: string | null) => void;
 		onCopy: (mode: EvaluationCopyMode) => void | Promise<void>;
+		onRefresh: () => void | Promise<void>;
 		onChangeProject: () => void;
 	} = $props();
 
@@ -149,6 +151,9 @@
 					{selectedFlag ?? (filterMode === 'all' ? 'Filter' : filterMode)}
 				</button>
 				<button type="button" onclick={() => togglePanel('copy')}>Copy</button>
+				<button type="button" class="secondary" onclick={onRefresh} disabled={loading}>
+					{loading ? 'Refreshing…' : 'Refresh'}
+				</button>
 				<button type="button" onclick={onChangeProject}>Projects</button>
 			{:else}
 				<input
@@ -198,7 +203,7 @@
 		gap: 0.6rem;
 	}
 	.row.explore {
-		grid-template-columns: minmax(0, 1fr) auto auto auto;
+		grid-template-columns: minmax(0, 1fr) auto auto auto auto;
 	}
 	input,
 	button {
@@ -220,6 +225,11 @@
 	button:disabled {
 		opacity: 0.45;
 		cursor: not-allowed;
+	}
+	button.secondary {
+		border-color: #2d2d2d;
+		color: #999;
+		background: #090909;
 	}
 	.suggestions {
 		position: absolute;
@@ -311,7 +321,7 @@
 	}
 	@media (max-width: 700px) {
 		.row.explore {
-			grid-template-columns: minmax(0, 1fr) auto auto;
+			grid-template-columns: minmax(0, 1fr) auto auto auto;
 		}
 		.row.explore button:last-child {
 			display: none;
