@@ -8,7 +8,8 @@ export type ProjectSession = v.InferOutput<typeof projectSessionSchema>;
 
 export const userRefSchema = v.looseObject({
 	id: v.number(),
-	login: v.string()
+	login: v.string(),
+	url: v.optional(v.string())
 });
 
 export type UserRef = v.InferOutput<typeof userRefSchema>;
@@ -22,13 +23,16 @@ export type ScaleRef = v.InferOutput<typeof scaleRefSchema>;
 
 const teamUserSchema = v.looseObject({
 	id: v.number(),
-	validated: v.optional(v.nullable(v.boolean()))
+	login: v.optional(v.string()),
+	validated: v.optional(v.nullable(v.boolean())),
+	projects_user_id: v.optional(v.number())
 });
 
 export const teamRefSchema = v.looseObject({
 	id: v.number(),
 	name: v.optional(v.string()),
 	project_id: v.optional(v.number()),
+	url: v.optional(v.string()),
 	final_mark: v.optional(v.nullable(v.number())),
 	status: v.optional(v.string()),
 	repo_url: v.optional(v.nullable(v.string())),

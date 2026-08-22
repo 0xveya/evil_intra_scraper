@@ -2,50 +2,78 @@
 	import SvelteVirtualList from '@humanspeak/svelte-virtual-list';
 	import { resolve } from '$app/paths';
 	import type { ScaleTeam } from '$lib/server/evals/schemas';
-	import { fetchProjectSessions, fetchScaleTeams } from './projects.remote';
+	import type { ProjectChoice } from '$lib/server/intra';
+	import ProjectComposer from './ProjectComposer.svelte';
+	import ScaleTeamRow from './ScaleTeamRow.svelte';
+	import { fetchProjectSessions, streamScaleTeams } from './projects.remote';
 
 	let { data } = $props();
-	let search = $state('');
-	let selectedProjectId = $state<number | null>(null);
+	let selectedProject = $state<ProjectChoice | null>(null);
 	let scaleTeams = $state<ScaleTeam[]>([]);
 	let remoteError = $state<string | null>(null);
 	let loading = $state(false);
-	let suggestionsOpen = $state(false);
+	let loadedProjectId = $state<number | null>(null);
+	let loadedPages = $state(0);
+	let streamComplete = $state(false);
+	let fetchGeneration = 0;
 
-	const matchingProjects = $derived(
-		data.projects.filter((project) => {
-			const query = search.trim().toLowerCase();
-			return (
-				!query || `${project.name} ${project.slug} ${project.id}`.toLowerCase().includes(query)
-			);
-		})
+	const projectUrl = $derived(
+		selectedProject
+			? `https://projects.intra.42.fr/projects/${encodeURIComponent(selectedProject.slug)}`
+			: null
 	);
+	const selectedProjectSlug = $derived(selectedProject?.slug ?? '');
 
-	function selectProject(project: (typeof data.projects)[number]) {
-		selectedProjectId = project.id;
-		search = project.name;
-		suggestionsOpen = false;
-		scaleTeams = [];
+	function selectProject(project: ProjectChoice) {
+		selectedProject = project;
+		if (loadedProjectId !== project.id) scaleTeams = [];
+	}
+
+	function clearProject() {
+		selectedProject = null;
 	}
 
 	async function fetchSelectedProject() {
-		if (selectedProjectId === null) return;
-		const projectId = selectedProjectId;
+		if (!selectedProject) return;
+
+		const project = selectedProject;
+		const generation = ++fetchGeneration;
 		loading = true;
 		remoteError = null;
+		loadedPages = 0;
+		streamComplete = false;
+
+		if (loadedProjectId !== project.id) {
+			scaleTeams = [];
+			loadedProjectId = project.id;
+		}
 
 		try {
-			const sessions = await fetchProjectSessions(projectId);
+			const sessions = await fetchProjectSessions(project.id);
 			const projectSession = sessions[0];
-			scaleTeams = projectSession ? await fetchScaleTeams(projectSession.id) : [];
-			suggestionsOpen = false;
+
+			if (!projectSession) {
+				scaleTeams = [];
+				streamComplete = true;
+				return;
+			}
+
+			for await (const update of streamScaleTeams(projectSession.id)) {
+				if (generation !== fetchGeneration) break;
+				scaleTeams = update.items;
+				loadedPages = update.page;
+				streamComplete = update.complete;
+			}
 		} catch (cause) {
+			if (generation !== fetchGeneration) return;
 			remoteError = cause instanceof Error ? cause.message : 'Request failed';
 		} finally {
-			loading = false;
+			if (generation === fetchGeneration) loading = false;
 		}
 	}
 </script>
+
+<!-- eslint-disable svelte/no-navigation-without-resolve -->
 
 <svelte:head><title>Projects · evil_intra_scraper</title></svelte:head>
 
@@ -57,11 +85,25 @@
 
 	<section>
 		<div class="result-heading">
-			<h2>Scale teams</h2>
-			<span>{scaleTeams.length}</span>
+			<h2>
+				{#if projectUrl}
+					<a href={projectUrl} target="_blank" rel="noreferrer">{selectedProject?.name}</a>
+				{:else}
+					Scale teams
+				{/if}
+			</h2>
+			<span>
+				{scaleTeams.length}
+				{#if loading && loadedPages}· page {loadedPages}{:else if streamComplete}· complete{/if}
+			</span>
 		</div>
 
-		{#if scaleTeams.length}
+		{#if loading && !scaleTeams.length}
+			<div class="loading-state">
+				<span></span>
+				<p>Opening {selectedProject?.name}…</p>
+			</div>
+		{:else if scaleTeams.length && selectedProject}
 			<div class="list-shell">
 				<SvelteVirtualList
 					items={scaleTeams}
@@ -71,20 +113,7 @@
 					viewportLabel="Scale teams"
 				>
 					{#snippet renderItem(scaleTeam)}
-						<article class="scale-team">
-							<header>
-								<strong>#{scaleTeam.id}</strong>
-								<span>{scaleTeam.team?.name ?? 'unknown team'}</span>
-							</header>
-							<p>
-								{scaleTeam.corrector?.login ?? 'unknown evaluator'}
-								· {scaleTeam.final_mark ?? '—'}
-							</p>
-							<details>
-								<summary>JSON</summary>
-								<pre>{JSON.stringify(scaleTeam, null, 2)}</pre>
-							</details>
-						</article>
+						<ScaleTeamRow {scaleTeam} projectSlug={selectedProjectSlug} />
 					{/snippet}
 				</SvelteVirtualList>
 			</div>
@@ -94,47 +123,15 @@
 	</section>
 </main>
 
-<div class="composer">
-	<div class="composer-inner">
-		{#if suggestionsOpen && search.trim()}
-			<div class="suggestions">
-				{#each matchingProjects.slice(0, 12) as project (project.id)}
-					<button type="button" class="suggestion" onclick={() => selectProject(project)}>
-						<span>{project.name}</span>
-						<small>{project.slug} · {project.id}</small>
-					</button>
-				{:else}
-					<p>No projects found.</p>
-				{/each}
-			</div>
-		{/if}
-
-		<div class="composer-row">
-			<input
-				id="projectSearch"
-				type="search"
-				aria-label="Search projects"
-				placeholder="Search projects"
-				bind:value={search}
-				onfocus={() => (suggestionsOpen = true)}
-				oninput={() => {
-					selectedProjectId = null;
-					suggestionsOpen = true;
-				}}
-			/>
-
-			<button
-				type="button"
-				onclick={fetchSelectedProject}
-				disabled={loading || selectedProjectId === null}
-			>
-				{loading ? 'Fetching…' : 'Fetch'}
-			</button>
-		</div>
-
-		{#if remoteError}<p class="error">{remoteError}</p>{/if}
-	</div>
-</div>
+<ProjectComposer
+	projects={data.projects}
+	{loading}
+	canFetch={selectedProject !== null}
+	error={remoteError}
+	onSelect={selectProject}
+	onClear={clearProject}
+	onFetch={fetchSelectedProject}
+/>
 
 <style>
 	:global(body) {
@@ -185,6 +182,13 @@
 		color: #aaa;
 		font-size: 0.8rem;
 	}
+	.result-heading a {
+		color: #ddd;
+		text-decoration: none;
+	}
+	.result-heading a:hover {
+		text-decoration: underline;
+	}
 	.list-shell {
 		min-height: 0;
 		flex: 1;
@@ -194,127 +198,28 @@
 	.list-shell :global(.virtual-list-container) {
 		height: 100%;
 	}
-	.scale-team {
-		margin: 0 0.5rem;
-		padding: 0.85rem 0.25rem;
-		border-bottom: 1px solid #282828;
-	}
-	.scale-team header {
-		display: flex;
-		justify-content: space-between;
-		gap: 1rem;
-	}
-	.scale-team p {
-		margin-top: 0.35rem;
-		color: #999;
-		font-size: 0.8rem;
-	}
-	.scale-team details {
-		margin-top: 0.65rem;
-	}
-	.scale-team summary {
-		cursor: pointer;
-		color: #aaa;
-		font-size: 0.75rem;
-	}
-	.scale-team pre {
-		margin: 0.5rem 0 0;
-		padding: 0.75rem;
-		overflow: auto;
-		background: #020202;
-		color: #bbb;
-		font: 0.75rem/1.45 monospace;
-		white-space: pre-wrap;
-		overflow-wrap: anywhere;
-	}
 	.empty {
 		margin: auto;
 		color: #777;
 	}
-	.composer {
-		position: fixed;
-		z-index: 10;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		padding: 0.8rem 1rem 1rem;
-		border-top: 1px solid #333;
-		background: #050505;
-	}
-	.composer-inner {
-		position: relative;
-		width: min(62rem, 100%);
+	.loading-state {
+		display: flex;
 		margin: auto;
-	}
-	.composer-row {
-		display: grid;
-		grid-template-columns: minmax(0, 1fr) auto;
-		gap: 0.6rem;
-	}
-	input,
-	button {
-		box-sizing: border-box;
-		min-height: 2.8rem;
-		border: 1px solid #444;
-		border-radius: 0.35rem;
-		color: #eee;
-		background: #111;
-	}
-	input {
-		min-width: 0;
-		padding: 0 0.75rem;
-	}
-	button {
-		padding: 0 1rem;
-		cursor: pointer;
-	}
-	button:disabled {
-		opacity: 0.45;
-		cursor: not-allowed;
-	}
-	.suggestions {
-		position: absolute;
-		right: 0;
-		bottom: calc(100% + 0.6rem);
-		left: 0;
-		max-height: min(22rem, 50dvh);
-		overflow: auto;
-		border: 1px solid #444;
-		background: #050505;
-	}
-	.suggestions p {
-		padding: 0.75rem;
-		color: #888;
-		font-size: 0.8rem;
-	}
-	.suggestion {
-		display: block;
-		width: 100%;
-		min-height: 0;
-		padding: 0.65rem;
-		border: 0;
-		border-bottom: 1px solid #222;
-		border-radius: 0;
-		text-align: left;
-	}
-	.suggestion:hover,
-	.suggestion:focus-visible {
-		background: #161616;
-	}
-	.suggestion span,
-	.suggestion small {
-		display: block;
-	}
-	.suggestion small {
-		margin-top: 0.15rem;
+		align-items: center;
+		gap: 0.65rem;
 		color: #888;
 	}
-	.error {
-		margin-top: 0.6rem;
-		padding: 0.6rem;
-		border: 1px solid #743c3c;
-		color: #f0a0a0;
-		font-size: 0.8rem;
+	.loading-state span {
+		width: 0.55rem;
+		height: 0.55rem;
+		border-radius: 50%;
+		background: #bbb;
+		animation: pulse 0.9s ease-in-out infinite alternate;
+	}
+	@keyframes pulse {
+		to {
+			opacity: 0.2;
+		}
 	}
 	@media (max-width: 700px) {
 		.page-header {
