@@ -1,33 +1,49 @@
+![A green cat saying be evil](static/evilasscat.webp)
+
 # evil intra scraper
 
-Small SvelteKit probe for exploring project data from the 42 Intra API. It currently authenticates with OAuth, lists the authenticated user's projects, and displays the raw response from `GET /v2/projects/:id`.
+Inspect 42 project evaluations without spending the API rate limit every time the page opens. The app uses 42 OAuth, streams evaluation results into a virtual list, and caches completed API responses in Valkey.
 
-## Setup
+## Self-host
 
-1. Create a 42 OAuth application at <https://profile.intra.42.fr/oauth/applications/new> with `http://localhost:5173/auth/callback` as its redirect URI.
-   Enable the `public` and `projects` scopes. Campus project-session requests require `projects`.
-2. Copy `.env.example` to `.env` and fill in the credentials.
-3. Start Valkey with `docker compose -f compose.dev.yaml up -d`.
-4. Run `bun install`, then `bun run dev`.
+1. Point a domain at the server.
+2. Create a 42 OAuth application with the `public` and `projects` scopes.
+3. Set its callback URL to `https://evil_intra_scraper.saygex.xyz/auth/callback`.
+4. Copy `.env.example` to `.env` and fill in the OAuth values.
+5. Run `docker compose up -d --build`.
 
-The access token is stored in Valkey and the browser receives only an HTTP-only session ID cookie. Deployment is intentionally not configured yet.
+The browser receives only an HTTP-only session ID. OAuth tokens and cached 42 responses remain in Valkey. Normal project fetches use the cache; the secondary Refresh button explicitly bypasses it.
 
-## Refresh the project catalogue
+## Develop
 
-The project selector is generated from the Vienna Common Core project sessions ahead of time, so users cannot spend the API rate limit or select inaccessible global projects. With the OAuth application credentials in `.env`, run:
+```sh
+docker compose -f compose.dev.yaml up -d
+bun install
+bun run dev
+```
+
+The local OAuth callback is `http://localhost:5173/auth/callback`.
+
+## Refresh generated data
+
+Refresh the project catalogue using the application credentials from `.env`:
 
 ```sh
 bun run refresh-projects
 ```
 
-Set `CAMPUS_ID` or `CURSUS_ID` to generate it for a different campus or cursus.
-
-This replaces `src/lib/server/generated/projects.json`. Review and commit that generated change when useful.
-
-To replace the active Common Core user catalogue for a campus, excluding users whose blackhole deadline has passed, pass its numeric ID:
+Refresh Vienna Common Core users:
 
 ```sh
 bun run refresh-campus-users -- 53
 ```
 
-The generated users are available through the ID and login maps exported by `src/lib/server/campus-user-cache.ts`. Campus `53` is Vienna.
+The user refresh queries cursus 21 directly and includes blackholed and inactive Common Core users. Piscine-only users are not included.
+
+## Deploy
+
+GitHub Actions validates the project and publishes `ghcr.io/0xveya/evil_intra_scraper:latest` from `master`. The VPS deployment uses `compose.vps.yaml` and expects an uncommitted `.env` in `/opt/evil-intra-scraper`.
+
+```sh
+./deploy-vps.sh
+```
