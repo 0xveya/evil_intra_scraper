@@ -11,7 +11,7 @@ Inspect 42 project evaluations without spending the API rate limit every time th
 
 1. Point a domain at the server.
 2. Create a 42 OAuth application with the `public` and `projects` scopes.
-3. Set its callback URL to `https://evil_intra_scraper.saygex.xyz/auth/callback`.
+3. Set its callback URL to `https://evil-intra-scraper.saygex.xyz/auth/callback`.
 4. Copy `.env.example` to `.env` and fill in the OAuth values.
 5. Run `docker compose up -d --build`.
 
