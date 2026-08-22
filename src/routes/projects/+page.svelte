@@ -197,7 +197,6 @@ sigma balls 676767676767 i am going insaine 😭
 	filterMode={evaluationFilter}
 	{flags}
 	{selectedFlag}
-	resultCount={visibleEvaluations.length}
 	{copyMessage}
 	canFetch={selectedProject !== null}
 	error={remoteError}

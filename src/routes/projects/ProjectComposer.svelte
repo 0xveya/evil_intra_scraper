@@ -11,7 +11,6 @@
 		filterMode,
 		flags,
 		selectedFlag,
-		resultCount,
 		copyMessage,
 		error,
 		onSelect,
@@ -32,7 +31,6 @@
 		filterMode: EvaluationFilter;
 		flags: string[];
 		selectedFlag: string | null;
-		resultCount: number;
 		copyMessage: string | null;
 		error: string | null;
 		onSelect: (project: ProjectChoice) => void;
@@ -115,35 +113,6 @@
 				{/each}
 			</div>
 		{/if}
-		{#if mode === 'evaluations' && panel === 'filter'}
-			<div class="panel filter-panel">
-				<button class:active={filterMode === 'all'} onclick={() => onFilterMode('all')}>All</button>
-				<button class:active={filterMode === 'failures'} onclick={() => onFilterMode('failures')}>
-					Failures
-				</button>
-				<button class:active={filterMode === 'passed'} onclick={() => onFilterMode('passed')}>
-					Passed
-				</button>
-				{#if flags.length}
-					<hr />
-					<button class:active={selectedFlag === null} onclick={() => onFlag(null)}>Any flag</button
-					>
-					{#each flags as flag (flag)}
-						<button class:active={selectedFlag === flag} onclick={() => onFlag(flag)}>{flag}</button
-						>
-					{/each}
-				{/if}
-			</div>
-		{/if}
-		{#if mode === 'evaluations' && panel === 'copy'}
-			<div class="panel copy-panel">
-				<button onclick={() => copy('all')}>Current results</button>
-				<button onclick={() => copy('failures')}>Current failures</button>
-				<button onclick={() => copy('all-with-prompt')}>Current + analysis prompt</button>
-				<button onclick={() => copy('failures-with-prompt')}>Failures + analysis prompt</button>
-			</div>
-		{/if}
-
 		<div class:explore={mode === 'evaluations'} class="row">
 			{#if mode === 'evaluations'}
 				<input
@@ -153,14 +122,53 @@
 					value={filter}
 					oninput={(event) => onFilter(event.currentTarget.value)}
 				/>
-				<button
-					type="button"
-					class:active={filterMode !== 'all' || selectedFlag !== null}
-					onclick={() => togglePanel('filter')}
-				>
-					{selectedFlag ?? (filterMode === 'all' ? 'Filter' : filterMode)}
-				</button>
-				<button type="button" onclick={() => togglePanel('copy')}>Copy</button>
+				<div class="control filter-control">
+					<button
+						type="button"
+						class:active={filterMode !== 'all' || selectedFlag !== null}
+						onclick={() => togglePanel('filter')}
+					>
+						{selectedFlag ?? (filterMode === 'all' ? 'Filter' : filterMode)}
+					</button>
+					{#if panel === 'filter'}
+						<div class="panel filter-panel">
+							<button class:active={filterMode === 'all'} onclick={() => onFilterMode('all')}
+								>All</button
+							>
+							<button
+								class:active={filterMode === 'failures'}
+								onclick={() => onFilterMode('failures')}>Failures</button
+							>
+							<button class:active={filterMode === 'passed'} onclick={() => onFilterMode('passed')}
+								>Passed</button
+							>
+							{#if flags.length}
+								<hr />
+								<button class:active={selectedFlag === null} onclick={() => onFlag(null)}
+									>Any flag</button
+								>
+								{#each flags as flag (flag)}
+									<button class:active={selectedFlag === flag} onclick={() => onFlag(flag)}
+										>{flag}</button
+									>
+								{/each}
+							{/if}
+						</div>
+					{/if}
+				</div>
+				<div class="control copy-control">
+					<button type="button" onclick={() => togglePanel('copy')}>Copy</button>
+					{#if panel === 'copy'}
+						<div class="panel copy-panel">
+							<button onclick={() => copy('all')}>Current results</button>
+							<button onclick={() => copy('failures')}>Current failures</button>
+							<button onclick={() => copy('all-with-prompt')}>Current + analysis prompt</button>
+							<button onclick={() => copy('failures-with-prompt')}
+								>Failures + analysis prompt</button
+							>
+						</div>
+					{/if}
+				</div>
 				<button type="button" class="secondary" onclick={onRefresh} disabled={loading}>
 					{loading ? 'Refreshing…' : 'Refresh'}
 				</button>
@@ -183,9 +191,6 @@
 				</button>
 			{/if}
 		</div>
-		{#if mode === 'evaluations' && (filter.trim() || filterMode !== 'all' || selectedFlag)}
-			<p class="filter-count">{resultCount} matching evaluations</p>
-		{/if}
 		{#if mode === 'evaluations' && copyMessage}<p class="copy-message">{copyMessage}</p>{/if}
 
 		{#if error}<p class="error">{error}</p>{/if}
@@ -254,12 +259,26 @@
 	}
 	.panel {
 		position: absolute;
-		right: 0;
 		bottom: calc(100% + 0.6rem);
+		width: max-content;
+		max-width: min(30rem, calc(100vw - 2rem));
 		padding: 0.3rem;
 		border: 1px solid #444;
 		border-radius: 0.35rem;
 		background: #080808;
+	}
+	.control {
+		position: relative;
+		display: flex;
+	}
+	.control > button {
+		width: 100%;
+	}
+	.filter-panel {
+		left: 0;
+	}
+	.copy-panel {
+		right: 0;
 	}
 	.panel button {
 		display: block;
@@ -269,6 +288,8 @@
 		border: 0;
 		text-align: left;
 		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
 	}
 	.panel button:hover,
 	.panel button.active,
@@ -320,13 +341,13 @@
 		color: #f0a0a0;
 		font-size: 0.8rem;
 	}
-	.filter-count {
-		margin: 0.45rem 0 0;
-		color: #777;
-		font-size: 0.72rem;
-	}
 	.copy-message {
-		margin: 0.45rem 0 0;
+		position: absolute;
+		bottom: calc(100% + 0.6rem);
+		left: 0;
+		margin: 0;
+		padding: 0.35rem 0.5rem;
+		background: #080808;
 		color: #777;
 		font-size: 0.72rem;
 	}
