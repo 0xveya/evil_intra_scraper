@@ -1,5 +1,8 @@
 import type { ScaleTeam } from '$lib/server/evals/schemas';
 
+export type EvaluationFilter = 'all' | 'failures' | 'passed';
+export type EvaluationCopyMode = 'all' | 'failures' | 'all-with-prompt' | 'failures-with-prompt';
+
 export type EvaluationView = {
 	id: number;
 	mark: number | null;
@@ -16,7 +19,6 @@ export type EvaluationView = {
 		id: number | null;
 		name: string | null;
 		status: string | null;
-		repository: string | null;
 	};
 	feedbacks: EvaluationFeedbackView[];
 };
@@ -46,11 +48,32 @@ export function toEvaluationView(scaleTeam: ScaleTeam): EvaluationView {
 		team: {
 			id: scaleTeam.team?.id ?? null,
 			name: scaleTeam.team?.name ?? null,
-			status: scaleTeam.team?.status ?? null,
-			repository: scaleTeam.team?.repo_url ?? null
+			status: scaleTeam.team?.status ?? null
 		},
 		feedbacks: (scaleTeam.feedbacks ?? []).map(toFeedbackView)
 	};
+}
+
+export function searchableEvaluationText(evaluation: EvaluationView): string {
+	return [
+		evaluation.id,
+		evaluation.mark,
+		evaluation.flag,
+		evaluation.comment,
+		evaluation.evaluator,
+		evaluation.team.id,
+		evaluation.team.name,
+		evaluation.team.status,
+		...evaluation.students.flatMap((student) => [student.id, student.login, student.validated]),
+		...evaluation.feedbacks.flatMap((feedback) => [
+			feedback.login,
+			feedback.comment,
+			feedback.rating
+		])
+	]
+		.filter((value) => value !== null && value !== undefined)
+		.join(' ')
+		.toLowerCase();
 }
 
 export function isEvaluationFailure(scaleTeam: ScaleTeam): boolean {

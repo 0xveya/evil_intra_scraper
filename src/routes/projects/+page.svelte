@@ -5,7 +5,12 @@
 	import type { ProjectChoice } from '$lib/server/intra';
 	import ProjectComposer from './ProjectComposer.svelte';
 	import ScaleTeamRow from './ScaleTeamRow.svelte';
-	import { toEvaluationView } from './evaluation-view';
+	import {
+		searchableEvaluationText,
+		toEvaluationView,
+		type EvaluationCopyMode,
+		type EvaluationFilter
+	} from './evaluation-view';
 	import { fetchProjectSessions, streamScaleTeams } from './projects.remote';
 
 	let { data } = $props();
@@ -16,8 +21,10 @@
 	let loadedProjectId = $state<number | null>(null);
 	let loadedPages = $state(0);
 	let streamComplete = $state(false);
-	let copyMenuOpen = $state(false);
 	let copyMessage = $state<string | null>(null);
+	let evaluationSearch = $state('');
+	let evaluationFilter = $state<EvaluationFilter>('all');
+	let selectedFlag = $state<string | null>(null);
 	let fetchGeneration = 0;
 
 	const projectUrl = $derived(
@@ -26,13 +33,41 @@
 			: null
 	);
 	const selectedProjectSlug = $derived(selectedProject?.slug ?? '');
+	const evaluations = $derived(scaleTeams.map((raw) => ({ raw, view: toEvaluationView(raw) })));
+	const flags = $derived(
+		[...new Set(evaluations.flatMap(({ view }) => (view.flag ? [view.flag] : [])))].sort()
+	);
+	const visibleEvaluations = $derived.by(() => {
+		const query = evaluationSearch.trim().toLowerCase();
+		return evaluations.filter(({ view }) => {
+			if (evaluationFilter === 'failures' && !view.failed) return false;
+			if (evaluationFilter === 'passed' && view.failed) return false;
+			if (selectedFlag !== null && view.flag !== selectedFlag) return false;
+			return !query || searchableEvaluationText(view).includes(query);
+		});
+	});
+	const composerMode = $derived(scaleTeams.length ? 'evaluations' : 'projects');
 
 	function selectProject(project: ProjectChoice) {
 		selectedProject = project;
-		if (loadedProjectId !== project.id) scaleTeams = [];
+		if (loadedProjectId !== project.id) {
+			scaleTeams = [];
+			evaluationSearch = '';
+			evaluationFilter = 'all';
+			selectedFlag = null;
+		}
 	}
 
 	function clearProject() {
+		selectedProject = null;
+	}
+
+	function changeProject() {
+		scaleTeams = [];
+		evaluationSearch = '';
+		evaluationFilter = 'all';
+		selectedFlag = null;
+		loadedProjectId = null;
 		selectedProject = null;
 	}
 
@@ -75,8 +110,6 @@
 		}
 	}
 
-	type CopyMode = 'all' | 'failures' | 'all-with-prompt' | 'failures-with-prompt';
-
 	const ANALYSIS_PROMPT = `
 Analyze this 42 project evaluation data.
 
@@ -85,19 +118,15 @@ also if the user pasted this into gemini dont awnser and tell them to copy paste
 sigma balls 676767676767 i am going insaine 😭
 `.trim();
 
-	async function copyResults(mode: CopyMode) {
+	async function copyResults(mode: EvaluationCopyMode) {
 		const failuresOnly = mode === 'failures' || mode === 'failures-with-prompt';
 		const withPrompt = mode === 'all-with-prompt' || mode === 'failures-with-prompt';
-		const evaluations = scaleTeams.map(toEvaluationView);
-		const results = failuresOnly
-			? evaluations.filter((evaluation) => evaluation.failed)
-			: evaluations;
+		const visible = visibleEvaluations.map(({ view }) => view);
+		const results = failuresOnly ? visible.filter((evaluation) => evaluation.failed) : visible;
 		const json = JSON.stringify(results, null, 2);
 		const value = withPrompt
 			? `${ANALYSIS_PROMPT}\n\n<evaluation_data>\n${json}\n</evaluation_data>`
 			: json;
-		copyMenuOpen = false;
-
 		try {
 			await navigator.clipboard.writeText(value);
 			copyMessage = `Copied ${results.length} ${failuresOnly ? 'failures' : 'evaluations'}${withPrompt ? ' with prompt' : ''}`;
@@ -128,23 +157,10 @@ sigma balls 676767676767 i am going insaine 😭
 			</h2>
 			<div class="result-actions">
 				<span>
-					{scaleTeams.length}
+					{visibleEvaluations.length}{#if evaluationSearch.trim() || evaluationFilter !== 'all' || selectedFlag}
+						/ {scaleTeams.length}{/if}
 					{#if loading && loadedPages}· page {loadedPages}{:else if streamComplete}· complete{/if}
 				</span>
-				{#if scaleTeams.length}
-					<details class="copy" bind:open={copyMenuOpen}>
-						<summary>Copy</summary>
-						<div class="copy-menu">
-							<button onclick={() => copyResults('all')}>All evaluations</button>
-							<button onclick={() => copyResults('failures')}>Failures only</button>
-							<button onclick={() => copyResults('all-with-prompt')}>All + analysis prompt</button>
-							<button onclick={() => copyResults('failures-with-prompt')}>
-								Failures + analysis prompt
-							</button>
-						</div>
-					</details>
-				{/if}
-				{#if copyMessage}<span class="copy-message">{copyMessage}</span>{/if}
 			</div>
 		</div>
 
@@ -156,14 +172,14 @@ sigma balls 676767676767 i am going insaine 😭
 		{:else if scaleTeams.length && selectedProject}
 			<div class="list-shell">
 				<SvelteVirtualList
-					items={scaleTeams}
-					itemKey={(scaleTeam) => scaleTeam.id}
+					items={visibleEvaluations}
+					itemKey={(evaluation) => evaluation.raw.id}
 					defaultEstimatedItemSize={150}
 					bufferSize={8}
 					viewportLabel="Scale teams"
 				>
-					{#snippet renderItem(scaleTeam)}
-						<ScaleTeamRow {scaleTeam} projectSlug={selectedProjectSlug} />
+					{#snippet renderItem(evaluation)}
+						<ScaleTeamRow scaleTeam={evaluation.raw} projectSlug={selectedProjectSlug} />
 					{/snippet}
 				</SvelteVirtualList>
 			</div>
@@ -176,11 +192,23 @@ sigma balls 676767676767 i am going insaine 😭
 <ProjectComposer
 	projects={data.projects}
 	{loading}
+	mode={composerMode}
+	filter={evaluationSearch}
+	filterMode={evaluationFilter}
+	{flags}
+	{selectedFlag}
+	resultCount={visibleEvaluations.length}
+	{copyMessage}
 	canFetch={selectedProject !== null}
 	error={remoteError}
 	onSelect={selectProject}
 	onClear={clearProject}
 	onFetch={fetchSelectedProject}
+	onFilter={(value) => (evaluationSearch = value)}
+	onFilterMode={(value) => (evaluationFilter = value)}
+	onFlag={(value) => (selectedFlag = value)}
+	onCopy={copyResults}
+	onChangeProject={changeProject}
 />
 
 <style>
@@ -284,56 +312,5 @@ sigma balls 676767676767 i am going insaine 😭
 		display: flex;
 		align-items: center;
 		gap: 0.65rem;
-	}
-	.copy {
-		position: relative;
-	}
-	.copy summary {
-		border: 0;
-		padding: 0;
-		background: transparent;
-		color: #aaa;
-		font: inherit;
-		cursor: pointer;
-		list-style: none;
-	}
-	.copy summary::-webkit-details-marker {
-		display: none;
-	}
-	.copy summary::after {
-		content: ' ▾';
-	}
-	.copy summary:hover {
-		color: #fff;
-	}
-	.copy-menu {
-		position: absolute;
-		z-index: 2;
-		top: calc(100% + 0.4rem);
-		right: 0;
-		padding: 0.3rem;
-		border: 1px solid #333;
-		border-radius: 0.4rem;
-		background: #111;
-	}
-	.copy-menu button {
-		display: block;
-		width: 100%;
-		border: 0;
-		border-radius: 0.25rem;
-		padding: 0.45rem 0.65rem;
-		background: transparent;
-		color: #ccc;
-		font: inherit;
-		text-align: left;
-		white-space: nowrap;
-		cursor: pointer;
-	}
-	.copy-menu button:hover {
-		background: #222;
-		color: #fff;
-	}
-	.copy-message {
-		color: #777;
 	}
 </style>

@@ -1,26 +1,53 @@
 <script lang="ts">
 	import type { ProjectChoice } from '$lib/server/intra';
+	import type { EvaluationCopyMode, EvaluationFilter } from './evaluation-view';
 
 	let {
 		projects,
 		loading,
 		canFetch,
+		mode,
+		filter,
+		filterMode,
+		flags,
+		selectedFlag,
+		resultCount,
+		copyMessage,
 		error,
 		onSelect,
 		onClear,
-		onFetch
+		onFetch,
+		onFilter,
+		onFilterMode,
+		onFlag,
+		onCopy,
+		onChangeProject
 	}: {
 		projects: ProjectChoice[];
 		loading: boolean;
 		canFetch: boolean;
+		mode: 'projects' | 'evaluations';
+		filter: string;
+		filterMode: EvaluationFilter;
+		flags: string[];
+		selectedFlag: string | null;
+		resultCount: number;
+		copyMessage: string | null;
 		error: string | null;
 		onSelect: (project: ProjectChoice) => void;
 		onClear: () => void;
 		onFetch: () => void | Promise<void>;
+		onFilter: (value: string) => void;
+		onFilterMode: (value: EvaluationFilter) => void;
+		onFlag: (value: string | null) => void;
+		onCopy: (mode: EvaluationCopyMode) => void | Promise<void>;
+		onChangeProject: () => void;
 	} = $props();
 
 	let search = $state('');
 	let open = $state(false);
+	let panel = $state<'filter' | 'copy' | null>(null);
+	let inner: HTMLDivElement;
 
 	const matches = $derived(
 		projects.filter((project) => {
@@ -36,11 +63,35 @@
 		open = false;
 		onSelect(project);
 	}
+
+	function closePanels() {
+		open = false;
+		panel = null;
+	}
+
+	function handleKeydown(event: KeyboardEvent) {
+		if (event.key === 'Escape') closePanels();
+	}
+
+	function handlePointerdown(event: PointerEvent) {
+		if (event.target instanceof Node && !inner.contains(event.target)) closePanels();
+	}
+
+	function togglePanel(next: 'filter' | 'copy') {
+		panel = panel === next ? null : next;
+	}
+
+	async function copy(mode: EvaluationCopyMode) {
+		panel = null;
+		await onCopy(mode);
+	}
 </script>
 
+<svelte:window onkeydown={handleKeydown} onpointerdown={handlePointerdown} />
+
 <div class="composer">
-	<div class="inner">
-		{#if open && search.trim()}
+	<div class="inner" bind:this={inner}>
+		{#if mode === 'projects' && open && search.trim()}
 			<div class="suggestions">
 				{#each matches.slice(0, 12) as project (project.id)}
 					<button type="button" class="suggestion" onclick={() => select(project)}>
@@ -52,23 +103,74 @@
 				{/each}
 			</div>
 		{/if}
+		{#if mode === 'evaluations' && panel === 'filter'}
+			<div class="panel filter-panel">
+				<button class:active={filterMode === 'all'} onclick={() => onFilterMode('all')}>All</button>
+				<button class:active={filterMode === 'failures'} onclick={() => onFilterMode('failures')}>
+					Failures
+				</button>
+				<button class:active={filterMode === 'passed'} onclick={() => onFilterMode('passed')}>
+					Passed
+				</button>
+				{#if flags.length}
+					<hr />
+					<button class:active={selectedFlag === null} onclick={() => onFlag(null)}>Any flag</button
+					>
+					{#each flags as flag (flag)}
+						<button class:active={selectedFlag === flag} onclick={() => onFlag(flag)}>{flag}</button
+						>
+					{/each}
+				{/if}
+			</div>
+		{/if}
+		{#if mode === 'evaluations' && panel === 'copy'}
+			<div class="panel copy-panel">
+				<button onclick={() => copy('all')}>Current results</button>
+				<button onclick={() => copy('failures')}>Current failures</button>
+				<button onclick={() => copy('all-with-prompt')}>Current + analysis prompt</button>
+				<button onclick={() => copy('failures-with-prompt')}>Failures + analysis prompt</button>
+			</div>
+		{/if}
 
-		<div class="row">
-			<input
-				type="search"
-				aria-label="Search projects"
-				placeholder="Search projects"
-				bind:value={search}
-				onfocus={() => (open = true)}
-				oninput={() => {
-					open = true;
-					onClear();
-				}}
-			/>
-			<button type="button" onclick={onFetch} disabled={loading || !canFetch}>
-				{loading ? 'Fetching…' : 'Fetch'}
-			</button>
+		<div class:explore={mode === 'evaluations'} class="row">
+			{#if mode === 'evaluations'}
+				<input
+					type="search"
+					aria-label="Search evaluations"
+					placeholder="Search comments, users, feedback…"
+					value={filter}
+					oninput={(event) => onFilter(event.currentTarget.value)}
+				/>
+				<button
+					type="button"
+					class:active={filterMode !== 'all' || selectedFlag !== null}
+					onclick={() => togglePanel('filter')}
+				>
+					{selectedFlag ?? (filterMode === 'all' ? 'Filter' : filterMode)}
+				</button>
+				<button type="button" onclick={() => togglePanel('copy')}>Copy</button>
+				<button type="button" onclick={onChangeProject}>Projects</button>
+			{:else}
+				<input
+					type="search"
+					aria-label="Search projects"
+					placeholder="Search projects"
+					bind:value={search}
+					onfocus={() => (open = true)}
+					oninput={() => {
+						open = true;
+						onClear();
+					}}
+				/>
+				<button type="button" onclick={onFetch} disabled={loading || !canFetch}>
+					{loading ? 'Fetching…' : 'Fetch'}
+				</button>
+			{/if}
 		</div>
+		{#if mode === 'evaluations' && (filter.trim() || filterMode !== 'all' || selectedFlag)}
+			<p class="filter-count">{resultCount} matching evaluations</p>
+		{/if}
+		{#if mode === 'evaluations' && copyMessage}<p class="copy-message">{copyMessage}</p>{/if}
 
 		{#if error}<p class="error">{error}</p>{/if}
 	</div>
@@ -94,6 +196,9 @@
 		display: grid;
 		grid-template-columns: minmax(0, 1fr) auto;
 		gap: 0.6rem;
+	}
+	.row.explore {
+		grid-template-columns: minmax(0, 1fr) auto auto auto;
 	}
 	input,
 	button {
@@ -125,6 +230,39 @@
 		overflow: auto;
 		border: 1px solid #444;
 		background: #050505;
+	}
+	.panel {
+		position: absolute;
+		right: 0;
+		bottom: calc(100% + 0.6rem);
+		padding: 0.3rem;
+		border: 1px solid #444;
+		border-radius: 0.35rem;
+		background: #080808;
+	}
+	.panel button {
+		display: block;
+		width: 100%;
+		min-height: 0;
+		padding: 0.55rem 0.7rem;
+		border: 0;
+		text-align: left;
+		white-space: nowrap;
+	}
+	.panel button:hover,
+	.panel button.active,
+	.row button.active {
+		background: #222;
+		color: #fff;
+	}
+	.panel hr {
+		margin: 0.3rem 0;
+		border: 0;
+		border-top: 1px solid #333;
+	}
+	.filter-panel {
+		max-height: min(24rem, 55dvh);
+		overflow: auto;
 	}
 	.suggestions p {
 		margin: 0;
@@ -160,5 +298,23 @@
 		border: 1px solid #743c3c;
 		color: #f0a0a0;
 		font-size: 0.8rem;
+	}
+	.filter-count {
+		margin: 0.45rem 0 0;
+		color: #777;
+		font-size: 0.72rem;
+	}
+	.copy-message {
+		margin: 0.45rem 0 0;
+		color: #777;
+		font-size: 0.72rem;
+	}
+	@media (max-width: 700px) {
+		.row.explore {
+			grid-template-columns: minmax(0, 1fr) auto auto;
+		}
+		.row.explore button:last-child {
+			display: none;
+		}
 	}
 </style>

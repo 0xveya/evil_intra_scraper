@@ -54,7 +54,7 @@
 		{:else}
 			<span>unknown evaluator</span>
 		{/if}
-		<span>→</span>
+		<span class="arrow">→</span>
 		{#each correctedUsers as user (user.id)}
 			<a href={profileUrl(user.login)} target="_blank" rel="noreferrer">{user.login}</a>
 		{:else}
@@ -117,6 +117,13 @@
 		margin-top: 0.35rem;
 		color: #999;
 		font-size: 0.8rem;
+	}
+	.people {
+		align-items: baseline;
+	}
+	.arrow {
+		position: relative;
+		top: -0.08em;
 	}
 	.metadata {
 		color: #777;
