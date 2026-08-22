@@ -1,0 +1,50 @@
+services:
+  app:
+    image: ghcr.io/0xveya/evil_intra_scraper:latest
+    container_name: evil-intra-scraper-app
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      HOST: 0.0.0.0
+      PORT: 3000
+      VALKEY_URL: redis://valkey:6379
+    ports:
+      - '127.0.0.1:${APP_PORT:-3400}:3000'
+    depends_on:
+      valkey:
+        condition: service_healthy
+    networks:
+      - evil-intra-scraper
+      - caddy
+
+  valkey:
+    image: valkey/valkey:9.1.1-alpine
+    restart: unless-stopped
+    command:
+      - valkey-server
+      - --appendonly
+      - 'yes'
+      - --maxmemory
+      - '64mb'
+      - --maxmemory-policy
+      - volatile-ttl
+    volumes:
+      - valkey-data:/data
+    healthcheck:
+      test: ['CMD', 'valkey-cli', 'ping']
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    networks:
+      - evil-intra-scraper
+
+volumes:
+  valkey-data:
+
+networks:
+  evil-intra-scraper:
+    name: evil-intra-scraper
+  caddy:
+    external: true
+    name: caddy
