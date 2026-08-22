@@ -66,6 +66,16 @@
 		onSelect(project);
 	}
 
+	function completeProject(event: KeyboardEvent) {
+		if ((event.key !== 'Enter' && event.key !== 'Tab') || !open || !search.trim()) return;
+
+		const project = matches[0];
+		if (!project) return;
+
+		event.preventDefault();
+		select(project);
+	}
+
 	function closePanels() {
 		open = false;
 		panel = null;
@@ -162,6 +172,7 @@
 					placeholder="Search projects"
 					bind:value={search}
 					onfocus={() => (open = true)}
+					onkeydown={completeProject}
 					oninput={() => {
 						open = true;
 						onClear();
