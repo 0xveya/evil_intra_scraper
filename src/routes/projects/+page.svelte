@@ -15,6 +15,8 @@
 	let loadedProjectId = $state<number | null>(null);
 	let loadedPages = $state(0);
 	let streamComplete = $state(false);
+	let copyMenuOpen = $state(false);
+	let copyMessage = $state<string | null>(null);
 	let fetchGeneration = 0;
 
 	const projectUrl = $derived(
@@ -71,6 +73,27 @@
 			if (generation === fetchGeneration) loading = false;
 		}
 	}
+
+	type CopyMode = 'all' | 'failures';
+
+	function isFailure(scaleTeam: ScaleTeam): boolean {
+		return (
+			scaleTeam.flag?.positive === false ||
+			scaleTeam.team?.users.some((user) => user.validated === false) === true
+		);
+	}
+
+	async function copyResults(mode: CopyMode) {
+		const results = mode === 'failures' ? scaleTeams.filter(isFailure) : scaleTeams;
+		copyMenuOpen = false;
+
+		try {
+			await navigator.clipboard.writeText(JSON.stringify(results, null, 2));
+			copyMessage = `Copied ${results.length} ${mode === 'failures' ? 'failures' : 'evaluations'}`;
+		} catch {
+			copyMessage = 'Could not copy';
+		}
+	}
 </script>
 
 <!-- eslint-disable svelte/no-navigation-without-resolve -->
@@ -92,10 +115,22 @@
 					Scale teams
 				{/if}
 			</h2>
-			<span>
-				{scaleTeams.length}
-				{#if loading && loadedPages}· page {loadedPages}{:else if streamComplete}· complete{/if}
-			</span>
+			<div class="result-actions">
+				<span>
+					{scaleTeams.length}
+					{#if loading && loadedPages}· page {loadedPages}{:else if streamComplete}· complete{/if}
+				</span>
+				{#if scaleTeams.length}
+					<details class="copy" bind:open={copyMenuOpen}>
+						<summary>Copy</summary>
+						<div class="copy-menu">
+							<button onclick={() => copyResults('all')}>All evaluations</button>
+							<button onclick={() => copyResults('failures')}>Failures only</button>
+						</div>
+					</details>
+				{/if}
+				{#if copyMessage}<span class="copy-message">{copyMessage}</span>{/if}
+			</div>
 		</div>
 
 		{#if loading && !scaleTeams.length}
@@ -229,5 +264,61 @@
 		section {
 			height: calc(100% - 4.5rem);
 		}
+	}
+	.result-actions {
+		display: flex;
+		align-items: center;
+		gap: 0.65rem;
+	}
+	.copy {
+		position: relative;
+	}
+	.copy summary {
+		border: 0;
+		padding: 0;
+		background: transparent;
+		color: #aaa;
+		font: inherit;
+		cursor: pointer;
+		list-style: none;
+	}
+	.copy summary::-webkit-details-marker {
+		display: none;
+	}
+	.copy summary::after {
+		content: ' ▾';
+	}
+	.copy summary:hover {
+		color: #fff;
+	}
+	.copy-menu {
+		position: absolute;
+		z-index: 2;
+		top: calc(100% + 0.4rem);
+		right: 0;
+		padding: 0.3rem;
+		border: 1px solid #333;
+		border-radius: 0.4rem;
+		background: #111;
+	}
+	.copy-menu button {
+		display: block;
+		width: 100%;
+		border: 0;
+		border-radius: 0.25rem;
+		padding: 0.45rem 0.65rem;
+		background: transparent;
+		color: #ccc;
+		font: inherit;
+		text-align: left;
+		white-space: nowrap;
+		cursor: pointer;
+	}
+	.copy-menu button:hover {
+		background: #222;
+		color: #fff;
+	}
+	.copy-message {
+		color: #777;
 	}
 </style>
