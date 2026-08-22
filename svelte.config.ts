@@ -2,7 +2,10 @@ import adapter from '@sveltejs/adapter-node';
 import type { Config } from '@sveltejs/kit';
 
 const config: Config = {
-	kit: { adapter: adapter() },
+	kit: {
+		adapter: adapter(),
+		experimental: { remoteFunctions: true }
+	},
 	compilerOptions: {
 		runes: ({ filename }) => (filename.split(/[/\\]/).includes('node_modules') ? undefined : true)
 	}

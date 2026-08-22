@@ -1,8 +1,11 @@
 import * as v from 'valibot';
 
 import type { IntraRequest } from '$lib/server/intra/request';
-
-const rawListSchema = v.array(v.unknown());
+import {
+	projectSessionSchema,
+	scaleTeamSchema,
+	storedEntitySchema
+} from '$lib/server/evals/schemas';
 
 export function evaluations(request: IntraRequest) {
 	return {
@@ -14,7 +17,7 @@ export function evaluations(request: IntraRequest) {
 					'filter[cursus_id]': cursusId,
 					'page[size]': 100
 				},
-				schema: rawListSchema
+				schema: v.array(projectSessionSchema)
 			});
 		},
 
@@ -22,23 +25,23 @@ export function evaluations(request: IntraRequest) {
 			return request({
 				path: `/project_sessions/${projectSessionId}/scale_teams`,
 				query: { 'filter[filled]': true, 'page[number]': page, 'page[size]': 100 },
-				schema: rawListSchema
+				schema: v.array(scaleTeamSchema)
 			});
 		},
 
 		feedbacks(scaleTeamId: number) {
 			return request({
 				path: `/scale_teams/${scaleTeamId}/feedbacks`,
-				schema: rawListSchema
+				schema: v.array(v.unknown())
 			});
 		},
 
 		scale(scaleId: number) {
-			return request({ path: `/scales/${scaleId}`, schema: v.unknown() });
+			return request({ path: `/scales/${scaleId}`, schema: storedEntitySchema });
 		},
 
 		team(teamId: number) {
-			return request({ path: `/teams/${teamId}`, schema: v.unknown() });
+			return request({ path: `/teams/${teamId}`, schema: storedEntitySchema });
 		}
 	};
 }

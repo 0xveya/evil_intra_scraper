@@ -1,9 +1,17 @@
 <script lang="ts">
-	import { enhance } from '$app/forms';
+	import SvelteVirtualList from '@humanspeak/svelte-virtual-list';
 	import { resolve } from '$app/paths';
-	let { data, form } = $props();
-	let loading = $state(false);
+	import type { ScaleTeam } from '$lib/server/evals/schemas';
+	import { fetchProjectSessions, fetchScaleTeams } from './projects.remote';
+
+	let { data } = $props();
 	let search = $state('');
+	let selectedProjectId = $state<number | null>(null);
+	let scaleTeams = $state<ScaleTeam[]>([]);
+	let remoteError = $state<string | null>(null);
+	let loading = $state(false);
+	let suggestionsOpen = $state(false);
+
 	const matchingProjects = $derived(
 		data.projects.filter((project) => {
 			const query = search.trim().toLowerCase();
@@ -12,152 +20,309 @@
 			);
 		})
 	);
-	const response = $derived(form && 'response' in form ? form.response : null);
+
+	function selectProject(project: (typeof data.projects)[number]) {
+		selectedProjectId = project.id;
+		search = project.name;
+		suggestionsOpen = false;
+		scaleTeams = [];
+	}
+
+	async function fetchSelectedProject() {
+		if (selectedProjectId === null) return;
+		const projectId = selectedProjectId;
+		loading = true;
+		remoteError = null;
+
+		try {
+			const sessions = await fetchProjectSessions(projectId);
+			const projectSession = sessions[0];
+			scaleTeams = projectSession ? await fetchScaleTeams(projectSession.id) : [];
+			suggestionsOpen = false;
+		} catch (cause) {
+			remoteError = cause instanceof Error ? cause.message : 'Request failed';
+		} finally {
+			loading = false;
+		}
+	}
 </script>
 
 <svelte:head><title>Projects · evil_intra_scraper</title></svelte:head>
+
 <main>
-	<header>
+	<header class="page-header">
 		<h1>evil_intra_scraper</h1>
 		<p>{data.user} · <a href={resolve('/logout')}>sign out</a></p>
 	</header>
+
 	<section>
-		<div class="controls">
-			<label for="projectSearch">Search projects</label>
-			<input id="projectSearch" type="search" placeholder="Name, slug, or ID" bind:value={search} />
-			<form
-				method="POST"
-				action="?/project"
-				use:enhance={() => {
-					loading = true;
-					return async ({ update }) => {
-						await update();
-						loading = false;
-					};
-				}}
-			>
-				<label for="projectId">Project</label>
-				<select id="projectId" name="projectId" required disabled={data.projects.length === 0}>
-					<option value="">Choose one…</option>
-					{#each matchingProjects as project (project.id)}<option
-							value={project.id}
-							selected={form && 'selectedId' in form && form.selectedId === project.id}
-							>{project.name} ({project.id})</option
-						>{/each}
-				</select>
-				<button disabled={loading || data.projects.length === 0}>
-					{loading ? 'Fetching…' : 'Fetch campus project JSON'}
-				</button>
-			</form>
-			{#if form && 'message' in form}<p class="error">{form.message}</p>{/if}
+		<div class="result-heading">
+			<h2>Scale teams</h2>
+			<span>{scaleTeams.length}</span>
 		</div>
-		<div class="result">
-			<h2>Response</h2>
-			<pre>{response
-					? JSON.stringify(response, null, 2)
-					: 'Select a project to inspect its Vienna Common Core session JSON.'}</pre>
-		</div>
+
+		{#if scaleTeams.length}
+			<div class="list-shell">
+				<SvelteVirtualList
+					items={scaleTeams}
+					itemKey={(scaleTeam) => scaleTeam.id}
+					defaultEstimatedItemSize={150}
+					bufferSize={8}
+					viewportLabel="Scale teams"
+				>
+					{#snippet renderItem(scaleTeam)}
+						<article class="scale-team">
+							<header>
+								<strong>#{scaleTeam.id}</strong>
+								<span>{scaleTeam.team?.name ?? 'unknown team'}</span>
+							</header>
+							<p>
+								{scaleTeam.corrector?.login ?? 'unknown evaluator'}
+								· {scaleTeam.final_mark ?? '—'}
+							</p>
+							<details>
+								<summary>JSON</summary>
+								<pre>{JSON.stringify(scaleTeam, null, 2)}</pre>
+							</details>
+						</article>
+					{/snippet}
+				</SvelteVirtualList>
+			</div>
+		{:else}
+			<p class="empty">Choose a project below.</p>
+		{/if}
 	</section>
 </main>
 
+<div class="composer">
+	<div class="composer-inner">
+		{#if suggestionsOpen && search.trim()}
+			<div class="suggestions">
+				{#each matchingProjects.slice(0, 12) as project (project.id)}
+					<button type="button" class="suggestion" onclick={() => selectProject(project)}>
+						<span>{project.name}</span>
+						<small>{project.slug} · {project.id}</small>
+					</button>
+				{:else}
+					<p>No projects found.</p>
+				{/each}
+			</div>
+		{/if}
+
+		<div class="composer-row">
+			<input
+				id="projectSearch"
+				type="search"
+				aria-label="Search projects"
+				placeholder="Search projects"
+				bind:value={search}
+				onfocus={() => (suggestionsOpen = true)}
+				oninput={() => {
+					selectedProjectId = null;
+					suggestionsOpen = true;
+				}}
+			/>
+
+			<button
+				type="button"
+				onclick={fetchSelectedProject}
+				disabled={loading || selectedProjectId === null}
+			>
+				{loading ? 'Fetching…' : 'Fetch'}
+			</button>
+		</div>
+
+		{#if remoteError}<p class="error">{remoteError}</p>{/if}
+	</div>
+</div>
+
 <style>
-	main {
-		width: min(64rem, 100%);
-		margin: auto;
-		padding: 1rem;
+	:global(body) {
+		overflow: hidden;
 	}
-	header {
+	main {
+		box-sizing: border-box;
+		width: min(64rem, 100%);
+		height: 100dvh;
+		margin: auto;
+		padding: 1rem 1rem 6.5rem;
+	}
+	.page-header {
 		display: flex;
 		justify-content: space-between;
 		align-items: baseline;
 		gap: 1rem;
-		padding-bottom: 1rem;
+		height: 2.5rem;
+		padding-bottom: 0.75rem;
 		border-bottom: 1px solid #333;
 	}
-	h1 {
+	h1,
+	h2,
+	p {
 		margin: 0;
+	}
+	h1 {
 		font-size: 1.25rem;
 	}
-	header p {
-		margin: 0;
-		color: #aaa;
+	h2 {
 		font-size: 0.85rem;
 	}
-	header a {
-		color: #ccc;
+	.page-header p,
+	.page-header a {
+		color: #aaa;
 	}
 	section {
-		display: grid;
-		grid-template-columns: 17rem minmax(0, 1fr);
-		gap: 1rem;
+		display: flex;
+		min-height: 0;
+		height: calc(100% - 3.25rem);
+		flex-direction: column;
 		padding-top: 1rem;
 	}
-	.controls,
-	.result {
-		min-width: 0;
+	.result-heading {
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 0.5rem;
+		color: #aaa;
+		font-size: 0.8rem;
 	}
-	label {
-		display: block;
-		margin: 1rem 0 0.4rem;
-		font-size: 0.85rem;
+	.list-shell {
+		min-height: 0;
+		flex: 1;
+		border: 1px solid #333;
+		background: #080808;
+	}
+	.list-shell :global(.virtual-list-container) {
+		height: 100%;
+	}
+	.scale-team {
+		margin: 0 0.5rem;
+		padding: 0.85rem 0.25rem;
+		border-bottom: 1px solid #282828;
+	}
+	.scale-team header {
+		display: flex;
+		justify-content: space-between;
+		gap: 1rem;
+	}
+	.scale-team p {
+		margin-top: 0.35rem;
+		color: #999;
+		font-size: 0.8rem;
+	}
+	.scale-team details {
+		margin-top: 0.65rem;
+	}
+	.scale-team summary {
+		cursor: pointer;
+		color: #aaa;
+		font-size: 0.75rem;
+	}
+	.scale-team pre {
+		margin: 0.5rem 0 0;
+		padding: 0.75rem;
+		overflow: auto;
+		background: #020202;
+		color: #bbb;
+		font: 0.75rem/1.45 monospace;
+		white-space: pre-wrap;
+		overflow-wrap: anywhere;
+	}
+	.empty {
+		margin: auto;
+		color: #777;
+	}
+	.composer {
+		position: fixed;
+		z-index: 10;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		padding: 0.8rem 1rem 1rem;
+		border-top: 1px solid #333;
+		background: #050505;
+	}
+	.composer-inner {
+		position: relative;
+		width: min(62rem, 100%);
+		margin: auto;
+	}
+	.composer-row {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) auto;
+		gap: 0.6rem;
 	}
 	input,
-	select,
 	button {
-		width: 100%;
-		min-height: 2.6rem;
+		box-sizing: border-box;
+		min-height: 2.8rem;
 		border: 1px solid #444;
-		border-radius: 0.3rem;
-	}
-	input,
-	select {
-		padding: 0 0.6rem;
+		border-radius: 0.35rem;
 		color: #eee;
 		background: #111;
 	}
+	input {
+		min-width: 0;
+		padding: 0 0.75rem;
+	}
 	button {
-		margin-top: 0.6rem;
-		padding: 0 0.7rem;
-		background: #222;
-		color: #eee;
+		padding: 0 1rem;
 		cursor: pointer;
 	}
 	button:disabled {
 		opacity: 0.45;
-		cursor: wait;
+		cursor: not-allowed;
 	}
-	h2 {
-		margin: 0 0 0.4rem;
-		font-size: 0.9rem;
-	}
-	pre {
-		min-height: 22rem;
-		margin: 0;
-		padding: 1rem;
+	.suggestions {
+		position: absolute;
+		right: 0;
+		bottom: calc(100% + 0.6rem);
+		left: 0;
+		max-height: min(22rem, 50dvh);
 		overflow: auto;
-		border: 1px solid #333;
-		border-radius: 0.3rem;
-		background: #0d0d0d;
-		color: #ccc;
-		font: 0.8rem/1.5 monospace;
-		white-space: pre-wrap;
-		overflow-wrap: anywhere;
+		border: 1px solid #444;
+		background: #050505;
+	}
+	.suggestions p {
+		padding: 0.75rem;
+		color: #888;
+		font-size: 0.8rem;
+	}
+	.suggestion {
+		display: block;
+		width: 100%;
+		min-height: 0;
+		padding: 0.65rem;
+		border: 0;
+		border-bottom: 1px solid #222;
+		border-radius: 0;
+		text-align: left;
+	}
+	.suggestion:hover,
+	.suggestion:focus-visible {
+		background: #161616;
+	}
+	.suggestion span,
+	.suggestion small {
+		display: block;
+	}
+	.suggestion small {
+		margin-top: 0.15rem;
+		color: #888;
 	}
 	.error {
-		padding: 0.7rem;
+		margin-top: 0.6rem;
+		padding: 0.6rem;
 		border: 1px solid #743c3c;
-		border-radius: 0.3rem;
-		background: #1b0e0e;
 		color: #f0a0a0;
 		font-size: 0.8rem;
-		line-height: 1.5;
 	}
 	@media (max-width: 700px) {
-		header {
+		.page-header {
+			height: auto;
 			flex-direction: column;
 		}
 		section {
-			grid-template-columns: 1fr;
+			height: calc(100% - 4.5rem);
 		}
 	}
 </style>

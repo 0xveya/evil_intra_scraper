@@ -1,3 +1,4 @@
+//TODO: keep blackholed plp in cuz kinda no brainer
 const API_BASE = 'https://api.intra.42.fr';
 const COMMON_CORE_CURSUS_ID = 21;
 const OUTPUT_PATH = new URL('../src/lib/server/generated/campus-users.json', import.meta.url);
