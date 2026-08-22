@@ -5,7 +5,7 @@
 Inspect 42 project evaluations without spending the API rate limit every time the page opens. The app uses 42 OAuth, streams evaluation results into a virtual list, and caches completed API responses in Valkey.
 
 > [!CAUTION]
-> This is a slop vibe-coded jank-ass tool I prompted into existence while drunk during an all-nighter. Cut me some slack when it is shit, fully buggy, or starts behaving like the code is as sleep-deprived as I was 😭
+> this is a slop vibe coded jank ass tool i amde drunk in an allnighter so cut me some slack if it is shit and fully buggy 😭 i propted the thing into schizo existence or wahtever the fuck
 
 ## Self-host
 
